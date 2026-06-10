@@ -1,0 +1,470 @@
+{
+  "clusters": {
+    "6": [
+      "Optimal Control",
+      "Reinforcement Learning",
+      "Free Energy Principle",
+      "Predictive Coding"
+    ],
+    "3": [
+      "Game Theory",
+      "Prospect Theory",
+      "Bayesian Inference",
+      "Social Choice Theory",
+      "Stochastic Processes",
+      "Measure-Theoretic Prob."
+    ],
+    "5": [
+      "Variational Principles",
+      "Gradient Flow Theory",
+      "Riemannian Geometry",
+      "Geometric Mechanics",
+      "Symplectic Geometry"
+    ],
+    "2": [
+      "Information Geometry",
+      "Quantum Cognition",
+      "Topological Data Anal.",
+      "Fourier / Wavelet Anal.",
+      "Compressed Sensing"
+    ],
+    "4": [
+      "Neural Field Theory",
+      "Integrated Info Theory",
+      "Global Workspace Theory",
+      "Dynamical Systems Psych",
+      "Mean Field Theory",
+      "Evolutionary Game Theory",
+      "Network Science",
+      "Agent-Based Modeling",
+      "Renormalization Group"
+    ],
+    "1": [
+      "Category Theory",
+      "Formal Grammars",
+      "Algebraic Linguistics"
+    ]
+  },
+  "embeddings": {
+    "Optimal Control": [
+      0.08694931809612982,
+      0.19870560247276056,
+      -0.002740181760334509
+    ],
+    "Game Theory": [
+      0.08400562186081344,
+      -0.07779796252740967,
+      0.042457697731943356
+    ],
+    "Prospect Theory": [
+      0.6575443022522683,
+      -0.6721621623759417,
+      -0.08460652404965086
+    ],
+    "Reinforcement Learning": [
+      0.10614148940566254,
+      0.08705520466697166,
+      0.015045265403411992
+    ],
+    "Variational Principles": [
+      0.023816651393285853,
+      0.10496196487883747,
+      -0.009148921724335986
+    ],
+    "Bayesian Inference": [
+      0.0772420885484987,
+      0.005226727058508489,
+      0.023315309071616563
+    ],
+    "Free Energy Principle": [
+      0.05030274996814113,
+      0.07727564570670047,
+      0.006096937111137041
+    ],
+    "Information Geometry": [
+      -0.0076981459678660165,
+      0.04582142990687467,
+      -0.012332039237186955
+    ],
+    "Predictive Coding": [
+      0.053629450937055574,
+      0.08819744001415147,
+      0.012458237724825702
+    ],
+    "Neural Field Theory": [
+      0.026938600333027588,
+      0.10454319787883821,
+      -0.00015116116167400928
+    ],
+    "Integrated Info Theory": [
+      -0.019873886200205238,
+      0.018966429317009658,
+      0.010482642696350747
+    ],
+    "Global Workspace Theory": [
+      0.0023469231586283443,
+      0.05354612573535474,
+      0.016071106337761588
+    ],
+    "Quantum Cognition": [
+      -0.016097627602414004,
+      0.01115147597624657,
+      8.398553409766448e-05
+    ],
+    "Dynamical Systems Psych": [
+      0.03603819829359707,
+      0.13079296488192416,
+      0.0009491147690707161
+    ],
+    "Mean Field Theory": [
+      0.07348133754948928,
+      0.08190655733472939,
+      0.007695116206917288
+    ],
+    "Evolutionary Game Theory": [
+      0.07101016832700532,
+      0.030796671273272527,
+      0.01772362196935487
+    ],
+    "Network Science": [
+      -0.018359808783512722,
+      0.024348955480029355,
+      0.0011482522550692743
+    ],
+    "Social Choice Theory": [
+      -0.01531247981160751,
+      -0.1285096017753468,
+      0.031244417140092757
+    ],
+    "Agent-Based Modeling": [
+      0.07776521455564633,
+      0.0604049375938601,
+      0.03899090848002055
+    ],
+    "Category Theory": [
+      -0.43688572719604124,
+      -0.30183104726672466,
+      -0.795120124586177
+    ],
+    "Formal Grammars": [
+      -0.32639264759569236,
+      -0.27978475757339283,
+      0.2259257358458757
+    ],
+    "Algebraic Linguistics": [
+      -0.433260483757697,
+      -0.40726543139767146,
+      0.5472705171531602
+    ],
+    "Topological Data Anal.": [
+      -0.1114852364923774,
+      0.009206669857606313,
+      -0.02914679826837414
+    ],
+    "Stochastic Processes": [
+      0.07694460142077118,
+      0.0701043683658299,
+      0.016179869524530377
+    ],
+    "Renormalization Group": [
+      -0.0059972169071169645,
+      0.06283069717932703,
+      -0.0011770525586637043
+    ],
+    "Gradient Flow Theory": [
+      0.019009388898262262,
+      0.11446278046176236,
+      -0.013192284054358745
+    ],
+    "Measure-Theoretic Prob.": [
+      0.02224350090755402,
+      -0.008212012291119158,
+      0.011261084249846745
+    ],
+    "Riemannian Geometry": [
+      -0.033989794108076676,
+      0.09439610039513771,
+      -0.028619979492103972
+    ],
+    "Geometric Mechanics": [
+      -0.017516213714363765,
+      0.10381396731147689,
+      -0.01950324640414368
+    ],
+    "Symplectic Geometry": [
+      -0.050057969259483345,
+      0.12239389136663317,
+      -0.034394066632007426
+    ],
+    "Fourier / Wavelet Anal.": [
+      -0.038599260747825964,
+      0.1108314000466079,
+      0.005806826745201819
+    ],
+    "Compressed Sensing": [
+      -0.013883107761556771,
+      0.06382177004715468,
+      -7.426602127385672e-05
+    ]
+  },
+  "bridge_candidates": [
+    {
+      "name": "Optimal Control",
+      "score": 0.977449783980806,
+      "cluster": 6
+    },
+    {
+      "name": "Game Theory",
+      "score": 0.9344777824430963,
+      "cluster": 3
+    },
+    {
+      "name": "Prospect Theory",
+      "score": 0.9052840890116226,
+      "cluster": 3
+    },
+    {
+      "name": "Reinforcement Learning",
+      "score": 0.9059702921664818,
+      "cluster": 6
+    },
+    {
+      "name": "Variational Principles",
+      "score": 0.9578142091229571,
+      "cluster": 5
+    },
+    {
+      "name": "Bayesian Inference",
+      "score": 0.9454801948006413,
+      "cluster": 3
+    },
+    {
+      "name": "Free Energy Principle",
+      "score": 0.9419455443612615,
+      "cluster": 6
+    },
+    {
+      "name": "Information Geometry",
+      "score": 0.9658412755436937,
+      "cluster": 2
+    },
+    {
+      "name": "Predictive Coding",
+      "score": 0.9273352965280257,
+      "cluster": 6
+    },
+    {
+      "name": "Neural Field Theory",
+      "score": 1.0169154923271082,
+      "cluster": 4
+    },
+    {
+      "name": "Integrated Info Theory",
+      "score": 0.9603145907562189,
+      "cluster": 4
+    },
+    {
+      "name": "Global Workspace Theory",
+      "score": 0.9518650138945856,
+      "cluster": 4
+    },
+    {
+      "name": "Quantum Cognition",
+      "score": 0.94253251698328,
+      "cluster": 2
+    },
+    {
+      "name": "Dynamical Systems Psych",
+      "score": 0.9665211575573045,
+      "cluster": 4
+    },
+    {
+      "name": "Mean Field Theory",
+      "score": 0.9705057005625161,
+      "cluster": 4
+    },
+    {
+      "name": "Evolutionary Game Theory",
+      "score": 0.9891730018504815,
+      "cluster": 4
+    },
+    {
+      "name": "Network Science",
+      "score": 0.9361923680045825,
+      "cluster": 4
+    },
+    {
+      "name": "Social Choice Theory",
+      "score": 1.0142389624321642,
+      "cluster": 3
+    },
+    {
+      "name": "Agent-Based Modeling",
+      "score": 0.9198962761089373,
+      "cluster": 4
+    },
+    {
+      "name": "Category Theory",
+      "score": 0.8585525070445099,
+      "cluster": 1
+    },
+    {
+      "name": "Formal Grammars",
+      "score": 0.8299791627179409,
+      "cluster": 1
+    },
+    {
+      "name": "Algebraic Linguistics",
+      "score": 0.8317549454437808,
+      "cluster": 1
+    },
+    {
+      "name": "Topological Data Anal.",
+      "score": 1.0317104608700671,
+      "cluster": 2
+    },
+    {
+      "name": "Stochastic Processes",
+      "score": 1.0404781237326526,
+      "cluster": 3
+    },
+    {
+      "name": "Renormalization Group",
+      "score": 1.0101438365445818,
+      "cluster": 4
+    },
+    {
+      "name": "Gradient Flow Theory",
+      "score": 0.942531140436328,
+      "cluster": 5
+    },
+    {
+      "name": "Measure-Theoretic Prob.",
+      "score": 0.9883527442704244,
+      "cluster": 3
+    },
+    {
+      "name": "Riemannian Geometry",
+      "score": 0.9273929972891496,
+      "cluster": 5
+    },
+    {
+      "name": "Geometric Mechanics",
+      "score": 0.8948844711291689,
+      "cluster": 5
+    },
+    {
+      "name": "Symplectic Geometry",
+      "score": 0.8765734818023908,
+      "cluster": 5
+    },
+    {
+      "name": "Fourier / Wavelet Anal.",
+      "score": 0.9299480823081718,
+      "cluster": 2
+    },
+    {
+      "name": "Compressed Sensing",
+      "score": 0.9473108459143111,
+      "cluster": 2
+    }
+  ],
+  "cluster_dominance": {
+    "6": [
+      "optimization",
+      "control_theory"
+    ],
+    "3": [
+      "measure_theory",
+      "stochastic_processes"
+    ],
+    "5": [
+      "geometry",
+      "optimization"
+    ],
+    "2": [
+      "linear_algebra",
+      "geometry"
+    ],
+    "4": [
+      "dynamical_systems",
+      "statistical_mechanics"
+    ],
+    "1": [
+      "logic_formal",
+      "algebra_structure"
+    ]
+  },
+  "synergy_pairs": [
+    {
+      "n1": "Quantum Cognition",
+      "n2": "Measure-Theoretic Prob.",
+      "sim": 0.9530521360833197,
+      "c1": 2,
+      "c2": 3
+    },
+    {
+      "n1": "Free Energy Principle",
+      "n2": "Neural Field Theory",
+      "sim": 0.9521414175695541,
+      "c1": 6,
+      "c2": 4
+    },
+    {
+      "n1": "Variational Principles",
+      "n2": "Free Energy Principle",
+      "sim": 0.9510103107048417,
+      "c1": 5,
+      "c2": 6
+    },
+    {
+      "n1": "Optimal Control",
+      "n2": "Variational Principles",
+      "sim": 0.9509791315449537,
+      "c1": 6,
+      "c2": 5
+    },
+    {
+      "n1": "Category Theory",
+      "n2": "Topological Data Anal.",
+      "sim": 0.950058641427747,
+      "c1": 1,
+      "c2": 2
+    },
+    {
+      "n1": "Neural Field Theory",
+      "n2": "Gradient Flow Theory",
+      "sim": 0.9495728438699382,
+      "c1": 4,
+      "c2": 5
+    },
+    {
+      "n1": "Optimal Control",
+      "n2": "Gradient Flow Theory",
+      "sim": 0.9443664368026303,
+      "c1": 6,
+      "c2": 5
+    },
+    {
+      "n1": "Predictive Coding",
+      "n2": "Neural Field Theory",
+      "sim": 0.9425131601051775,
+      "c1": 6,
+      "c2": 4
+    },
+    {
+      "n1": "Variational Principles",
+      "n2": "Neural Field Theory",
+      "sim": 0.9423742681382669,
+      "c1": 5,
+      "c2": 4
+    },
+    {
+      "n1": "Free Energy Principle",
+      "n2": "Gradient Flow Theory",
+      "sim": 0.9417895956871483,
+      "c1": 6,
+      "c2": 5
+    }
+  ]
+}

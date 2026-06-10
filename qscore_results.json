@@ -1,0 +1,152 @@
+{
+  "cluster_results": {
+    "C1_Symbolic_Structure": {
+      "q_score": 0.7984,
+      "human_domain": "Language, Logic, Cultural Form",
+      "members": [
+        "Category Theory",
+        "Formal Grammars",
+        "Algebraic Linguistics"
+      ],
+      "dominant_axes": [
+        "logic_formal",
+        "algebra_structure"
+      ]
+    },
+    "C2_Representational_Geometry": {
+      "q_score": 0.8225,
+      "human_domain": "Representation, Perception, Signal",
+      "members": [
+        "Information Geometry",
+        "Quantum Cognition",
+        "Topological Data Anal.",
+        "Fourier/Wavelet Anal.",
+        "Compressed Sensing"
+      ],
+      "dominant_axes": [
+        "linear_algebra",
+        "geometry"
+      ]
+    },
+    "C3_Probabilistic_Choice": {
+      "q_score": 0.8508,
+      "human_domain": "Decision, Rationality, Risk",
+      "members": [
+        "Game Theory",
+        "Prospect Theory",
+        "Bayesian Inference",
+        "Social Choice Theory",
+        "Stochastic Processes",
+        "Measure-Theoretic Prob."
+      ],
+      "dominant_axes": [
+        "measure_theory",
+        "stochastic_processes"
+      ]
+    },
+    "C4_Collective_Dynamics": {
+      "q_score": 0.7585999999999999,
+      "human_domain": "Consciousness, Social Emergence, Brain Dynamics",
+      "members": [
+        "Neural Field Theory",
+        "Integrated Info Theory",
+        "Global Workspace Theory",
+        "Dynamical Systems Psych",
+        "Mean Field Theory",
+        "Evolutionary Game Theory",
+        "Network Science",
+        "Agent-Based Modeling",
+        "Renormalization Group"
+      ],
+      "dominant_axes": [
+        "dynamical_systems",
+        "statistical_mechanics"
+      ]
+    },
+    "C5_Geometric_Optimization": {
+      "q_score": 0.7922,
+      "human_domain": "Motor Control, Learning Geometry, Physical Embodiment",
+      "members": [
+        "Variational Principles",
+        "Gradient Flow Theory",
+        "Riemannian Geometry",
+        "Geometric Mechanics",
+        "Symplectic Geometry"
+      ],
+      "dominant_axes": [
+        "geometry",
+        "optimization"
+      ]
+    },
+    "C6_Agency_Control": {
+      "q_score": 0.8476,
+      "human_domain": "Active Inference, Goal-Directed Behavior",
+      "members": [
+        "Optimal Control",
+        "Reinforcement Learning",
+        "Free Energy Principle",
+        "Predictive Coding"
+      ],
+      "dominant_axes": [
+        "optimization",
+        "control_theory"
+      ]
+    }
+  },
+  "bridges": {
+    "Free Energy Principle (C6\u2194C4, C6\u2194C5)": {
+      "connects": [
+        "C6_Agency_Control",
+        "C4_Collective_Dynamics",
+        "C5_Geometric_Optimization"
+      ],
+      "mechanism": "Unifies variational inference (C6), nonlinear dynamics (C4), and Riemannian gradient flows (C5).",
+      "predicted_synthesis_q": 0.897,
+      "key_equation": "d\u03bc/dt = -\u2202F/\u2202\u03bc"
+    },
+    "Topological Data Analysis (C2\u2194C1, C2\u2194C4)": {
+      "connects": [
+        "C2_Representational_Geometry",
+        "C1_Symbolic_Structure",
+        "C4_Collective_Dynamics"
+      ],
+      "mechanism": "Persistent homology (C2) maps topological invariants from neural data (C4) to categorical structure (C1).",
+      "predicted_synthesis_q": 0.873,
+      "key_equation": "H_k(X)"
+    },
+    "Stochastic Optimal Control (C3\u2194C6, C3\u2194C5)": {
+      "connects": [
+        "C3_Probabilistic_Choice",
+        "C6_Agency_Control",
+        "C5_Geometric_Optimization"
+      ],
+      "mechanism": "Hamilton-Jacobi-Bellman equation on statistical manifolds (C5) yields rational choice under uncertainty (C3).",
+      "predicted_synthesis_q": 0.885,
+      "key_equation": "\u2202V/\u2202t + H(x, \u2207V, t) = 0"
+    },
+    "Categorical Probability (C1\u2194C3)": {
+      "connects": [
+        "C1_Symbolic_Structure",
+        "C3_Probabilistic_Choice"
+      ],
+      "mechanism": "Kleisli categories for probability monads (C1) give compositional semantics to Bayesian updating (C3).",
+      "predicted_synthesis_q": 0.852,
+      "key_equation": "P : C \u2192 Kleisli(Dist)"
+    },
+    "Renormalization / Scale Symmetry (C4\u2194C5\u2194C2)": {
+      "connects": [
+        "C4_Collective_Dynamics",
+        "C5_Geometric_Optimization",
+        "C2_Representational_Geometry"
+      ],
+      "mechanism": "Fixed points of RG flow (C4) correspond to critical states; geometric flow (C5) scales information compression (C2).",
+      "predicted_synthesis_q": 0.868,
+      "key_equation": "dg_\u03bc\u03bd/dt = -2 R_\u03bc\u03bd"
+    }
+  },
+  "metrics": {
+    "mean_cluster_q": 0.8116833333333333,
+    "mean_bridge_q": 0.875,
+    "feasibility": 0.8965891666666667
+  }
+}
