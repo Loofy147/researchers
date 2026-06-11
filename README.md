@@ -1,24 +1,26 @@
-# Mathematical Frameworks Analysis Suite
+# Mathematical Frameworks Analysis Suite (v5.3)
 
-A computational engine for analyzing the relationships between 32 mathematical frameworks and their application to human phenomena.
+A computational engine for analyzing the relationships between 40 mathematical frameworks and their application to human phenomena.
 
-## Core Components
-- **`framework_analysis.py`**: Performs clustering and spectral embedding.
-- **`qscore_analysis.py`**: Calculates Q-scores and maps real-world phenomena.
-- **`synthesis_doc.py`**: Generates the final synthesis report.
-
-## Outputs
-- **`synthesis_report.md`**: The primary research synthesis.
-- **`adversarial_analysis.md`**: A recursive adversarial analysis of the methodology (ACT-P v2.0).
-
-## Dependencies
-- NumPy
-- SciPy
+## Project Structure
+- `src/math_unification/`: Core package.
+  - `data.py`: Centralized mathematical axes, frameworks, and phenomena profiles.
+  - `analysis/`: Analysis modules for clustering and Q-score calculation.
+  - `synthesis/`: Report generation logic.
+- `main.py`: Entry point for the full analysis pipeline.
+- `synthesis_report.md`: The primary research synthesis.
+- `adversarial_analysis.md`: Recursive adversarial thinking (ACT-P v5.3).
 
 ## Usage
-Run the pipeline in order:
+Ensure dependencies are installed:
 ```bash
-python3 framework_analysis.py
-python3 qscore_analysis.py
-python3 synthesis_doc.py
+pip install -r requirements.txt
 ```
+
+Run the full pipeline:
+```bash
+python3 main.py
+```
+
+## Methodology
+The suite maps frameworks across 15 conceptual axes (e.g., topology, stochastic processes) to identify synergies and map them to human phenomena using **Phenomenological Anchoring**, **Morphism Rigor**, and **Gestalt Consistency**.
