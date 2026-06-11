@@ -153,16 +153,14 @@ def calculate_anchor_score(n1, n2, target_p):
     return float(cosine_sim(synergy_profile, PHENOMENA_PROFILES[target_p]))
 
 # ── 6. RESEARCH FRONTIER GENERATION ──────────────────────────────────────────
-def generate_frontiers(synergies, clusters):
-    frontiers = []
-
-    # Priority 1: Force Stage 1 Frontier Bridges
-    STAGE1_PAIRS = [("Homotopy Type Theory", "Causal Inference")]
-
+def generate_proposals(synergies, clusters):
+    proposals = []
     seen_pairs = set()
 
-    def process_pair(n1, n2, sim, c1, c2):
-        if (n1, n2) in seen_pairs or (n2, n1) in seen_pairs: return
+    for s in synergies:
+        n1, n2 = s["n1"], s["n2"]
+        if (n1, n2) in seen_pairs or (n2, n1) in seen_pairs: continue
+
         target_p = "Emergent Human Behavior"
         for c in clusters.values():
             if n1 in c["members"]:
@@ -174,54 +172,42 @@ def generate_frontiers(synergies, clusters):
 
         anchor_score = calculate_anchor_score(n1, n2, target_p)
 
+        struct_synergy = None
         if (n1 == "Homotopy Type Theory" and n2 == "Causal Inference") or \
            (n2 == "Homotopy Type Theory" and n1 == "Causal Inference"):
             v1, v2 = np.array(FW_PROFILES[n1]), np.array(FW_PROFILES[n2])
             struct_synergy = float(np.sum(np.minimum(v1, v2)) / np.sum(np.maximum(v1, v2) + 1e-9))
             title = f"FRONTIVE BRIDGE: {n1} × {n2}"
         else:
-            struct_synergy = None
             title = f"Synthesis: {n1} × {n2}"
 
-        proposal = {
+        prop = {
             "title": title,
-            "mathematical_basis": f"Similarity: {sim:.3f} between C{c1} and C{c2}.",
+            "sim": s["sim"],
+            "c1": s["c1"],
+            "c2": s["c2"],
             "target_phenomenon": target_p,
-            "priority_score": float(sim * 0.7 + anchor_score * 0.3),
             "anchor_score": anchor_score,
+            "priority_score": float(s["sim"] * 0.7 + anchor_score * 0.3),
             "structural_synergy": struct_synergy
         }
-        frontiers.append(proposal)
+        proposals.append(prop)
         seen_pairs.add((n1, n2))
+    return proposals
 
-    # Add Stage 1 specifically
-    for n1, n2 in STAGE1_PAIRS:
-        # Find it in synergies to get clusters/sim
-        found = False
-        for s in synergies:
-            if (s["n1"] == n1 and s["n2"] == n2) or (s["n1"] == n2 and s["n2"] == n1):
-                process_pair(s["n1"], s["n2"], s["sim"], s["c1"], s["c2"])
-                found = True
-                break
-        if not found and n1 in FW_PROFILES and n2 in FW_PROFILES:
-            # Fallback if not in synergy_pairs list
-            v1, v2 = np.array(FW_PROFILES[n1]), np.array(FW_PROFILES[n2])
-            sim = float(cosine_sim(v1, v2))
-            process_pair(n1, n2, sim, 1, 3)
+all_proposals = generate_proposals(DYNAMIC_SYNERGIES, CLUSTERS)
 
-    # Add top synergies
-    for pair in synergies[:8]:
-        process_pair(pair["n1"], pair["n2"], pair["sim"], pair["c1"], pair["c2"])
-
-    return frontiers
-
-frontier_results = generate_frontiers(DYNAMIC_SYNERGIES, CLUSTERS)
+# High Priority: Top similarity or forced bridges
+frontiers = sorted(all_proposals, key=lambda x: -x["priority_score"])[:10]
+# Niche: Moderate similarity (0.6 - 0.8) but high anchor score (> 0.8)
+niche_breakthroughs = [p for p in all_proposals if 0.5 <= p["sim"] <= 0.85 and p["anchor_score"] > 0.8]
 
 with open("qscore_results.json", "w") as f:
     json.dump({
         "cluster_results": q_results,
         "bridges": BRIDGES,
-        "research_frontiers": frontier_results,
+        "research_frontiers": frontiers,
+        "niche_breakthroughs": niche_breakthroughs,
         "metrics": {
             "mean_cluster_q": mean_q,
             "mean_bridge_q": mean_synth,

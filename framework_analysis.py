@@ -120,7 +120,7 @@ for i in range(len(names)):
         if labels[i] != labels[j]:
             pairs.append((names[i], names[j], float(sim[i,j]), int(labels[i]), int(labels[j])))
 pairs.sort(key=lambda x: -x[2])
-results["synergy_pairs"] = [{"n1": p[0], "n2": p[1], "sim": p[2], "c1": p[3], "c2": p[4]} for p in pairs[:10]]
+results["synergy_pairs"] = [{"n1": p[0], "n2": p[1], "sim": p[2], "c1": p[3], "c2": p[4]} for p in pairs]
 
 # ── 3. AXIS ORTHOGONALITY VERIFICATION ──────────────────────────────────────
 corr_matrix = np.corrcoef(X.T)

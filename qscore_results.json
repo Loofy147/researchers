@@ -200,75 +200,3455 @@
   },
   "research_frontiers": [
     {
-      "title": "FRONTIVE BRIDGE: Homotopy Type Theory \u00d7 Causal Inference",
-      "mathematical_basis": "Similarity: 0.695 between C1 and C3.",
-      "target_phenomenon": "Generative AI",
-      "priority_score": 0.7554775366452205,
-      "anchor_score": 0.8960716239589178,
-      "structural_synergy": 0.4347826079867675
-    },
-    {
-      "title": "Synthesis: Quantum Cognition \u00d7 Measure-Theoretic Prob.",
-      "mathematical_basis": "Similarity: 0.953 between C3 and C2.",
-      "target_phenomenon": "Brain mapping",
-      "priority_score": 0.9217678995956671,
-      "anchor_score": 0.8487713477911444,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Free Energy Principle \u00d7 Neural Field Theory",
-      "mathematical_basis": "Similarity: 0.952 between C4 and C6.",
-      "target_phenomenon": "Dopamine detoxing",
-      "priority_score": 0.9507132149526782,
-      "anchor_score": 0.9473807421799683,
+      "title": "Synthesis: Variational Principles \u00d7 Neural Field Theory",
+      "sim": 0.9423742681382669,
+      "c1": 3,
+      "c2": 6,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9781368612411583,
+      "priority_score": 0.9531030460691342,
       "structural_synergy": null
     },
     {
       "title": "Synthesis: Variational Principles \u00d7 Free Energy Principle",
-      "mathematical_basis": "Similarity: 0.951 between C3 and C4.",
+      "sim": 0.9510103107048417,
+      "c1": 3,
+      "c2": 4,
       "target_phenomenon": "Phantom limb syndrome",
-      "priority_score": 0.9530673157166482,
       "anchor_score": 0.9578669940775301,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Optimal Control \u00d7 Variational Principles",
-      "mathematical_basis": "Similarity: 0.951 between C4 and C3.",
-      "target_phenomenon": "Dopamine detoxing",
-      "priority_score": 0.9426443315595926,
-      "anchor_score": 0.9231964649270833,
+      "priority_score": 0.9530673157166482,
       "structural_synergy": null
     },
     {
       "title": "Synthesis: Neural Field Theory \u00d7 Gradient Flow Theory",
-      "mathematical_basis": "Similarity: 0.950 between C6 and C3.",
+      "sim": 0.9495728438699382,
+      "c1": 6,
+      "c2": 3,
       "target_phenomenon": "Neurodivergence",
-      "priority_score": 0.9507891833735792,
       "anchor_score": 0.953627308882075,
+      "priority_score": 0.9507891833735792,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Optimal Control \u00d7 Gradient Flow Theory",
-      "mathematical_basis": "Similarity: 0.944 between C4 and C3.",
+      "title": "Synthesis: Free Energy Principle \u00d7 Neural Field Theory",
+      "sim": 0.9521414175695541,
+      "c1": 4,
+      "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
-      "priority_score": 0.9368461117252271,
-      "anchor_score": 0.9192986865446198,
+      "anchor_score": 0.9473807421799683,
+      "priority_score": 0.9507132149526782,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Predictive Coding \u00d7 Neural Field Theory",
-      "mathematical_basis": "Similarity: 0.943 between C4 and C6.",
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Mean Field Theory",
+      "sim": 0.9382108074394702,
+      "c1": 6,
+      "c2": 5,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9710114239389415,
+      "priority_score": 0.9480509923893116,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Computational Psychiatry",
+      "sim": 0.9412071471995852,
+      "c1": 5,
+      "c2": 4,
       "target_phenomenon": "Dopamine detoxing",
-      "priority_score": 0.943450681077263,
-      "anchor_score": 0.9456382300121294,
+      "anchor_score": 0.9631846397295599,
+      "priority_score": 0.9478003949585776,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Variational Principles \u00d7 Neural Field Theory",
-      "mathematical_basis": "Similarity: 0.942 between C3 and C6.",
+      "title": "Synthesis: Riemannian Geometry \u00d7 Geometric Deep Learning",
+      "sim": 0.9397429868957602,
+      "c1": 3,
+      "c2": 6,
       "target_phenomenon": "Phantom limb syndrome",
-      "priority_score": 0.9531030460691342,
-      "anchor_score": 0.9781368612411583,
+      "anchor_score": 0.9649921470208873,
+      "priority_score": 0.9473177349332982,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Mean Field Theory",
+      "sim": 0.9343373123747841,
+      "c1": 6,
+      "c2": 5,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.975900749680155,
+      "priority_score": 0.9468063435663954,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Statistical Physics",
+      "sim": 0.9313447927614632,
+      "c1": 6,
+      "c2": 5,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9757029262516369,
+      "priority_score": 0.9446522328085152,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Stochastic Processes",
+      "sim": 0.936634191034971,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9607158985480957,
+      "priority_score": 0.9438587032889084,
+      "structural_synergy": null
+    }
+  ],
+  "niche_breakthroughs": [
+    {
+      "title": "Synthesis: Quantum Cognition \u00d7 Statistical Physics",
+      "sim": 0.84878248800685,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9111091315559923,
+      "priority_score": 0.8674804810715926,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Evolutionary Dynamics",
+      "sim": 0.8487779269508764,
+      "c1": 6,
+      "c2": 5,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9741588195312965,
+      "priority_score": 0.8863921947250024,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Network Science",
+      "sim": 0.848585102495693,
+      "c1": 3,
+      "c2": 6,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9465546563422947,
+      "priority_score": 0.8779759686496734,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Symplectic Geometry",
+      "sim": 0.8483651334327725,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9140056762889531,
+      "priority_score": 0.8680572962896267,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Evolutionary Dynamics",
+      "sim": 0.8482257644190738,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.956664354552059,
+      "priority_score": 0.8807573414589693,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Dynamical Systems Psych",
+      "sim": 0.8481493597796901,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9732905822383677,
+      "priority_score": 0.8856917265172932,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Computational Psychiatry",
+      "sim": 0.848027888948299,
+      "c1": 3,
+      "c2": 4,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8984496785017354,
+      "priority_score": 0.8631544258143298,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Renormalization Group \u00d7 Evolutionary Dynamics",
+      "sim": 0.8472586988981312,
+      "c1": 6,
+      "c2": 5,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9539832457534333,
+      "priority_score": 0.8792760629547218,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Symplectic Geometry",
+      "sim": 0.846372186562281,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9259766500918133,
+      "priority_score": 0.8702535256211406,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.846055193395579,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9289654604778725,
+      "priority_score": 0.870928273520267,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Evolutionary Game Theory",
+      "sim": 0.8457984915381503,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9131741162388365,
+      "priority_score": 0.8660111789483562,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Algorithmic Info Theory",
+      "sim": 0.8456104348099965,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8996267100387048,
+      "priority_score": 0.861815317378609,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Global Workspace Theory",
+      "sim": 0.8451579969682796,
+      "c1": 3,
+      "c2": 6,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9562694241808927,
+      "priority_score": 0.8784914251320635,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Riemannian Geometry",
+      "sim": 0.8447268107231484,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9219224582409241,
+      "priority_score": 0.867885504978481,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Gradient Flow Theory",
+      "sim": 0.8446099054315841,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9662301692781382,
+      "priority_score": 0.8810959845855502,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Agent-Based Modeling",
+      "sim": 0.8441924128740771,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9662784140504458,
+      "priority_score": 0.8808182132269877,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Geometric Deep Learning",
+      "sim": 0.8441204507786376,
+      "c1": 5,
+      "c2": 6,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9650360747914332,
+      "priority_score": 0.8803951379824762,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Integrated Info Theory",
+      "sim": 0.8439611928859935,
+      "c1": 3,
+      "c2": 6,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.942528416225468,
+      "priority_score": 0.8735313598878358,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Agent-Based Modeling",
+      "sim": 0.8438223349486287,
+      "c1": 6,
+      "c2": 5,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.981833647889115,
+      "priority_score": 0.8852257288307745,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Compressed Sensing \u00d7 Algorithmic Info Theory",
+      "sim": 0.8437566358853612,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8558650520353476,
+      "priority_score": 0.8473891607303571,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Stochastic Processes",
+      "sim": 0.8433435314129881,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.903584737551111,
+      "priority_score": 0.8614158932544249,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Integrated Info Theory \u00d7 Gradient Flow Theory",
+      "sim": 0.8426723955644938,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.948369735868613,
+      "priority_score": 0.8743815976557294,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.8423527536482632,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9088914127220692,
+      "priority_score": 0.862314351370405,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.842341767365237,
+      "c1": 5,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9193012924170297,
+      "priority_score": 0.8654296248807748,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Integrated Info Theory \u00d7 Category Theory",
+      "sim": 0.8422472284085186,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8326549997727724,
+      "priority_score": 0.8393695598177947,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Mean Field Theory",
+      "sim": 0.8412113583252548,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9572311235487846,
+      "priority_score": 0.8760172878923138,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Algorithmic Info Theory",
+      "sim": 0.8409653285374116,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.87283575017425,
+      "priority_score": 0.850526455028463,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Computational Psychiatry",
+      "sim": 0.8406668278919593,
+      "c1": 6,
+      "c2": 4,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9569581780632678,
+      "priority_score": 0.8755542329433519,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Category Theory",
+      "sim": 0.8406072208165096,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8379367504234906,
+      "priority_score": 0.8398060796986039,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Network Science",
+      "sim": 0.8404351148819735,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9344521471589111,
+      "priority_score": 0.8686402245650547,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Geometric Mechanics",
+      "sim": 0.8398191316741246,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9345306562918765,
+      "priority_score": 0.8682325890594501,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Mean Field Theory",
+      "sim": 0.8381665938865617,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9139821025156221,
+      "priority_score": 0.8609112464752797,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Integrated Info Theory \u00d7 Geometric Mechanics",
+      "sim": 0.837525183107554,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9322562394826819,
+      "priority_score": 0.8659445000200923,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.8372212122545027,
+      "c1": 5,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8906399674639001,
+      "priority_score": 0.853246838817322,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Compressed Sensing",
+      "sim": 0.8370218243755451,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8989891603409572,
+      "priority_score": 0.8556120251651687,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Gradient Flow Theory",
+      "sim": 0.8362513467101378,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9525369236431738,
+      "priority_score": 0.8711370197900485,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Symplectic Geometry \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.8360593239280664,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9071035867552047,
+      "priority_score": 0.8573726027762079,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Mechanics \u00d7 Computational Psychiatry",
+      "sim": 0.8341368105362686,
+      "c1": 3,
+      "c2": 4,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.961141681079737,
+      "priority_score": 0.8722382716993091,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Integrated Info Theory \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.8337954710781651,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9347856656945407,
+      "priority_score": 0.8640925294630777,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Riemannian Geometry",
+      "sim": 0.8323042972164095,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9140084266509534,
+      "priority_score": 0.8568155360467726,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Algorithmic Info Theory",
+      "sim": 0.8319550896697594,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9021929747542325,
+      "priority_score": 0.8530264551951012,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Renormalization Group \u00d7 Algorithmic Info Theory",
+      "sim": 0.8317882193061914,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9008440541465051,
+      "priority_score": 0.8525049697582854,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Evolutionary Game Theory",
+      "sim": 0.830901904007679,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.966637564966094,
+      "priority_score": 0.8716226022952034,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Topological Data Anal. \u00d7 Gradient Flow Theory",
+      "sim": 0.8308329552002314,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9279007992825458,
+      "priority_score": 0.8599533084249257,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Gradient Flow Theory",
+      "sim": 0.830614471240646,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9363369480005718,
+      "priority_score": 0.8623312142686237,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Geometric Mechanics",
+      "sim": 0.8301251728586134,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9471851787732201,
+      "priority_score": 0.8652431746329954,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.8300828639488551,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8802108999937093,
+      "priority_score": 0.8451212747623114,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.8298425833568965,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9538841921258184,
+      "priority_score": 0.8670550659875731,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Gradient Flow Theory",
+      "sim": 0.8296324770331895,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9350599647481528,
+      "priority_score": 0.8612607233476784,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Formal Grammars",
+      "sim": 0.8294070889390529,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.860750416451566,
+      "priority_score": 0.8388100871928068,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Stochastic Processes",
+      "sim": 0.8293247128208517,
+      "c1": 6,
+      "c2": 5,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9609430032800151,
+      "priority_score": 0.8688101999586008,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Topological Data Anal. \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.829211165228706,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9369387763172571,
+      "priority_score": 0.8615294485552714,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Renormalization Group",
+      "sim": 0.829081945861602,
+      "c1": 5,
+      "c2": 6,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9637410020496698,
+      "priority_score": 0.8694796627180224,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Mechanics \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.8289335479737004,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9215564353124547,
+      "priority_score": 0.8567204141753266,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Renormalization Group \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.828919032598432,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9214366468367874,
+      "priority_score": 0.8566743168699386,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Stochastic Processes",
+      "sim": 0.8283314052894092,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9305765470532402,
+      "priority_score": 0.8590049478185584,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Agent-Based Modeling",
+      "sim": 0.8281988421379783,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9657963959541895,
+      "priority_score": 0.8694781082828416,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Integrated Info Theory \u00d7 Riemannian Geometry",
+      "sim": 0.8281216908072333,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9229597805791633,
+      "priority_score": 0.8565731177388123,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Geometric Mechanics",
+      "sim": 0.8277041140798365,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9521729124695965,
+      "priority_score": 0.8650447535967645,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Renormalization Group",
+      "sim": 0.8272971065157146,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9180928635726908,
+      "priority_score": 0.8545358336328074,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Compressed Sensing",
+      "sim": 0.826245811609504,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9434643698025102,
+      "priority_score": 0.8614113790674058,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Quantum Cognition \u00d7 Homotopy Type Theory",
+      "sim": 0.8259834007987583,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.845852308371999,
+      "priority_score": 0.8319440730707305,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Geometric Deep Learning",
+      "sim": 0.8259656470223432,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9081206013097507,
+      "priority_score": 0.8506121333085654,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Riemannian Geometry",
+      "sim": 0.8253735519153225,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.8872694656349585,
+      "priority_score": 0.8439423260312131,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Algebraic Linguistics",
+      "sim": 0.824482743779297,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8496071788147443,
+      "priority_score": 0.8320200742899311,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Categorical Quantum Mechanics \u00d7 Causal Inference",
+      "sim": 0.8234676167023418,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9339666673797473,
+      "priority_score": 0.8566173319055634,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Geometric Mechanics",
+      "sim": 0.823433139983891,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9515003864439505,
+      "priority_score": 0.8618533139219088,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Integrated Info Theory",
+      "sim": 0.8231671966952251,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9549190790943075,
+      "priority_score": 0.8626927614149498,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Topological Data Anal. \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.8225231329659206,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8851195127371225,
+      "priority_score": 0.8413020468972812,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Causal Inference",
+      "sim": 0.8215195538798339,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9115494251813293,
+      "priority_score": 0.8485285152702824,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Quantum Cognition \u00d7 Dynamical Systems Psych",
+      "sim": 0.820562395380242,
+      "c1": 3,
+      "c2": 6,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9347037538099798,
+      "priority_score": 0.8548048029091633,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Evolutionary Dynamics",
+      "sim": 0.8200522699995074,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9582288707398519,
+      "priority_score": 0.8615052502216107,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Deep Learning \u00d7 Statistical Physics",
+      "sim": 0.8197109310749382,
+      "c1": 6,
+      "c2": 5,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9733524575335325,
+      "priority_score": 0.8658033890125164,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.8196262906505367,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9138955583210536,
+      "priority_score": 0.8479070709516917,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Network Science",
+      "sim": 0.8190979298727515,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9315926482043185,
+      "priority_score": 0.8528463453722217,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Formal Grammars",
+      "sim": 0.8181959902762447,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8739726568947326,
+      "priority_score": 0.834928990261791,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Geometric Deep Learning",
+      "sim": 0.8179961159989212,
+      "c1": 1,
+      "c2": 6,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9350936776344876,
+      "priority_score": 0.8531253844895911,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Statistical Physics",
+      "sim": 0.8172865153539064,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9592790516584093,
+      "priority_score": 0.8598842762452572,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Network Science",
+      "sim": 0.816348722142049,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.939644011832222,
+      "priority_score": 0.8533373090491008,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Symplectic Geometry",
+      "sim": 0.8157988110821865,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.8813860814356234,
+      "priority_score": 0.8354749921882175,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.8151385581730276,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9458903996863954,
+      "priority_score": 0.8543641106270379,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Network Science",
+      "sim": 0.8138008746280742,
+      "c1": 3,
+      "c2": 6,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9490558011859864,
+      "priority_score": 0.8543773525954479,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Gradient Flow Theory \u00d7 Statistical Physics",
+      "sim": 0.8137606867485816,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9261473757795802,
+      "priority_score": 0.8474766934578811,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Dynamical Systems Psych",
+      "sim": 0.8132407666407713,
+      "c1": 3,
+      "c2": 6,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9511283927538372,
+      "priority_score": 0.854607054474691,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Symplectic Geometry",
+      "sim": 0.813226184422551,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9128448801618074,
+      "priority_score": 0.8431117931443279,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Global Workspace Theory",
+      "sim": 0.812836221649452,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9583585848191096,
+      "priority_score": 0.8564929306003493,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Social Choice Theory",
+      "sim": 0.8127647189155301,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8849180242416945,
+      "priority_score": 0.8344107105133793,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Global Workspace Theory",
+      "sim": 0.8120441786984319,
+      "c1": 3,
+      "c2": 6,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9461171254711522,
+      "priority_score": 0.8522660627302481,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Geometric Deep Learning",
+      "sim": 0.8117139209359113,
+      "c1": 5,
+      "c2": 6,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9454389640024925,
+      "priority_score": 0.8518314338558857,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Symplectic Geometry",
+      "sim": 0.8105725346948836,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9131750545435556,
+      "priority_score": 0.8413532906494852,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Quantum Cognition",
+      "sim": 0.8103083778814674,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9374188555522871,
+      "priority_score": 0.8484415211827132,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Topological Data Anal.",
+      "sim": 0.8096619285839027,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9587450324058603,
+      "priority_score": 0.85438685973049,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.809247761563738,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9299574181925618,
+      "priority_score": 0.8454606585523852,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Compressed Sensing",
+      "sim": 0.8081696981197272,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9174222689281812,
+      "priority_score": 0.8409454693622633,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Statistical Physics",
+      "sim": 0.8080938735072368,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9261204695623122,
+      "priority_score": 0.8435018523237594,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Quantum Cognition \u00d7 Evolutionary Dynamics",
+      "sim": 0.8079884787308063,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8812259897428703,
+      "priority_score": 0.8299597320344254,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Category Theory",
+      "sim": 0.8074726883996732,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8829058118378355,
+      "priority_score": 0.8301026254311219,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Riemannian Geometry",
+      "sim": 0.8069331067596497,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9422529758111444,
+      "priority_score": 0.8475290674750982,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Topological Data Anal.",
+      "sim": 0.8066890339131519,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.939670565558695,
+      "priority_score": 0.8465834934068148,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Integrated Info Theory \u00d7 Symplectic Geometry",
+      "sim": 0.8065497517085288,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9110320791360155,
+      "priority_score": 0.8378944499367749,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Topological Data Anal. \u00d7 Algorithmic Info Theory",
+      "sim": 0.8052703449286304,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8731819340326159,
+      "priority_score": 0.8256438216598259,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.8052390464314747,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9354945534954836,
+      "priority_score": 0.8443156985506773,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Compressed Sensing",
+      "sim": 0.8047467816609065,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9346119927053036,
+      "priority_score": 0.8437063449742256,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Causal Inference",
+      "sim": 0.804385427055351,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8780466303320792,
+      "priority_score": 0.8264837880383694,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Renormalization Group \u00d7 Causal Inference",
+      "sim": 0.803547693868445,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9317240297853409,
+      "priority_score": 0.8420005946435136,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Topological Data Anal.",
+      "sim": 0.8032009937006508,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9225126560511131,
+      "priority_score": 0.8389944924057895,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Statistical Physics",
+      "sim": 0.802481040063967,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9363891459161978,
+      "priority_score": 0.8426534718196362,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Riemannian Geometry \u00d7 Computational Psychiatry",
+      "sim": 0.8021326100628531,
+      "c1": 3,
+      "c2": 4,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9605256441458532,
+      "priority_score": 0.8496505202877531,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Algorithmic Info Theory",
+      "sim": 0.7998317419637191,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.898251405679842,
+      "priority_score": 0.8293576410785559,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Geometric Deep Learning",
+      "sim": 0.7993617299282574,
+      "c1": 1,
+      "c2": 6,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9588162838849318,
+      "priority_score": 0.8471980961152596,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Evolutionary Game Theory",
+      "sim": 0.7987560782346506,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8883347440741208,
+      "priority_score": 0.8256296779864916,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Stochastic Processes",
+      "sim": 0.7981802678554302,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9742752557752274,
+      "priority_score": 0.8510087642313693,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Social Choice Theory",
+      "sim": 0.7977616022060481,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9343482273638162,
+      "priority_score": 0.8387375897533784,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Renormalization Group",
+      "sim": 0.7974026523199998,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9513521081699253,
+      "priority_score": 0.8435874890749775,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.7972130873504152,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9471305028256871,
+      "priority_score": 0.8421883119929967,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Riemannian Geometry",
+      "sim": 0.7965819202174144,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9486403544324522,
+      "priority_score": 0.8421994504819257,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Causal Inference",
+      "sim": 0.7964993023986316,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9546354015520558,
+      "priority_score": 0.8439401321446589,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Geometric Deep Learning",
+      "sim": 0.7963207116554026,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9411505044491945,
+      "priority_score": 0.8397696494935402,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Geometric Deep Learning",
+      "sim": 0.7959071932453541,
+      "c1": 5,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9047765178546745,
+      "priority_score": 0.8285679906281501,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.79439961524296,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9496376439908976,
+      "priority_score": 0.8409710238673412,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Compressed Sensing \u00d7 Causal Inference",
+      "sim": 0.7940837804446087,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8642583685647004,
+      "priority_score": 0.8151361568806361,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Compressed Sensing",
+      "sim": 0.7938646792785884,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9475891043081676,
+      "priority_score": 0.839982006787462,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Geometric Mechanics",
+      "sim": 0.7926081951386386,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9278068093491847,
+      "priority_score": 0.8331677794018023,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Computational Psychiatry \u00d7 Algorithmic Info Theory",
+      "sim": 0.7924856989556512,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9041338726042436,
+      "priority_score": 0.8259801510502289,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.7921590491345273,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9726701693653181,
+      "priority_score": 0.8463123852037646,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Integrated Info Theory \u00d7 Homotopy Type Theory",
+      "sim": 0.7914797706110476,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.81664380185058,
+      "priority_score": 0.7990289799829073,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Compressed Sensing",
+      "sim": 0.7914569986868889,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9487327999346528,
+      "priority_score": 0.8386397390612179,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Quantum Cognition \u00d7 Agent-Based Modeling",
+      "sim": 0.7906542134664296,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8899883187768723,
+      "priority_score": 0.8204544450595624,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Geometric Mechanics",
+      "sim": 0.789489175517482,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.8984098342847526,
+      "priority_score": 0.822165373147663,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Bayesian Inference",
+      "sim": 0.7893567251453919,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9043185390962818,
+      "priority_score": 0.8238452693306588,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Algorithmic Info Theory",
+      "sim": 0.7893281638750899,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9090365774736562,
+      "priority_score": 0.8252406879546597,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Algorithmic Info Theory",
+      "sim": 0.7892386957791729,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8966669855865319,
+      "priority_score": 0.8214671827213806,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.7887112842444006,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9122871482608014,
+      "priority_score": 0.8257840434493209,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Algorithmic Info Theory",
+      "sim": 0.7886735647089701,
+      "c1": 5,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8657650727584701,
+      "priority_score": 0.8118010171238201,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.787224132838964,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9319030064709128,
+      "priority_score": 0.8306277949285485,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Renormalization Group",
+      "sim": 0.7869577950843649,
+      "c1": 1,
+      "c2": 6,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9342844959561643,
+      "priority_score": 0.8311558053459047,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Gradient Flow Theory \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7856785116025867,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9335410485626572,
+      "priority_score": 0.8300372726906078,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Geometric Mechanics",
+      "sim": 0.7840005112508536,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9247881372782253,
+      "priority_score": 0.826236799059065,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Geometric Deep Learning",
+      "sim": 0.7839935313016353,
+      "c1": 1,
+      "c2": 6,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9722195968445289,
+      "priority_score": 0.8404613509645034,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Algebraic Linguistics",
+      "sim": 0.7833916145684999,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8806092025645731,
+      "priority_score": 0.8125568909673218,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Symplectic Geometry",
+      "sim": 0.7813253679588561,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9321551426790841,
+      "priority_score": 0.8265743003749244,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Deep Learning \u00d7 Algorithmic Info Theory",
+      "sim": 0.7802089532202406,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.898716894556309,
+      "priority_score": 0.8157613356210611,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Renormalization Group",
+      "sim": 0.7800755035452407,
+      "c1": 1,
+      "c2": 6,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9546785443994268,
+      "priority_score": 0.8324564158014964,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Riemannian Geometry",
+      "sim": 0.7789291898852376,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.935502605599494,
+      "priority_score": 0.8259012145995146,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Information Geometry",
+      "sim": 0.77875865823484,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9086970387785325,
+      "priority_score": 0.8177401723979477,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.7781936566593587,
+      "c1": 5,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9099265104073309,
+      "priority_score": 0.8177135127837503,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Causal Inference",
+      "sim": 0.777962491177663,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9510252142751302,
+      "priority_score": 0.8298813081069032,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Causal Inference",
+      "sim": 0.7776420935034953,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9118562597430725,
+      "priority_score": 0.8179063433753684,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Topological Data Anal.",
+      "sim": 0.776817683095215,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.93804217607328,
+      "priority_score": 0.8251850309886344,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Riemannian Geometry \u00d7 Homotopy Type Theory",
+      "sim": 0.7762332364708914,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.8666915962949879,
+      "priority_score": 0.8033707444181202,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Symplectic Geometry",
+      "sim": 0.7761456993107403,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9354015342163886,
+      "priority_score": 0.8239224497824347,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Compressed Sensing",
+      "sim": 0.7757032207539338,
+      "c1": 6,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9655219409025046,
+      "priority_score": 0.832648836798505,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Deep Learning \u00d7 Causal Inference",
+      "sim": 0.7755803113158577,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9242900614625855,
+      "priority_score": 0.8201932363598761,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Compressed Sensing",
+      "sim": 0.7755207782646435,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9599915695826914,
+      "priority_score": 0.8308620156600578,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Information Geometry",
+      "sim": 0.7754246975308304,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9350362349883827,
+      "priority_score": 0.823308158768096,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Symplectic Geometry \u00d7 Computational Psychiatry",
+      "sim": 0.7741712240249988,
+      "c1": 3,
+      "c2": 4,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.964035082246439,
+      "priority_score": 0.8311303814914308,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.7739695593818979,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9050047791460539,
+      "priority_score": 0.8132801253111447,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Symplectic Geometry \u00d7 Homotopy Type Theory",
+      "sim": 0.7733700696543815,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.8647254278380021,
+      "priority_score": 0.8007766771094675,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7725887973667922,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8811543183531055,
+      "priority_score": 0.8051584536626861,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Geometric Deep Learning",
+      "sim": 0.7723805221248632,
+      "c1": 5,
+      "c2": 6,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9633431777803193,
+      "priority_score": 0.8296693188215,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Symplectic Geometry",
+      "sim": 0.7723419660205935,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9309523831049357,
+      "priority_score": 0.8199250911458961,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Integrated Info Theory",
+      "sim": 0.7713411219907527,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9421367917500033,
+      "priority_score": 0.8225798229185277,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Network Science \u00d7 Homotopy Type Theory",
+      "sim": 0.7710955298150536,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8269559474244053,
+      "priority_score": 0.787853655097859,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Compressed Sensing",
+      "sim": 0.7710131083427711,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9709843790019869,
+      "priority_score": 0.8310044895405357,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Renormalization Group",
+      "sim": 0.7709153327473566,
+      "c1": 1,
+      "c2": 6,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9667542293612158,
+      "priority_score": 0.8296670017315142,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Algorithmic Info Theory",
+      "sim": 0.7703804685359312,
+      "c1": 5,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8860607034429171,
+      "priority_score": 0.805084539008027,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Algebraic Linguistics",
+      "sim": 0.769789583115433,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8728727374503499,
+      "priority_score": 0.800714529415908,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Riemannian Geometry",
+      "sim": 0.7693102053103773,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9184077321834896,
+      "priority_score": 0.8140394633723109,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Social Choice Theory",
+      "sim": 0.7675609341617285,
+      "c1": 5,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8971465912457323,
+      "priority_score": 0.8064366312869296,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.7670899954423863,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9146760553357345,
+      "priority_score": 0.8113658134103907,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.7661886531646066,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9500053952945002,
+      "priority_score": 0.8213336758035746,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Symplectic Geometry",
+      "sim": 0.7661606197168151,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9099478149087532,
+      "priority_score": 0.8092967782743965,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Homotopy Type Theory",
+      "sim": 0.765779916374606,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8740005547498003,
+      "priority_score": 0.7982461078871643,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Deep Learning \u00d7 Homotopy Type Theory",
+      "sim": 0.7656601764057189,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8257235921104192,
+      "priority_score": 0.783679201117129,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Topological Data Anal. \u00d7 Causal Inference",
+      "sim": 0.7655955564808727,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8792667822722623,
+      "priority_score": 0.7996969242182895,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Compressed Sensing",
+      "sim": 0.7655378770136642,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9429261062671498,
+      "priority_score": 0.8187543457897098,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Social Choice Theory",
+      "sim": 0.7654356445946028,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8569061485378971,
+      "priority_score": 0.7928767957775911,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Gradient Flow Theory \u00d7 Evolutionary Dynamics",
+      "sim": 0.7648202253611425,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9053095230279247,
+      "priority_score": 0.8069670146611772,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Deep Learning \u00d7 Evolutionary Dynamics",
+      "sim": 0.7647830065021696,
+      "c1": 6,
+      "c2": 5,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9613462976139269,
+      "priority_score": 0.8237519938356967,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.7642440330229401,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.966423886319802,
+      "priority_score": 0.8248979890119986,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Social Choice Theory",
+      "sim": 0.7640096994940544,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9440892243469278,
+      "priority_score": 0.8180335569499164,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Evolutionary Dynamics",
+      "sim": 0.7638651820511548,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9050251256321745,
+      "priority_score": 0.8062131651254607,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.7630555187586132,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9542064172607212,
+      "priority_score": 0.8204007883092456,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7620968182175981,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8683170912046323,
+      "priority_score": 0.7939629001137083,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Riemannian Geometry",
+      "sim": 0.7620280367946173,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9013575468434253,
+      "priority_score": 0.8038268898092595,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Quantum Cognition",
+      "sim": 0.7614551108457861,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9249041663406237,
+      "priority_score": 0.8104898274942373,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Gradient Flow Theory \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.7609888598045715,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.917209192045903,
+      "priority_score": 0.8078549594769708,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Topological Data Anal.",
+      "sim": 0.7608499376814809,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8881483990473793,
+      "priority_score": 0.7990394760912504,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Mechanics \u00d7 Statistical Physics",
+      "sim": 0.7606001374515519,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9389617210355933,
+      "priority_score": 0.8141086125267643,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.7603552698725805,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.8920485289093277,
+      "priority_score": 0.7998632475836047,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.7599140404382912,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9091500989047115,
+      "priority_score": 0.8046848579782173,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Compressed Sensing",
+      "sim": 0.7573869339556306,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9277152073838177,
+      "priority_score": 0.8084854159840866,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Bayesian Inference",
+      "sim": 0.7570742686794111,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9742254153468425,
+      "priority_score": 0.8222196126796405,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.75659037014611,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9016627692054499,
+      "priority_score": 0.8001120898639119,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Riemannian Geometry",
+      "sim": 0.7560935605567517,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9253701963019668,
+      "priority_score": 0.8068765512803162,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Computational Psychiatry \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7560466720557719,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8777063318695301,
+      "priority_score": 0.7925445699998993,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Compressed Sensing \u00d7 Statistical Physics",
+      "sim": 0.7557624086567952,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9357154968043907,
+      "priority_score": 0.8097483351010739,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Gradient Flow Theory",
+      "sim": 0.7557605316586975,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9621547223822857,
+      "priority_score": 0.8176787888757739,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.7552685935214437,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9459837211694444,
+      "priority_score": 0.8124831318158439,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7547174416507769,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9389994546305119,
+      "priority_score": 0.8100020455446975,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Agent-Based Modeling",
+      "sim": 0.7545906926728426,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9650650228363402,
+      "priority_score": 0.8177329917218918,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7540651132424937,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8428567488138451,
+      "priority_score": 0.780702603913899,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Agent-Based Modeling",
+      "sim": 0.7532630409359015,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9207655819802577,
+      "priority_score": 0.8035138032492083,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Network Science",
+      "sim": 0.7511493826697003,
+      "c1": 4,
+      "c2": 6,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9305531815512069,
+      "priority_score": 0.8049705223341522,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Category Theory",
+      "sim": 0.7504896438472995,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.867905005119052,
+      "priority_score": 0.7857142522288252,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Algorithmic Info Theory",
+      "sim": 0.750259611413537,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9433429770461843,
+      "priority_score": 0.8081846211033312,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Statistical Physics \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7496352229248526,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.932189894896311,
+      "priority_score": 0.8044016245162902,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Causal Inference",
+      "sim": 0.7489833106884067,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.902243637228906,
+      "priority_score": 0.7949614086505564,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Symplectic Geometry",
+      "sim": 0.7478533770065081,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9107098878028586,
+      "priority_score": 0.7967103302454133,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Evolutionary Dynamics",
+      "sim": 0.7477272720143426,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9585301982467029,
+      "priority_score": 0.8109681498840506,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Riemannian Geometry \u00d7 Statistical Physics",
+      "sim": 0.7469120602503965,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9323238279645285,
+      "priority_score": 0.8025355905646361,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Statistical Physics \u00d7 Algorithmic Info Theory",
+      "sim": 0.7468538886616679,
+      "c1": 5,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9241618679446407,
+      "priority_score": 0.8000462824465597,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7461305772434546,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9329978162284907,
+      "priority_score": 0.8021907489389654,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Statistical Physics",
+      "sim": 0.7451550223259524,
+      "c1": 4,
+      "c2": 5,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.952602764330477,
+      "priority_score": 0.8073893449273097,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Geometric Mechanics",
+      "sim": 0.7448934924879008,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9265692164847004,
+      "priority_score": 0.7993962096869407,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Social Choice Theory",
+      "sim": 0.744534779305159,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9402047145183097,
+      "priority_score": 0.8032357598691042,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Renormalization Group \u00d7 Homotopy Type Theory",
+      "sim": 0.7444020903037356,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8448343599798193,
+      "priority_score": 0.7745317712065607,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Formal Grammars",
+      "sim": 0.7443354662616155,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.884329833796296,
+      "priority_score": 0.7863337765220196,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Causal Inference",
+      "sim": 0.7437200929747966,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9036842370535155,
+      "priority_score": 0.7917093361984122,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Algorithmic Info Theory",
+      "sim": 0.7430030182031964,
+      "c1": 5,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9248607605587353,
+      "priority_score": 0.797560340909858,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.7394830901666244,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9313615390715035,
+      "priority_score": 0.7970466248380881,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Mechanics \u00d7 Homotopy Type Theory",
+      "sim": 0.7380788693656863,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.8881311674916029,
+      "priority_score": 0.7830945588034613,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Game Theory",
+      "sim": 0.7356308848615509,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9505749201679259,
+      "priority_score": 0.8001140954534633,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.7346520453969126,
+      "c1": 4,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9431082964020426,
+      "priority_score": 0.7971889206984517,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Topological Data Anal.",
+      "sim": 0.7343662390348965,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9390808759995359,
+      "priority_score": 0.7957806301242882,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Evolutionary Dynamics",
+      "sim": 0.7340757844016936,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9135597706544231,
+      "priority_score": 0.7879209802775125,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Compressed Sensing \u00d7 Homotopy Type Theory",
+      "sim": 0.7332491657764968,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8648190365207,
+      "priority_score": 0.7727201269997577,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Geometric Mechanics",
+      "sim": 0.7331591461821836,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9498159946131363,
+      "priority_score": 0.7981562007114693,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Gradient Flow Theory \u00d7 Causal Inference",
+      "sim": 0.7321441542994261,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9070603443608135,
+      "priority_score": 0.7846190113178423,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Topological Data Anal.",
+      "sim": 0.7320124950069237,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8800369105633487,
+      "priority_score": 0.7764198196738512,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Topological Data Anal. \u00d7 Stochastic Processes",
+      "sim": 0.7291689794945581,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9265734263574417,
+      "priority_score": 0.7883903135534231,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Algorithmic Info Theory",
+      "sim": 0.7291600746192033,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9067508722000365,
+      "priority_score": 0.7824373138934533,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7287512010468034,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9117915368136011,
+      "priority_score": 0.7836633017768426,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Topological Data Anal. \u00d7 Statistical Physics",
+      "sim": 0.728454930890558,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9511945385530464,
+      "priority_score": 0.7952768131893044,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Topological Data Anal. \u00d7 Computational Psychiatry",
+      "sim": 0.7278734481988658,
+      "c1": 1,
+      "c2": 4,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9225540946353548,
+      "priority_score": 0.7862776421298125,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Mechanics \u00d7 Evolutionary Dynamics",
+      "sim": 0.7243754549578938,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.915190118095078,
+      "priority_score": 0.781619853899049,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Symplectic Geometry",
+      "sim": 0.722472134637154,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9324273972723668,
+      "priority_score": 0.7854587134277178,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Topological Data Anal.",
+      "sim": 0.7215666150225476,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9116470181725594,
+      "priority_score": 0.778590735967551,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Stochastic Processes \u00d7 Symplectic Geometry",
+      "sim": 0.7212621054928937,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9060629928816705,
+      "priority_score": 0.7767023717095267,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Social Choice Theory",
+      "sim": 0.7206352667533914,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.8991115064269952,
+      "priority_score": 0.7741781386554725,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Riemannian Geometry",
+      "sim": 0.7198685137828063,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9424629486113492,
+      "priority_score": 0.786646844231369,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Causal Inference",
+      "sim": 0.7183791335593606,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.969761344353,
+      "priority_score": 0.7937937967974523,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Geometric Mechanics",
+      "sim": 0.7176872684289654,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9445895393240659,
+      "priority_score": 0.7857579496974955,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Algorithmic Info Theory",
+      "sim": 0.7175911692771278,
+      "c1": 5,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.903104663953599,
+      "priority_score": 0.7732452176800692,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Formal Grammars",
+      "sim": 0.7168282874791551,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8689190578004795,
+      "priority_score": 0.7624555185755524,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Riemannian Geometry \u00d7 Algorithmic Info Theory",
+      "sim": 0.7155192622355436,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.8983324040594719,
+      "priority_score": 0.770363204782722,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Mechanics \u00d7 Causal Inference",
+      "sim": 0.7152332317546855,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9108661132627364,
+      "priority_score": 0.7739230962071008,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.7141897515661653,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9498048711500254,
+      "priority_score": 0.7848742874413233,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Formal Grammars",
+      "sim": 0.7136875334397846,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8709639631762741,
+      "priority_score": 0.7608704623607314,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Categorical Quantum Mechanics \u00d7 Evolutionary Dynamics",
+      "sim": 0.712690282390261,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9252376203195889,
+      "priority_score": 0.7764544837690593,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Gradient Flow Theory",
+      "sim": 0.7098341746557142,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9227110134918399,
+      "priority_score": 0.7736972263065518,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Symplectic Geometry \u00d7 Statistical Physics",
+      "sim": 0.7088810297212512,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9391858603687944,
+      "priority_score": 0.7779724789155141,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Prospect Theory",
+      "sim": 0.7059416504134721,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9654372058797054,
+      "priority_score": 0.783790317053342,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Riemannian Geometry \u00d7 Causal Inference",
+      "sim": 0.7044075303960623,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.902120291315026,
+      "priority_score": 0.7637213586717513,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Category Theory",
+      "sim": 0.7040885826396505,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9235028776161901,
+      "priority_score": 0.7699128711326123,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Computational Psychiatry",
+      "sim": 0.7037110922236184,
+      "c1": 1,
+      "c2": 4,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.96190123756359,
+      "priority_score": 0.7811681358256097,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Mechanics \u00d7 Algorithmic Info Theory",
+      "sim": 0.703368516032667,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9134297508185097,
+      "priority_score": 0.7663868864684198,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Algorithmic Info Theory",
+      "sim": 0.702951390525177,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9457730984633944,
+      "priority_score": 0.7757979029066422,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Topological Data Anal.",
+      "sim": 0.6999684032282537,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9214856116990158,
+      "priority_score": 0.7664235657694822,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Agent-Based Modeling",
+      "sim": 0.6992485628506514,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9281261243838803,
+      "priority_score": 0.76791183131062,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Formal Grammars",
+      "sim": 0.6961641914636105,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8808049905936218,
+      "priority_score": 0.751556431202614,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Social Choice Theory",
+      "sim": 0.6929658333368754,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9373947597590294,
+      "priority_score": 0.7662945112635215,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Riemannian Geometry \u00d7 Evolutionary Dynamics",
+      "sim": 0.6923471537073684,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9124930361732959,
+      "priority_score": 0.7583909184471467,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Gradient Flow Theory \u00d7 Algorithmic Info Theory",
+      "sim": 0.691198953697215,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9174404928253509,
+      "priority_score": 0.7590714154356557,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Global Workspace Theory \u00d7 Homotopy Type Theory",
+      "sim": 0.6906961609094376,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8535741123059193,
+      "priority_score": 0.7395595463283822,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Formal Grammars",
+      "sim": 0.6904890333560625,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8985268115263487,
+      "priority_score": 0.7529003668071483,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Riemannian Geometry",
+      "sim": 0.6871895959716436,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9499102495159178,
+      "priority_score": 0.7660057920349259,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Social Choice Theory",
+      "sim": 0.6867734364561061,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9350245232537462,
+      "priority_score": 0.7612487624953981,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Measure-Theoretic Prob.",
+      "sim": 0.6866893386098171,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9519811243272526,
+      "priority_score": 0.7662768743250477,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Algebraic Linguistics",
+      "sim": 0.6865228423356954,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8634244790937236,
+      "priority_score": 0.7395933333631037,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Topological Data Anal. \u00d7 Evolutionary Dynamics",
+      "sim": 0.686307873124766,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9189536010730062,
+      "priority_score": 0.7561015915092381,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Social Choice Theory",
+      "sim": 0.6819029142158272,
+      "c1": 6,
+      "c2": 2,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9282261702693687,
+      "priority_score": 0.7557998910318896,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Algebraic Linguistics",
+      "sim": 0.6810135713583514,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.917761390086942,
+      "priority_score": 0.7520379169769285,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Formal Grammars",
+      "sim": 0.6808490377918643,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9311726637418705,
+      "priority_score": 0.7559461255768661,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Topological Data Anal.",
+      "sim": 0.67918356994354,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8751681033126525,
+      "priority_score": 0.7379789299542736,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Symplectic Geometry \u00d7 Algorithmic Info Theory",
+      "sim": 0.6791035314071158,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9048493712926541,
+      "priority_score": 0.7468272833727772,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Category Theory",
+      "sim": 0.6779048739212732,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9097822164257138,
+      "priority_score": 0.7474680766726054,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Algorithmic Info Theory",
+      "sim": 0.6768129018439552,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9351073829673022,
+      "priority_score": 0.7543012461809593,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.6760039412983955,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8994757380894338,
+      "priority_score": 0.7430454803357069,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Symplectic Geometry",
+      "sim": 0.675147913985237,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9346104958758472,
+      "priority_score": 0.75298668855242,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Stochastic Processes",
+      "sim": 0.6750394990867623,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.939400678453435,
+      "priority_score": 0.7543478528967641,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Gradient Flow Theory",
+      "sim": 0.6747352597843983,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9498959539670223,
+      "priority_score": 0.7572834680391854,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Topological Data Anal.",
+      "sim": 0.6741598711906263,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9046784473555844,
+      "priority_score": 0.7433154440401137,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Symplectic Geometry \u00d7 Evolutionary Dynamics",
+      "sim": 0.672274841364364,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9149846457007111,
+      "priority_score": 0.7450877826652681,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Compressed Sensing \u00d7 Evolutionary Dynamics",
+      "sim": 0.6711116791403584,
+      "c1": 3,
+      "c2": 5,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9149966474366019,
+      "priority_score": 0.7442771696292314,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Symplectic Geometry \u00d7 Causal Inference",
+      "sim": 0.6693287337938704,
+      "c1": 3,
+      "c2": 2,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9085502875540349,
+      "priority_score": 0.7410951999219197,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Formal Grammars",
+      "sim": 0.6688809802837463,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9092481199365385,
+      "priority_score": 0.740991122179584,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.6677642473971787,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8753712810243974,
+      "priority_score": 0.7300463574853442,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Algebraic Linguistics",
+      "sim": 0.6664886096528211,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.922940207097635,
+      "priority_score": 0.7434240888862652,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.6653654735887933,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9705299664580359,
+      "priority_score": 0.756914821449566,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Evolutionary Dynamics",
+      "sim": 0.6650895841535269,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9101362017312201,
+      "priority_score": 0.7386035694268349,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Category Theory",
+      "sim": 0.6620921488769882,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8630817690017162,
+      "priority_score": 0.7223890349144065,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Algebraic Linguistics",
+      "sim": 0.6611819771547707,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8705694080485641,
+      "priority_score": 0.7239982064229087,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Algebraic Linguistics",
+      "sim": 0.6606145357474774,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8854787751332109,
+      "priority_score": 0.7280738075631974,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Compressed Sensing",
+      "sim": 0.6591590219368397,
+      "c1": 5,
+      "c2": 3,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9607295261678659,
+      "priority_score": 0.7496301732061476,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Gradient Flow Theory",
+      "sim": 0.658837601201751,
+      "c1": 1,
+      "c2": 3,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9654173407232671,
+      "priority_score": 0.7508115230582058,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Formal Grammars",
+      "sim": 0.6580748024340505,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9244629407064184,
+      "priority_score": 0.7379912439157608,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Category Theory",
+      "sim": 0.6545908451896325,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9014224893784912,
+      "priority_score": 0.7286403384462901,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Computational Psychiatry",
+      "sim": 0.65443659708252,
+      "c1": 1,
+      "c2": 4,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9653108245236582,
+      "priority_score": 0.7476988653148614,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Category Theory",
+      "sim": 0.6532672191808178,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8673743067632521,
+      "priority_score": 0.717499345455548,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Formal Grammars \u00d7 Statistical Physics",
+      "sim": 0.6509611429645223,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9358987926401735,
+      "priority_score": 0.7364424378672176,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Homotopy Type Theory",
+      "sim": 0.6505385865668194,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9118304253784686,
+      "priority_score": 0.728926138210314,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Algebraic Linguistics",
+      "sim": 0.6504265670535995,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8695868856918808,
+      "priority_score": 0.7161746626450838,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Gradient Flow Theory \u00d7 Homotopy Type Theory",
+      "sim": 0.6497065389624377,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Phantom limb syndrome",
+      "anchor_score": 0.9120664220727434,
+      "priority_score": 0.7284145038955294,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Category Theory",
+      "sim": 0.6467104387271964,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8663758612327203,
+      "priority_score": 0.7126100654788535,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Formal Grammars",
+      "sim": 0.6401058107264022,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9221967601946728,
+      "priority_score": 0.7247330955668834,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Formal Grammars",
+      "sim": 0.6382983716201469,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9062276523519535,
+      "priority_score": 0.7186771558396888,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Algebraic Linguistics",
+      "sim": 0.6351606018799484,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9176247599473415,
+      "priority_score": 0.7198998493001663,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Computational Psychiatry",
+      "sim": 0.6312921192546777,
+      "c1": 1,
+      "c2": 4,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9539864975203938,
+      "priority_score": 0.7281004327343925,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Stochastic Processes",
+      "sim": 0.6303961952988555,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9405928138406413,
+      "priority_score": 0.7234551808613912,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Homotopy Type Theory",
+      "sim": 0.6289816120769605,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8954542558882154,
+      "priority_score": 0.7089234052203369,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Category Theory",
+      "sim": 0.628917487895838,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8529882250628549,
+      "priority_score": 0.696138709045943,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Evolutionary Dynamics",
+      "sim": 0.6282434416186741,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9080848528295468,
+      "priority_score": 0.7121958649819358,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Category Theory",
+      "sim": 0.620496595409026,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9066867632922926,
+      "priority_score": 0.706353645774006,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Algorithmic Info Theory",
+      "sim": 0.6201078389801171,
+      "c1": 4,
+      "c2": 2,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.9219653690854177,
+      "priority_score": 0.7106650980117073,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Statistical Physics",
+      "sim": 0.6184002366354149,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9334020677844586,
+      "priority_score": 0.712900785980128,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Algebraic Linguistics",
+      "sim": 0.6181225371420885,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.9156729736895929,
+      "priority_score": 0.7073876681063398,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Stochastic Processes",
+      "sim": 0.6144887087215818,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9291135984809674,
+      "priority_score": 0.7088761756493974,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Evolutionary Dynamics",
+      "sim": 0.6123902778633447,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.8985221662692083,
+      "priority_score": 0.6982298443851037,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Category Theory \u00d7 Statistical Physics",
+      "sim": 0.6111981819886866,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9200152337616614,
+      "priority_score": 0.703843297520579,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Dynamical Systems Psych \u00d7 Homotopy Type Theory",
+      "sim": 0.5974312727677609,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8871094115692958,
+      "priority_score": 0.6843347144082212,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Algebraic Linguistics",
+      "sim": 0.5961147602513873,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8950188837240858,
+      "priority_score": 0.6857859972931968,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Evolutionary Game Theory \u00d7 Homotopy Type Theory",
+      "sim": 0.5948250283101535,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8524158052476191,
+      "priority_score": 0.6721022613913932,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Formal Grammars",
+      "sim": 0.5937389774244128,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8888621820661865,
+      "priority_score": 0.6822759388169449,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Homotopy Type Theory",
+      "sim": 0.5927385011305505,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8475253356938661,
+      "priority_score": 0.6691745514995451,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Reinforcement Learning \u00d7 Category Theory",
+      "sim": 0.587774686133085,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8750691352986619,
+      "priority_score": 0.6739630208827581,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Category Theory",
+      "sim": 0.5866792356629751,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8461318388760092,
+      "priority_score": 0.6645150166268853,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Agent-Based Modeling \u00d7 Homotopy Type Theory",
+      "sim": 0.5769942797517253,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8545299003303978,
+      "priority_score": 0.6602549659253271,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Algebraic Linguistics",
+      "sim": 0.5747759146724039,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8701094592341629,
+      "priority_score": 0.6633759780409316,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Homotopy Type Theory",
+      "sim": 0.5737058338029694,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8277254777488577,
+      "priority_score": 0.6499117269867358,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Computational Psychiatry \u00d7 Homotopy Type Theory",
+      "sim": 0.5653574832408148,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8397753136962617,
+      "priority_score": 0.6476828323774488,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Statistical Physics \u00d7 Homotopy Type Theory",
+      "sim": 0.5596864698490319,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8939096612790851,
+      "priority_score": 0.6599534272780478,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Mean Field Theory \u00d7 Homotopy Type Theory",
+      "sim": 0.5500477084578465,
+      "c1": 5,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8987446941243555,
+      "priority_score": 0.6546568041577991,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Homotopy Type Theory \u00d7 Evolutionary Dynamics",
+      "sim": 0.5445038698862886,
+      "c1": 1,
+      "c2": 5,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.8965400122067615,
+      "priority_score": 0.6501147125824305,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Homotopy Type Theory",
+      "sim": 0.5133208288795851,
+      "c1": 4,
+      "c2": 1,
+      "target_phenomenon": "Dopamine detoxing",
+      "anchor_score": 0.8258423774880879,
+      "priority_score": 0.6070772934621358,
       "structural_synergy": null
     }
   ],
