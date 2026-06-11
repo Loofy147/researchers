@@ -8,11 +8,45 @@ def run_qscore_analysis():
             fw_res = json.load(f)
             DYNAMIC_SYNERGIES = fw_res.get("synergy_pairs", [])
             STABILITY = fw_res.get("cluster_stability", {})
-            FW_PROFILES = fw_res.get("profiles", {})
-            META_PROFILES = fw_res.get("meta_axis_profiles", {})
+            FW_PROFILES_RAW = fw_res.get("profiles", {})
+            META_PROFILES_RAW = fw_res.get("meta_axis_profiles", {})
     except Exception as e:
         print(f"Error loading framework results: {e}")
         return
+
+    # Optimization: Pre-convert profiles to numpy arrays
+    FW_PROFILES = {k: np.array(v) for k, v in FW_PROFILES_RAW.items()}
+    PH_PROFILES = {k: np.array(v) for k, v in PHENOMENA_PROFILES.items()}
+
+    # Optimization: Pre-calculate meta-axis profiles as arrays
+    META_PROFILES = {}
+    for cid, p in META_PROFILES_RAW.items():
+        META_PROFILES[str(cid)] = np.array([p[k] for k in sorted(p.keys())])
+
+    # Optimization: Pre-calculate cluster means for Gestalt Consistency
+    # Map numeric ID (e.g., "1") to the mean of members in that predefined cluster
+    PREDEFINED_CLUSTER_MEANS = {}
+    for full_cid, info in CLUSTERS.items():
+        try:
+            # Extract "1" from "C1_..."
+            short_id = full_cid.split('_')[0][1:]
+            members = info["members"]
+            cluster_vecs = [FW_PROFILES[m] for m in members if m in FW_PROFILES]
+            if cluster_vecs:
+                PREDEFINED_CLUSTER_MEANS[short_id] = np.mean(cluster_vecs, axis=0)
+        except Exception:
+            continue
+
+    # Optimization: Map frameworks to their target phenomena based on CLUSTERS membership
+    FW_TO_PHENOMENON = {}
+    for full_cid, info in CLUSTERS.items():
+        target_p = "Emergent Human Behavior"
+        for p in info["phenomena"]:
+            if p in PH_PROFILES:
+                target_p = p
+                break
+        for m in info["members"]:
+            FW_TO_PHENOMENON[m] = target_p
 
     def q_score(scores):
         return sum(WEIGHTS[k] * v for k, v in scores.items())
@@ -36,34 +70,25 @@ def run_qscore_analysis():
     feasibility = (0.30 * mean_q + 0.30 * mean_synth + 0.25 * conceptual_cohesion + 0.15 * (1 - roadmap_risk))
 
     def cosine_sim(v1, v2):
-        v1, v2 = np.array(v1), np.array(v2)
         return np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2) + 1e-9)
 
     def calculate_morphism_rigor(n1, n2):
-        v1, v2 = np.array(FW_PROFILES.get(n1, [0]*15)), np.array(FW_PROFILES.get(n2, [0]*15))
+        v1 = FW_PROFILES.get(n1, np.zeros(15))
+        v2 = FW_PROFILES.get(n2, np.zeros(15))
         idxs = [AXES.index("algebra_structure"), AXES.index("logic_formal"), AXES.index("topology")]
         rigor = (v1[idxs].mean() + v2[idxs].mean()) / 2
         return float(rigor)
 
     def calculate_conceptual_friction(c1, c2):
-        p1 = META_PROFILES.get(str(c1), {})
-        p2 = META_PROFILES.get(str(c2), {})
-        if not p1 or not p2: return 0.5
-        v1 = np.array([p1[k] for k in sorted(p1.keys())])
-        v2 = np.array([p2[k] for k in sorted(p2.keys())])
-        return float(1 - cosine_sim(v1, v2))
+        p1 = META_PROFILES.get(str(c1))
+        p2 = META_PROFILES.get(str(c2))
+        if p1 is None or p2 is None: return 0.5
+        return float(1 - cosine_sim(p1, p2))
 
     def calculate_gestalt_consistency(name, cluster_id):
         if name not in FW_PROFILES: return 0.0
-        members = []
-        for cid_str, info in CLUSTERS.items():
-            if cid_str.startswith(f"C{cluster_id}_"):
-                members = info["members"]
-                break
-        if not members: return 0.0
-        cluster_vecs = np.array([FW_PROFILES[m] for m in members if m in FW_PROFILES])
-        if len(cluster_vecs) == 0: return 0.0
-        mean_vec = cluster_vecs.mean(axis=0)
+        mean_vec = PREDEFINED_CLUSTER_MEANS.get(str(cluster_id))
+        if mean_vec is None: return 0.0
         return float(cosine_sim(FW_PROFILES[name], mean_vec))
 
     def structural_sensitivity_audit(synergies, fw_profiles):
@@ -71,7 +96,7 @@ def run_qscore_analysis():
         base_top = [s["n1"] + s["n2"] for s in synergies[:10]]
         variances = []
         for _ in range(5):
-            perturbed = {k: np.array(v) + np.random.normal(0, 0.05, 15) for k, v in fw_profiles.items()}
+            perturbed = {k: v + np.random.normal(0, 0.05, 15) for k, v in fw_profiles.items()}
             new_syns = []
             for s in synergies[:50]:
                 v1, v2 = perturbed[s["n1"]], perturbed[s["n2"]]
@@ -91,17 +116,11 @@ def run_qscore_analysis():
             n1, n2 = s["n1"], s["n2"]
             if (n1, n2) in seen_pairs or (n2, n1) in seen_pairs: continue
 
-            target_p = "Emergent Human Behavior"
-            for c in CLUSTERS.values():
-                if n1 in c["members"]:
-                    for p in c["phenomena"]:
-                        if p in PHENOMENA_PROFILES:
-                            target_p = p
-                            break
-                    if target_p != "Emergent Human Behavior": break
+            target_p = FW_TO_PHENOMENON.get(n1, "Emergent Human Behavior")
 
-            synergy_profile = (np.array(FW_PROFILES.get(n1, [0]*15)) + np.array(FW_PROFILES.get(n2, [0]*15))) / 2
-            anchor_score = float(cosine_sim(synergy_profile, PHENOMENA_PROFILES.get(target_p, [0]*15)))
+            v1, v2 = FW_PROFILES.get(n1, np.zeros(15)), FW_PROFILES.get(n2, np.zeros(15))
+            synergy_profile = (v1 + v2) / 2
+            anchor_score = float(cosine_sim(synergy_profile, PH_PROFILES.get(target_p, np.zeros(15))))
 
             rigor = calculate_morphism_rigor(n1, n2)
             friction = calculate_conceptual_friction(s["c1"], s["c2"])
@@ -110,9 +129,7 @@ def run_qscore_analysis():
             gestalt = (g1 + g2) / 2
 
             struct_synergy = None
-            if (n1 == "Homotopy Type Theory" and n2 == "Causal Inference") or \
-               (n2 == "Homotopy Type Theory" and n1 == "Causal Inference"):
-                v1, v2 = np.array(FW_PROFILES[n1]), np.array(FW_PROFILES[n2])
+            if (n1 == "Homotopy Type Theory" and n2 == "Causal Inference") or                (n2 == "Homotopy Type Theory" and n1 == "Causal Inference"):
                 struct_synergy = float(np.sum(np.minimum(v1, v2)) / np.sum(np.maximum(v1, v2) + 1e-9))
                 title = f"FRONTIVE BRIDGE: {n1} × {n2}"
             else:
