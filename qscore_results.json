@@ -9626,6 +9626,13 @@
       "transaction_id": "TX-COM-STA"
     }
   ],
+  "regime_analysis": {
+    "ste_active": true,
+    "alpha": 0.8,
+    "entropy_max_dev": 0.38945893579421903,
+    "regime_status": "PHASE-SHIFT ACTIVE",
+    "kill_switch_trigger": "Sentiment Floors (Domain S)"
+  },
   "metrics": {
     "mean_cluster_q": 0.8120166666666666,
     "mean_bridge_q": 0.875,

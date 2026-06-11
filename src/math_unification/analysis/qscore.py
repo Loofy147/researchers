@@ -3,6 +3,7 @@ import json
 from ..data import AXES, PHENOMENA_PROFILES, CLUSTERS, WEIGHTS, BRIDGES
 from .verification import verify_morphism_alignment
 from .transactions import calculate_research_transactions
+from .regime import run_regime_analysis
 
 def run_qscore_analysis():
     try:
@@ -213,6 +214,9 @@ def run_qscore_analysis():
     q_map = {n: q_results.get(cid, {}).get("q_score", 0.5) for cid, info in CLUSTERS.items() for n in info["members"]}
     transactions = calculate_research_transactions(fw_res["embeddings"], FW_PROFILES, FW_NAMES, q_map)
 
+    # Regime & Phase-Shift Analysis (SLA-2.1)
+    regime_results = run_regime_analysis(all_proposals, sensitivity)
+
     frontiers = sorted(all_proposals, key=lambda x: -x["priority_score"])[:12]
     niche_breakthroughs = [p for p in all_proposals if 0.5 <= p["sim"] <= 0.85 and p["anchor_score"] > 0.85]
 
@@ -223,6 +227,7 @@ def run_qscore_analysis():
             "research_frontiers": frontiers,
             "niche_breakthroughs": niche_breakthroughs,
             "research_transactions": transactions,
+            "regime_analysis": regime_results,
             "metrics": {
                 "mean_cluster_q": mean_q,
                 "mean_bridge_q": mean_synth,
