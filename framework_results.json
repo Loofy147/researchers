@@ -24,7 +24,7 @@
       "Riemannian Geometry",
       "Geometric Mechanics",
       "Symplectic Geometry",
-      "Fourier / Wavelet Anal.",
+      "Fourier/Wavelet Anal.",
       "Compressed Sensing"
     ],
     "6": [
@@ -204,7 +204,7 @@
       -0.08931509479792013,
       0.06606139591764562
     ],
-    "Fourier / Wavelet Anal.": [
+    "Fourier/Wavelet Anal.": [
       -0.0029594804227036143,
       -0.07629334898879724,
       0.04575460676272926
@@ -766,7 +766,7 @@
       0.3,
       0.2
     ],
-    "Fourier / Wavelet Anal.": [
+    "Fourier/Wavelet Anal.": [
       0.3,
       0.4,
       0.5,
@@ -1472,7 +1472,7 @@
     },
     {
       "n1": "Neural Field Theory",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.9004874100998308,
       "c1": 6,
       "c2": 3
@@ -1681,7 +1681,7 @@
       "c2": 5
     },
     {
-      "n1": "Fourier / Wavelet Anal.",
+      "n1": "Fourier/Wavelet Anal.",
       "n2": "Geometric Deep Learning",
       "sim": 0.8855213203753197,
       "c1": 3,
@@ -1941,7 +1941,7 @@
     },
     {
       "n1": "Predictive Coding",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.8751414601839121,
       "c1": 4,
       "c2": 3
@@ -1996,7 +1996,7 @@
       "c2": 4
     },
     {
-      "n1": "Fourier / Wavelet Anal.",
+      "n1": "Fourier/Wavelet Anal.",
       "n2": "Categorical Quantum Mechanics",
       "sim": 0.870784158001368,
       "c1": 3,
@@ -2144,7 +2144,7 @@
     },
     {
       "n1": "Renormalization Group",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.8636356381092586,
       "c1": 6,
       "c2": 3
@@ -2396,7 +2396,7 @@
     },
     {
       "n1": "Free Energy Principle",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.8524339595585345,
       "c1": 4,
       "c2": 3
@@ -2640,7 +2640,7 @@
       "c2": 5
     },
     {
-      "n1": "Fourier / Wavelet Anal.",
+      "n1": "Fourier/Wavelet Anal.",
       "n2": "Computational Psychiatry",
       "sim": 0.8416772630923144,
       "c1": 3,
@@ -2781,7 +2781,7 @@
     },
     {
       "n1": "Integrated Info Theory",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.8337954710781651,
       "c1": 6,
       "c2": 3
@@ -2837,14 +2837,14 @@
     },
     {
       "n1": "Stochastic Processes",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.8300828639488551,
       "c1": 5,
       "c2": 3
     },
     {
       "n1": "Global Workspace Theory",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.8298425833568965,
       "c1": 6,
       "c2": 3
@@ -2872,7 +2872,7 @@
     },
     {
       "n1": "Topological Data Anal.",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.829211165228706,
       "c1": 1,
       "c2": 3
@@ -2983,7 +2983,7 @@
       "c2": 5
     },
     {
-      "n1": "Fourier / Wavelet Anal.",
+      "n1": "Fourier/Wavelet Anal.",
       "n2": "Algorithmic Info Theory",
       "sim": 0.8235516662782932,
       "c1": 3,
@@ -3096,7 +3096,7 @@
     },
     {
       "n1": "Measure-Theoretic Prob.",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.8177320002954116,
       "c1": 2,
       "c2": 3
@@ -3439,7 +3439,7 @@
     },
     {
       "n1": "Network Science",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7972130873504152,
       "c1": 6,
       "c2": 3
@@ -3509,7 +3509,7 @@
     },
     {
       "n1": "Dynamical Systems Psych",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7921590491345273,
       "c1": 6,
       "c2": 3
@@ -3621,7 +3621,7 @@
     },
     {
       "n1": "Bayesian Inference",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7863679931793279,
       "c1": 2,
       "c2": 3
@@ -4013,7 +4013,7 @@
     },
     {
       "n1": "Mean Field Theory",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7642440330229401,
       "c1": 5,
       "c2": 3
@@ -4041,7 +4041,7 @@
     },
     {
       "n1": "Formal Grammars",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7630555187586132,
       "c1": 1,
       "c2": 3
@@ -4111,7 +4111,7 @@
     },
     {
       "n1": "Optimal Control",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7599140404382912,
       "c1": 4,
       "c2": 3
@@ -4138,7 +4138,7 @@
       "c2": 2
     },
     {
-      "n1": "Fourier / Wavelet Anal.",
+      "n1": "Fourier/Wavelet Anal.",
       "n2": "Statistical Physics",
       "sim": 0.7570131670863443,
       "c1": 3,
@@ -4181,7 +4181,7 @@
     },
     {
       "n1": "Algebraic Linguistics",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7552685935214437,
       "c1": 1,
       "c2": 3
@@ -4229,7 +4229,7 @@
       "c2": 5
     },
     {
-      "n1": "Fourier / Wavelet Anal.",
+      "n1": "Fourier/Wavelet Anal.",
       "n2": "Causal Inference",
       "sim": 0.7525468472018019,
       "c1": 3,
@@ -4384,7 +4384,7 @@
     },
     {
       "n1": "Category Theory",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7394830901666244,
       "c1": 1,
       "c2": 3
@@ -4419,7 +4419,7 @@
     },
     {
       "n1": "Reinforcement Learning",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7346520453969126,
       "c1": 4,
       "c2": 3
@@ -4544,7 +4544,7 @@
       "c2": 3
     },
     {
-      "n1": "Fourier / Wavelet Anal.",
+      "n1": "Fourier/Wavelet Anal.",
       "n2": "Homotopy Type Theory",
       "sim": 0.723352582930067,
       "c1": 3,
@@ -4678,7 +4678,7 @@
     },
     {
       "n1": "Evolutionary Game Theory",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.7141897515661653,
       "c1": 5,
       "c2": 3
@@ -5063,7 +5063,7 @@
     },
     {
       "n1": "Social Choice Theory",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.6718911676871856,
       "c1": 2,
       "c2": 3
@@ -5097,7 +5097,7 @@
       "c2": 1
     },
     {
-      "n1": "Fourier / Wavelet Anal.",
+      "n1": "Fourier/Wavelet Anal.",
       "n2": "Evolutionary Dynamics",
       "sim": 0.6685319722843195,
       "c1": 3,
@@ -5126,7 +5126,7 @@
     },
     {
       "n1": "Agent-Based Modeling",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.6653654735887933,
       "c1": 5,
       "c2": 3
@@ -5273,7 +5273,7 @@
     },
     {
       "n1": "Game Theory",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.6373119461715279,
       "c1": 2,
       "c2": 3
@@ -5406,7 +5406,7 @@
     },
     {
       "n1": "Prospect Theory",
-      "n2": "Fourier / Wavelet Anal.",
+      "n2": "Fourier/Wavelet Anal.",
       "sim": 0.6045333066902016,
       "c1": 2,
       "c2": 3
