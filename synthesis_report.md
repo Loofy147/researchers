@@ -2964,7 +2964,7 @@ These synergies exhibit moderate formal similarity but exceptionally high alignm
 
 Computational audit of the methodology logic identifies the following structural metrics:
 
-- **Structural Sensitivity**: 0.460 (Variance under profile perturbation).
+- **Structural Sensitivity**: 0.280 (Variance under profile perturbation).
 - **Conceptual Cohesion**: 0.922 (Leave-One-Out Stability).
 - **Roadmap Risk Score**: 0.041.
 

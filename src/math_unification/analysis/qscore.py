@@ -15,7 +15,11 @@ def run_qscore_analysis():
         return
 
     # Optimization: Pre-convert profiles to numpy arrays
-    FW_PROFILES = {k: np.array(v) for k, v in FW_PROFILES_RAW.items()}
+    FW_NAMES = list(FW_PROFILES_RAW.keys())
+    FW_X = np.array([FW_PROFILES_RAW[n] for n in FW_NAMES])
+    FW_PROFILES = {n: FW_X[i] for i, n in enumerate(FW_NAMES)}
+    FW_NAME_TO_IDX = {n: i for i, n in enumerate(FW_NAMES)}
+
     PH_PROFILES = {k: np.array(v) for k, v in PHENOMENA_PROFILES.items()}
 
     # Optimization: Pre-calculate meta-axis profiles as arrays
@@ -24,11 +28,9 @@ def run_qscore_analysis():
         META_PROFILES[str(cid)] = np.array([p[k] for k in sorted(p.keys())])
 
     # Optimization: Pre-calculate cluster means for Gestalt Consistency
-    # Map numeric ID (e.g., "1") to the mean of members in that predefined cluster
     PREDEFINED_CLUSTER_MEANS = {}
     for full_cid, info in CLUSTERS.items():
         try:
-            # Extract "1" from "C1_..."
             short_id = full_cid.split('_')[0][1:]
             members = info["members"]
             cluster_vecs = [FW_PROFILES[m] for m in members if m in FW_PROFILES]
@@ -37,7 +39,7 @@ def run_qscore_analysis():
         except Exception:
             continue
 
-    # Optimization: Map frameworks to their target phenomena based on CLUSTERS membership
+    # Optimization: Map frameworks to their target phenomena
     FW_TO_PHENOMENON = {}
     for full_cid, info in CLUSTERS.items():
         target_p = "Emergent Human Behavior"
@@ -91,20 +93,32 @@ def run_qscore_analysis():
         if mean_vec is None: return 0.0
         return float(cosine_sim(FW_PROFILES[name], mean_vec))
 
-    def structural_sensitivity_audit(synergies, fw_profiles):
-        if not fw_profiles: return 0.0
-        base_top = [s["n1"] + s["n2"] for s in synergies[:10]]
+    # Optimization: Fully vectorized structural sensitivity audit
+    def structural_sensitivity_audit(synergies, X, name_to_idx):
+        if X.size == 0 or not synergies: return 0.0
+
+        check_syns = synergies[:50]
+        syn_idxs = np.array([(name_to_idx[s["n1"]], name_to_idx[s["n2"]]) for s in check_syns])
+        syn_names = [s["n1"] + s["n2"] for s in check_syns]
+        base_top = set(syn_names[:10])
+
         variances = []
-        for _ in range(5):
-            perturbed = {k: v + np.random.normal(0, 0.05, 15) for k, v in fw_profiles.items()}
-            new_syns = []
-            for s in synergies[:50]:
-                v1, v2 = perturbed[s["n1"]], perturbed[s["n2"]]
-                sim = np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2) + 1e-9)
-                new_syns.append({"name": s["n1"] + s["n2"], "sim": sim})
-            new_syns.sort(key=lambda x: -x["sim"])
-            new_top = [x["name"] for x in new_syns[:10]]
-            intersection = len(set(base_top) & set(new_top))
+        # Optimization: Pre-generate noise for all 5 iterations
+        noise = np.random.normal(0, 0.05, (5, X.shape[0], X.shape[1]))
+
+        for i in range(5):
+            perturbed_X = X + noise[i]
+            norms = np.linalg.norm(perturbed_X, axis=1, keepdims=True)
+            perturbed_Xn = perturbed_X / (norms + 1e-9)
+
+            v1s = perturbed_Xn[syn_idxs[:, 0]]
+            v2s = perturbed_Xn[syn_idxs[:, 1]]
+            sims = np.sum(v1s * v2s, axis=1)
+
+            top_idxs = np.argsort(-sims)[:10]
+            new_top = set([syn_names[j] for j in top_idxs])
+
+            intersection = len(base_top & new_top)
             variances.append(1 - (intersection / 10))
         return float(np.mean(variances))
 
@@ -153,7 +167,7 @@ def run_qscore_analysis():
         return proposals
 
     all_proposals = generate_proposals()
-    sensitivity = structural_sensitivity_audit(DYNAMIC_SYNERGIES, FW_PROFILES)
+    sensitivity = structural_sensitivity_audit(DYNAMIC_SYNERGIES, FW_X, FW_NAME_TO_IDX)
 
     frontiers = sorted(all_proposals, key=lambda x: -x["priority_score"])[:12]
     niche_breakthroughs = [p for p in all_proposals if 0.5 <= p["sim"] <= 0.85 and p["anchor_score"] > 0.85]
