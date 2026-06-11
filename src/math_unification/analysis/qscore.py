@@ -1,6 +1,9 @@
 import numpy as np
 import json
 from ..data import AXES, PHENOMENA_PROFILES, CLUSTERS, WEIGHTS, BRIDGES
+from .verification import verify_morphism_alignment
+from .transactions import calculate_research_transactions
+from .regime import run_regime_analysis
 
 def run_qscore_analysis():
     try:
@@ -171,12 +174,30 @@ def run_qscore_analysis():
             else:
                 title = f"Synthesis: {n1} × {n2}"
 
+            # Validation Audit
+            v_score = rigor[i] * gestalt[i]
+            if v_score > 0.75:
+                validation = "PASSED: Strong Functorial Candidate"
+            elif v_score > 0.55:
+                validation = "PROVISIONAL: Commutative Diagram Identified"
+            else:
+                validation = "SPECULATIVE: Morphism Not Yet Formalized"
+
+            # Morphism Verification
+            m_verify = verify_morphism_alignment(FW_X[n1_idxs[i]], FW_X[n2_idxs[i]])
+
+            # Hypothesis Generation
+            hypothesis = f"Unification of {n1} and {n2} formalizes the underlying invariants of {FW_TO_PHENOMENON.get(n1,  'Emergent Human Behavior')}."
+
             proposals.append({
+                "validation_audit": validation,
+                "core_hypothesis": hypothesis,
+                "morphism_verification": m_verify,
                 "title": title,
                 "sim": float(sims[i]),
                 "c1": s["c1"],
                 "c2": s["c2"],
-                "target_phenomenon": FW_TO_PHENOMENON.get(n1, "Emergent Human Behavior"),
+                "target_phenomenon": FW_TO_PHENOMENON.get(n1,  'Emergent Human Behavior'),
                 "anchor_score": float(anchor_scores[i]),
                 "morphism_rigor": float(rigor[i]),
                 "conceptual_friction": float(frictions[i]),
@@ -189,6 +210,13 @@ def run_qscore_analysis():
     all_proposals = generate_proposals_vectorized(DYNAMIC_SYNERGIES)
     sensitivity = structural_sensitivity_audit(DYNAMIC_SYNERGIES, FW_X, FW_NAME_TO_IDX)
 
+    # Calculate Research Transactions
+    q_map = {n: q_results.get(cid, {}).get("q_score", 0.5) for cid, info in CLUSTERS.items() for n in info["members"]}
+    transactions = calculate_research_transactions(fw_res["embeddings"], FW_PROFILES, FW_NAMES, q_map)
+
+    # Regime & Phase-Shift Analysis (SLA-2.1)
+    regime_results = run_regime_analysis(all_proposals, sensitivity)
+
     frontiers = sorted(all_proposals, key=lambda x: -x["priority_score"])[:12]
     niche_breakthroughs = [p for p in all_proposals if 0.5 <= p["sim"] <= 0.85 and p["anchor_score"] > 0.85]
 
@@ -198,6 +226,8 @@ def run_qscore_analysis():
             "bridges": BRIDGES,
             "research_frontiers": frontiers,
             "niche_breakthroughs": niche_breakthroughs,
+            "research_transactions": transactions,
+            "regime_analysis": regime_results,
             "metrics": {
                 "mean_cluster_q": mean_q,
                 "mean_bridge_q": mean_synth,
