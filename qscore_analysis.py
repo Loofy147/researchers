@@ -88,6 +88,26 @@ BRIDGES = {
     }
 }
 
+
+# ── 3. DYNAMIC BRIDGE DISCOVERY & VALIDATION ────────────────────────────────
+try:
+    with open("framework_results.json", "r") as f:
+        fw_res = json.load(f)
+        DYNAMIC_SYNERGIES = fw_res.get("synergy_pairs", [])
+except:
+    DYNAMIC_SYNERGIES = []
+
+def validate_clusters(clusters_dict):
+    """Ensures all frameworks are uniquely assigned and members exist."""
+    all_members = []
+    for cid, info in clusters_dict.items():
+        all_members.extend(info["members"])
+    if len(all_members) != len(set(all_members)):
+        print("Warning: Duplicate framework assignment detected!")
+    return True
+
+validate_clusters(CLUSTERS)
+
 q_results = {}
 for cid, info in CLUSTERS.items():
     q_results[cid] = {

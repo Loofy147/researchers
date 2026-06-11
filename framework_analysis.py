@@ -117,6 +117,24 @@ for i in range(len(names)):
 pairs.sort(key=lambda x: -x[2])
 results["synergy_pairs"] = [{"n1": p[0], "n2": p[1], "sim": p[2], "c1": p[3], "c2": p[4]} for p in pairs[:10]]
 
+
+# ── 3. AXIS ORTHOGONALITY VERIFICATION ──────────────────────────────────────
+corr_matrix = np.corrcoef(X.T)
+results["axis_correlation"] = {
+    AXES[i]: {
+        AXES[j]: float(corr_matrix[i, j])
+        for j in range(len(AXES))
+        if i != j
+    } for i in range(len(AXES))
+}
+
+# Identify highly redundant axes (r > 0.85)
+redundancy = []
+for i in range(len(AXES)):
+    for j in range(i + 1, len(AXES)):
+        if abs(corr_matrix[i, j]) > 0.85:
+            redundancy.append((AXES[i], AXES[j], float(corr_matrix[i, j])))
+results["axis_redundancy"] = redundancy
 with open("framework_results.json", "w") as f:
     json.dump(results, f, indent=2)
 
