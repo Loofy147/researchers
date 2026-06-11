@@ -10,18 +10,18 @@
 Ward hierarchical clustering of 32 frameworks encoded over 15 conceptual axes produced six stable thematic groups. Spectral embedding of the Laplacian confirms that these clusters occupy distinct regions of the conceptual space.
 
 ### C1 Symbolic Structure
-**Q = 0.798 | 3 frameworks**
+**Q = 0.792 | 4 frameworks**
 
-*Members:* Category Theory, Formal Grammars, Algebraic Linguistics
+*Members:* Category Theory, Formal Grammars, Algebraic Linguistics, Categorical Quantum Mechanics
 
 *Dominant Axes:* logic_formal, algebra_structure
 
-**Target Phenomena:** Generative AI, Identity formation, The Ship of Theseus, Postmodernism, Infinite regress
+**Target Phenomena:** Generative AI, Identity formation, The Ship of Theseus, Postmodernism, Infinite regress, Natural language semantics
 
 This is the cluster of compositional form — the mathematics of syntax, morphism, and invariant structure. Its extraordinary structural score (0.95) reflects that category theory in particular is itself a meta-language for mathematics. Its bottleneck is applicability, though progress in applied linguistics is shortening this distance.
 
 ### C2 Representational Geometry
-**Q = 0.823 | 5 frameworks**
+**Q = 0.825 | 5 frameworks**
 
 *Members:* Information Geometry, Quantum Cognition, Topological Data Anal., Fourier/Wavelet Anal., Compressed Sensing
 
@@ -32,7 +32,7 @@ This is the cluster of compositional form — the mathematics of syntax, morphis
 These tools have become indispensable to cognitive neuroscience: the neural manifold hypothesis and the geometry of conceptual spaces live here. Topological data analysis in particular reads shape from data without choosing coordinates, making it a natural bridge to symbolic structure and collective dynamics.
 
 ### C3 Probabilistic Choice
-**Q = 0.851 | 6 frameworks**
+**Q = 0.853 | 6 frameworks**
 
 *Members:* Game Theory, Prospect Theory, Bayesian Inference, Social Choice Theory, Stochastic Processes, Measure-Theoretic Prob.
 
@@ -43,35 +43,35 @@ These tools have become indispensable to cognitive neuroscience: the neural mani
 The cluster with the highest applicability score (0.92). It encompasses theories of individual rationality to collective preference through the common language of probability measures. The key tension is between normative Bayesian models and descriptive models like prospect theory.
 
 ### C4 Collective Dynamics
-**Q = 0.759 | 9 frameworks**
+**Q = 0.763 | 11 frameworks**
 
-*Members:* Neural Field Theory, Integrated Info Theory, Global Workspace Theory, Dynamical Systems Psych, Mean Field Theory, Evolutionary Game Theory, Network Science, Agent-Based Modeling, Renormalization Group
+*Members:* Neural Field Theory, Integrated Info Theory, Global Workspace Theory, Dynamical Systems Psych, Mean Field Theory, Evolutionary Game Theory, Network Science, Agent-Based Modeling, Renormalization Group, Geometric Deep Learning, Statistical Physics
 
 *Dominant Axes:* dynamical_systems, statistical_mechanics
 
-**Target Phenomena:** Neurodivergence, Oxytocin and bonding, Neural pathways, Data monopolies, Digital immortality, Beauty standards, Quiet luxury, Trend forecasting, Personal branding, Pretty privilege, Parasocial relationships, Stan culture, Rebrand culture, Internet fame cycles, Cancel culture, Reality TV psychology, The bystander effect, Love bombing, Trauma bonding, Panpsychism, Neocolonialism, Populism, Nationalism, The military-industrial complex, Venture scaling, Third culture kids, Cultural assimilation, Digital subcultures, Hyper consumerism, Hustle culture, Modern loneliness, Luxury signalling
+**Target Phenomena:** Neurodivergence, Oxytocin and bonding, Neural pathways, Data monopolies, Digital immortality, Beauty standards, Quiet luxury, Trend forecasting, Personal branding, Pretty privilege, Parasocial relationships, Stan culture, Rebrand culture, Internet fame cycles, Cancel culture, Reality TV psychology, The bystander effect, Love bombing, Trauma bonding, Panpsychism, Neocolonialism, Populism, Nationalism, The military-industrial complex, Venture scaling, Third culture kids, Cultural assimilation, Digital subcultures, Hyper consumerism, Hustle culture, Modern loneliness, Luxury signalling, Inductive biases
 
 The largest and most internally heterogeneous cluster. It shares a commitment to understanding how macroscopic patterns emerge from microscopic interactions. It is simultaneously the most scientifically ambitious and the most in need of internal consolidation.
 
 ### C5 Geometric Optimization
-**Q = 0.792 | 5 frameworks**
+**Q = 0.790 | 5 frameworks**
 
 *Members:* Variational Principles, Gradient Flow Theory, Riemannian Geometry, Geometric Mechanics, Symplectic Geometry
 
 *Dominant Axes:* geometry, optimization
 
-**Target Phenomena:** Phantom limb syndrome
+**Target Phenomena:** Phantom limb syndrome, Symmetry constraints
 
 The mathematics of motion constrained by form. These provide the substrate for motor control, biological morphogenesis, and deep learning (loss landscapes as Riemannian manifolds). Its structural score is among the highest.
 
 ### C6 Agency Control
-**Q = 0.848 | 4 frameworks**
+**Q = 0.850 | 5 frameworks**
 
-*Members:* Optimal Control, Reinforcement Learning, Free Energy Principle, Predictive Coding
+*Members:* Optimal Control, Reinforcement Learning, Free Energy Principle, Predictive Coding, Computational Psychiatry
 
 *Dominant Axes:* optimization, control_theory
 
-**Target Phenomena:** Dopamine detoxing, The placebo effect, Cognitive overload, Neural interfaces, Autonomous vehicles, Emotional permanence, Repression, Solipsism, Virtue ethics, Simulation theory
+**Target Phenomena:** Dopamine detoxing, The placebo effect, Cognitive overload, Neural interfaces, Autonomous vehicles, Emotional permanence, Repression, Solipsism, Virtue ethics, Simulation theory, Mental health diagnostics
 
 The tightest and arguably most important cluster for a unified theory. The generativity score is the highest, reflecting the productivity of the free energy principle in generating novel predictions about perception and action.
 
@@ -157,3 +157,12 @@ A multi-scale, variational, and categorical framework for human phenomena, from 
 ---
 
 *Report generated by Computational Analysis Engine.*
+---
+
+## V. Adversarial Review (ACT-P v3.0)
+
+The ACT-P v3.0 protocol identifies a refined confidence score of 68%. Key insights include:
+
+- **Synthetic Pluralism**: The move from a "single kernel" to a "morphism-based" integration reduces reductionist risk.
+- **Grounding shift**: Prioritizing empirical grounding (Weight = 0.23) confirms the FEP as the most robust bridge, while highlighting the theoretical nature of C1-C4 bridges.
+- **Dualities as Morphisms**: Redundancy between axes is reframed as formal dualities (e.g., Information Geometry), strengthening the structural integrity of the synthesis.
