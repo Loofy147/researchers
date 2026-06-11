@@ -14,7 +14,7 @@ def generate_report():
         "C1_Symbolic_Structure": "This is the cluster of compositional form — the mathematics of syntax, morphism, and invariant structure. Its extraordinary structural score (0.95) reflects that category theory in particular is itself a meta-language for mathematics. Its bottleneck is applicability, though progress in applied linguistics is shortening this distance.",
         "C2_Representational_Geometry": "These tools have become indispensable to cognitive neuroscience: the neural manifold hypothesis and the geometry of conceptual spaces live here. Topological data analysis in particular reads shape from data without choosing coordinates, making it a natural bridge to symbolic structure and collective dynamics.",
         "C3_Probabilistic_Choice": "The cluster with the highest applicability score (0.92). It encompasses theories of individual rationality to collective preference through the common language of probability measures. The key tension is between normative Bayesian models and descriptive models like prospect theory.",
-        "C4_Collective_Dynamics": "The largest and most heterogeneous cluster. It shares a commitment to understanding how macroscopic patterns emerge from microscopic interactions. It is simultaneously the most scientifically ambitious and the most in need of internal consolidation.",
+        "C4_Collective_Dynamics": "The largest and most internally heterogeneous cluster. It shares a commitment to understanding how macroscopic patterns emerge from microscopic interactions. It is simultaneously the most scientifically ambitious and the most in need of internal consolidation.",
         "C5_Geometric_Optimization": "The mathematics of motion constrained by form. These provide the substrate for motor control, biological morphogenesis, and deep learning (loss landscapes as Riemannian manifolds). Its structural score is among the highest.",
         "C6_Agency_Control": "The tightest and arguably most important cluster for a unified theory. The generativity score is the highest, reflecting the productivity of the free energy principle in generating novel predictions about perception and action."
     }
@@ -45,6 +45,7 @@ Ward hierarchical clustering of 32 frameworks encoded over 15 conceptual axes pr
         name = cid_str.replace('_', ' ')
         members = ", ".join(info["members"])
         axes = ", ".join(info["dominant_axes"])
+        phenomena = ", ".join(info["phenomena"])
         q = info["q_score"]
         desc = DESCRIPTIONS.get(cid_str, info["human_domain"])
 
@@ -52,6 +53,7 @@ Ward hierarchical clustering of 32 frameworks encoded over 15 conceptual axes pr
         doc += f"**Q = {q:.3f} | {len(info['members'])} frameworks**\n\n"
         doc += f"*Members:* {members}\n\n"
         doc += f"*Dominant Axes:* {axes}\n\n"
+        doc += f"**Target Phenomena:** {phenomena}\n\n"
         doc += f"{desc}\n\n"
 
     doc += """---

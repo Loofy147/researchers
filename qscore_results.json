@@ -11,6 +11,13 @@
       "dominant_axes": [
         "logic_formal",
         "algebra_structure"
+      ],
+      "phenomena": [
+        "Generative AI",
+        "Identity formation",
+        "The Ship of Theseus",
+        "Postmodernism",
+        "Infinite regress"
       ]
     },
     "C2_Representational_Geometry": {
@@ -26,6 +33,14 @@
       "dominant_axes": [
         "linear_algebra",
         "geometry"
+      ],
+      "phenomena": [
+        "Brain mapping",
+        "Deepfakes",
+        "Facial recognition systems",
+        "Virtual reality ecosystems",
+        "Color theory",
+        "Facial harmony"
       ]
     },
     "C3_Probabilistic_Choice": {
@@ -42,6 +57,27 @@
       "dominant_axes": [
         "measure_theory",
         "stochastic_processes"
+      ],
+      "phenomena": [
+        "The lipstick effect",
+        "Influencer commodification",
+        "Decision fatigue",
+        "The Barnum effect",
+        "The mere exposure effect",
+        "Pascal's wager",
+        "Ethical egoism",
+        "The veil of ignorance",
+        "Soft authoritarianism",
+        "Geopolitical strategy",
+        "Proxy wars",
+        "Hyperinflation",
+        "Venture debt",
+        "Short selling",
+        "Monopoly power",
+        "Recession indicators",
+        "Leveraged buyouts",
+        "Speculative markets",
+        "Wealth inequality"
       ]
     },
     "C4_Collective_Dynamics": {
@@ -61,6 +97,40 @@
       "dominant_axes": [
         "dynamical_systems",
         "statistical_mechanics"
+      ],
+      "phenomena": [
+        "Neurodivergence",
+        "Oxytocin and bonding",
+        "Neural pathways",
+        "Data monopolies",
+        "Digital immortality",
+        "Beauty standards",
+        "Quiet luxury",
+        "Trend forecasting",
+        "Personal branding",
+        "Pretty privilege",
+        "Parasocial relationships",
+        "Stan culture",
+        "Rebrand culture",
+        "Internet fame cycles",
+        "Cancel culture",
+        "Reality TV psychology",
+        "The bystander effect",
+        "Love bombing",
+        "Trauma bonding",
+        "Panpsychism",
+        "Neocolonialism",
+        "Populism",
+        "Nationalism",
+        "The military-industrial complex",
+        "Venture scaling",
+        "Third culture kids",
+        "Cultural assimilation",
+        "Digital subcultures",
+        "Hyper consumerism",
+        "Hustle culture",
+        "Modern loneliness",
+        "Luxury signalling"
       ]
     },
     "C5_Geometric_Optimization": {
@@ -76,6 +146,9 @@
       "dominant_axes": [
         "geometry",
         "optimization"
+      ],
+      "phenomena": [
+        "Phantom limb syndrome"
       ]
     },
     "C6_Agency_Control": {
@@ -90,6 +163,18 @@
       "dominant_axes": [
         "optimization",
         "control_theory"
+      ],
+      "phenomena": [
+        "Dopamine detoxing",
+        "The placebo effect",
+        "Cognitive overload",
+        "Neural interfaces",
+        "Autonomous vehicles",
+        "Emotional permanence",
+        "Repression",
+        "Solipsism",
+        "Virtue ethics",
+        "Simulation theory"
       ]
     }
   },

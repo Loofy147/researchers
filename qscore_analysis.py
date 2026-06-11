@@ -4,43 +4,49 @@ Q-Score Analysis for each cluster + integration strategy computation
 import numpy as np
 import json
 
-# Data matches the earlier synthesis text exactly
+# Cluster assignments from prior analysis
 CLUSTERS = {
     "C1_Symbolic_Structure": {
         "members": ["Category Theory", "Formal Grammars", "Algebraic Linguistics"],
         "dominant_axes": ["logic_formal", "algebra_structure"],
         "human_domain": "Language, Logic, Cultural Form",
-        "scores": {"Grounding": 0.72, "Certainty": 0.85, "Structure": 0.95, "Applicability": 0.60, "Coherence": 0.90, "Generativity": 0.78, "Presentation": 0.70, "Temporal": 0.88}
+        "scores": {"Grounding": 0.72, "Certainty": 0.85, "Structure": 0.95, "Applicability": 0.60, "Coherence": 0.90, "Generativity": 0.78, "Presentation": 0.70, "Temporal": 0.88},
+        "phenomena": ["Generative AI", "Identity formation", "The Ship of Theseus", "Postmodernism", "Infinite regress"]
     },
     "C2_Representational_Geometry": {
         "members": ["Information Geometry","Quantum Cognition","Topological Data Anal.","Fourier/Wavelet Anal.","Compressed Sensing"],
         "dominant_axes": ["linear_algebra", "geometry"],
         "human_domain": "Representation, Perception, Signal",
-        "scores": {"Grounding": 0.82, "Certainty": 0.78, "Structure": 0.88, "Applicability": 0.85, "Coherence": 0.80, "Generativity": 0.83, "Presentation": 0.75, "Temporal": 0.82}
+        "scores": {"Grounding": 0.82, "Certainty": 0.78, "Structure": 0.88, "Applicability": 0.85, "Coherence": 0.80, "Generativity": 0.83, "Presentation": 0.75, "Temporal": 0.82},
+        "phenomena": ["Brain mapping", "Deepfakes", "Facial recognition systems", "Virtual reality ecosystems", "Color theory", "Facial harmony"]
     },
     "C3_Probabilistic_Choice": {
         "members": ["Game Theory","Prospect Theory","Bayesian Inference","Social Choice Theory","Stochastic Processes","Measure-Theoretic Prob."],
         "dominant_axes": ["measure_theory", "stochastic_processes"],
         "human_domain": "Decision, Rationality, Risk",
-        "scores": {"Grounding": 0.88, "Certainty": 0.84, "Structure": 0.82, "Applicability": 0.92, "Coherence": 0.79, "Generativity": 0.85, "Presentation": 0.82, "Temporal": 0.86}
+        "scores": {"Grounding": 0.88, "Certainty": 0.84, "Structure": 0.82, "Applicability": 0.92, "Coherence": 0.79, "Generativity": 0.85, "Presentation": 0.82, "Temporal": 0.86},
+        "phenomena": ["The lipstick effect", "Influencer commodification", "Decision fatigue", "The Barnum effect", "The mere exposure effect", "Pascal's wager", "Ethical egoism", "The veil of ignorance", "Soft authoritarianism", "Geopolitical strategy", "Proxy wars", "Hyperinflation", "Venture debt", "Short selling", "Monopoly power", "Recession indicators", "Leveraged buyouts", "Speculative markets", "Wealth inequality"]
     },
     "C4_Collective_Dynamics": {
         "members": ["Neural Field Theory","Integrated Info Theory","Global Workspace Theory","Dynamical Systems Psych","Mean Field Theory","Evolutionary Game Theory","Network Science","Agent-Based Modeling","Renormalization Group"],
         "dominant_axes": ["dynamical_systems", "statistical_mechanics"],
         "human_domain": "Consciousness, Social Emergence, Brain Dynamics",
-        "scores": {"Grounding": 0.79, "Certainty": 0.70, "Structure": 0.76, "Applicability": 0.78, "Coherence": 0.72, "Generativity": 0.88, "Presentation": 0.68, "Temporal": 0.80}
+        "scores": {"Grounding": 0.79, "Certainty": 0.70, "Structure": 0.76, "Applicability": 0.78, "Coherence": 0.72, "Generativity": 0.88, "Presentation": 0.68, "Temporal": 0.80},
+        "phenomena": ["Neurodivergence", "Oxytocin and bonding", "Neural pathways", "Data monopolies", "Digital immortality", "Beauty standards", "Quiet luxury", "Trend forecasting", "Personal branding", "Pretty privilege", "Parasocial relationships", "Stan culture", "Rebrand culture", "Internet fame cycles", "Cancel culture", "Reality TV psychology", "The bystander effect", "Love bombing", "Trauma bonding", "Panpsychism", "Neocolonialism", "Populism", "Nationalism", "The military-industrial complex", "Venture scaling", "Third culture kids", "Cultural assimilation", "Digital subcultures", "Hyper consumerism", "Hustle culture", "Modern loneliness", "Luxury signalling"]
     },
     "C5_Geometric_Optimization": {
         "members": ["Variational Principles","Gradient Flow Theory","Riemannian Geometry","Geometric Mechanics","Symplectic Geometry"],
         "dominant_axes": ["geometry", "optimization"],
         "human_domain": "Motor Control, Learning Geometry, Physical Embodiment",
-        "scores": {"Grounding": 0.76, "Certainty": 0.80, "Structure": 0.92, "Applicability": 0.67, "Coherence": 0.87, "Generativity": 0.79, "Presentation": 0.65, "Temporal": 0.75}
+        "scores": {"Grounding": 0.76, "Certainty": 0.80, "Structure": 0.92, "Applicability": 0.67, "Coherence": 0.87, "Generativity": 0.79, "Presentation": 0.65, "Temporal": 0.75},
+        "phenomena": ["Phantom limb syndrome"]
     },
     "C6_Agency_Control": {
         "members": ["Optimal Control","Reinforcement Learning","Free Energy Principle","Predictive Coding"],
         "dominant_axes": ["optimization", "control_theory"],
         "human_domain": "Active Inference, Goal-Directed Behavior",
-        "scores": {"Grounding": 0.85, "Certainty": 0.81, "Structure": 0.86, "Applicability": 0.88, "Coherence": 0.84, "Generativity": 0.90, "Presentation": 0.78, "Temporal": 0.84}
+        "scores": {"Grounding": 0.85, "Certainty": 0.81, "Structure": 0.86, "Applicability": 0.88, "Coherence": 0.84, "Generativity": 0.90, "Presentation": 0.78, "Temporal": 0.84},
+        "phenomena": ["Dopamine detoxing", "The placebo effect", "Cognitive overload", "Neural interfaces", "Autonomous vehicles", "Emotional permanence", "Repression", "Solipsism", "Virtue ethics", "Simulation theory"]
     }
 }
 
@@ -88,7 +94,8 @@ for cid, info in CLUSTERS.items():
         "q_score": q_score(info["scores"]),
         "human_domain": info["human_domain"],
         "members": info["members"],
-        "dominant_axes": info["dominant_axes"]
+        "dominant_axes": info["dominant_axes"],
+        "phenomena": info["phenomena"]
     }
 
 mean_q = np.mean([v["q_score"] for v in q_results.values()])

@@ -16,6 +16,8 @@ Ward hierarchical clustering of 32 frameworks encoded over 15 conceptual axes pr
 
 *Dominant Axes:* logic_formal, algebra_structure
 
+**Target Phenomena:** Generative AI, Identity formation, The Ship of Theseus, Postmodernism, Infinite regress
+
 This is the cluster of compositional form — the mathematics of syntax, morphism, and invariant structure. Its extraordinary structural score (0.95) reflects that category theory in particular is itself a meta-language for mathematics. Its bottleneck is applicability, though progress in applied linguistics is shortening this distance.
 
 ### C2 Representational Geometry
@@ -24,6 +26,8 @@ This is the cluster of compositional form — the mathematics of syntax, morphis
 *Members:* Information Geometry, Quantum Cognition, Topological Data Anal., Fourier/Wavelet Anal., Compressed Sensing
 
 *Dominant Axes:* linear_algebra, geometry
+
+**Target Phenomena:** Brain mapping, Deepfakes, Facial recognition systems, Virtual reality ecosystems, Color theory, Facial harmony
 
 These tools have become indispensable to cognitive neuroscience: the neural manifold hypothesis and the geometry of conceptual spaces live here. Topological data analysis in particular reads shape from data without choosing coordinates, making it a natural bridge to symbolic structure and collective dynamics.
 
@@ -34,6 +38,8 @@ These tools have become indispensable to cognitive neuroscience: the neural mani
 
 *Dominant Axes:* measure_theory, stochastic_processes
 
+**Target Phenomena:** The lipstick effect, Influencer commodification, Decision fatigue, The Barnum effect, The mere exposure effect, Pascal's wager, Ethical egoism, The veil of ignorance, Soft authoritarianism, Geopolitical strategy, Proxy wars, Hyperinflation, Venture debt, Short selling, Monopoly power, Recession indicators, Leveraged buyouts, Speculative markets, Wealth inequality
+
 The cluster with the highest applicability score (0.92). It encompasses theories of individual rationality to collective preference through the common language of probability measures. The key tension is between normative Bayesian models and descriptive models like prospect theory.
 
 ### C4 Collective Dynamics
@@ -43,7 +49,9 @@ The cluster with the highest applicability score (0.92). It encompasses theories
 
 *Dominant Axes:* dynamical_systems, statistical_mechanics
 
-The largest and most heterogeneous cluster. It shares a commitment to understanding how macroscopic patterns emerge from microscopic interactions. It is simultaneously the most scientifically ambitious and the most in need of internal consolidation.
+**Target Phenomena:** Neurodivergence, Oxytocin and bonding, Neural pathways, Data monopolies, Digital immortality, Beauty standards, Quiet luxury, Trend forecasting, Personal branding, Pretty privilege, Parasocial relationships, Stan culture, Rebrand culture, Internet fame cycles, Cancel culture, Reality TV psychology, The bystander effect, Love bombing, Trauma bonding, Panpsychism, Neocolonialism, Populism, Nationalism, The military-industrial complex, Venture scaling, Third culture kids, Cultural assimilation, Digital subcultures, Hyper consumerism, Hustle culture, Modern loneliness, Luxury signalling
+
+The largest and most internally heterogeneous cluster. It shares a commitment to understanding how macroscopic patterns emerge from microscopic interactions. It is simultaneously the most scientifically ambitious and the most in need of internal consolidation.
 
 ### C5 Geometric Optimization
 **Q = 0.792 | 5 frameworks**
@@ -51,6 +59,8 @@ The largest and most heterogeneous cluster. It shares a commitment to understand
 *Members:* Variational Principles, Gradient Flow Theory, Riemannian Geometry, Geometric Mechanics, Symplectic Geometry
 
 *Dominant Axes:* geometry, optimization
+
+**Target Phenomena:** Phantom limb syndrome
 
 The mathematics of motion constrained by form. These provide the substrate for motor control, biological morphogenesis, and deep learning (loss landscapes as Riemannian manifolds). Its structural score is among the highest.
 
@@ -60,6 +70,8 @@ The mathematics of motion constrained by form. These provide the substrate for m
 *Members:* Optimal Control, Reinforcement Learning, Free Energy Principle, Predictive Coding
 
 *Dominant Axes:* optimization, control_theory
+
+**Target Phenomena:** Dopamine detoxing, The placebo effect, Cognitive overload, Neural interfaces, Autonomous vehicles, Emotional permanence, Repression, Solipsism, Virtue ethics, Simulation theory
 
 The tightest and arguably most important cluster for a unified theory. The generativity score is the highest, reflecting the productivity of the free energy principle in generating novel predictions about perception and action.
 
