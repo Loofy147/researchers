@@ -1,398 +1,486 @@
 {
   "clusters": {
-    "6": [
+    "4": [
       "Optimal Control",
       "Reinforcement Learning",
       "Free Energy Principle",
-      "Predictive Coding"
+      "Predictive Coding",
+      "Computational Psychiatry"
     ],
-    "3": [
+    "2": [
       "Game Theory",
       "Prospect Theory",
       "Bayesian Inference",
       "Social Choice Theory",
-      "Stochastic Processes",
-      "Measure-Theoretic Prob."
+      "Measure-Theoretic Prob.",
+      "Causal Inference",
+      "Algorithmic Info Theory"
     ],
-    "5": [
+    "3": [
       "Variational Principles",
+      "Information Geometry",
+      "Quantum Cognition",
       "Gradient Flow Theory",
       "Riemannian Geometry",
       "Geometric Mechanics",
-      "Symplectic Geometry"
-    ],
-    "2": [
-      "Information Geometry",
-      "Quantum Cognition",
-      "Topological Data Anal.",
+      "Symplectic Geometry",
       "Fourier / Wavelet Anal.",
       "Compressed Sensing"
     ],
-    "4": [
+    "6": [
       "Neural Field Theory",
       "Integrated Info Theory",
       "Global Workspace Theory",
       "Dynamical Systems Psych",
+      "Network Science",
+      "Renormalization Group",
+      "Geometric Deep Learning"
+    ],
+    "5": [
       "Mean Field Theory",
       "Evolutionary Game Theory",
-      "Network Science",
       "Agent-Based Modeling",
-      "Renormalization Group"
+      "Stochastic Processes",
+      "Statistical Physics",
+      "Evolutionary Dynamics"
     ],
     "1": [
       "Category Theory",
       "Formal Grammars",
-      "Algebraic Linguistics"
+      "Algebraic Linguistics",
+      "Topological Data Anal.",
+      "Categorical Quantum Mechanics",
+      "Homotopy Type Theory"
     ]
   },
   "embeddings": {
     "Optimal Control": [
-      0.08694931809612982,
-      0.19870560247276056,
-      -0.002740181760334509
+      0.10567316319320959,
+      -0.0599700005924166,
+      0.2144004963156377
     ],
     "Game Theory": [
-      0.08400562186081344,
-      -0.07779796252740967,
-      0.042457697731943356
+      0.06243276640946942,
+      0.05445694826806101,
+      -0.027082726872318948
     ],
     "Prospect Theory": [
-      0.6575443022522683,
-      -0.6721621623759417,
-      -0.08460652404965086
+      0.31096711674850497,
+      0.8505799485897756,
+      -0.31388121742403197
     ],
     "Reinforcement Learning": [
-      0.10614148940566254,
-      0.08705520466697166,
-      0.015045265403411992
+      0.10420615076994205,
+      0.004381752757970028,
+      0.10175692626434885
     ],
     "Variational Principles": [
-      0.023816651393285853,
-      0.10496196487883747,
-      -0.009148921724335986
+      0.038924602427819456,
+      -0.04213839340861752,
+      0.07814814848521662
     ],
     "Bayesian Inference": [
-      0.0772420885484987,
-      0.005226727058508489,
-      0.023315309071616563
+      0.06279430164556535,
+      0.02438479376366081,
+      0.0195417548638054
     ],
     "Free Energy Principle": [
-      0.05030274996814113,
-      0.07727564570670047,
-      0.006096937111137041
+      0.057338839771081354,
+      -0.017453421366328208,
+      0.06431736554847785
     ],
     "Information Geometry": [
-      -0.0076981459678660165,
-      0.04582142990687467,
-      -0.012332039237186955
+      0.003638830039695399,
+      -0.027693247744222948,
+      0.01842873753182217
     ],
     "Predictive Coding": [
-      0.053629450937055574,
-      0.08819744001415147,
-      0.012458237724825702
+      0.0624669535732177,
+      -0.022185724039001212,
+      0.07244380960049071
     ],
     "Neural Field Theory": [
-      0.026938600333027588,
-      0.10454319787883821,
-      -0.00015116116167400928
+      0.04403605807531006,
+      -0.04033768484265091,
+      0.07606134268408327
     ],
     "Integrated Info Theory": [
-      -0.019873886200205238,
-      0.018966429317009658,
-      0.010482642696350747
+      0.0013702931257278442,
+      -0.026192455613254412,
+      0.0005717400373759532
     ],
     "Global Workspace Theory": [
-      0.0023469231586283443,
-      0.05354612573535474,
-      0.016071106337761588
+      0.025338273574114643,
+      -0.033057352599646025,
+      0.03077718094979981
     ],
     "Quantum Cognition": [
-      -0.016097627602414004,
-      0.01115147597624657,
-      8.398553409766448e-05
+      -0.0037837232556519303,
+      -0.017123335217635968,
+      -0.0042607472244862
     ],
     "Dynamical Systems Psych": [
-      0.03603819829359707,
-      0.13079296488192416,
-      0.0009491147690707161
+      0.05728834059913637,
+      -0.04871549694597064,
+      0.10269727752799403
     ],
     "Mean Field Theory": [
-      0.07348133754948928,
-      0.08190655733472939,
-      0.007695116206917288
+      0.0755870312559087,
+      -0.008859914985389027,
+      0.07808446085542187
     ],
     "Evolutionary Game Theory": [
-      0.07101016832700532,
-      0.030796671273272527,
-      0.01772362196935487
+      0.06677095007763284,
+      0.011242198022456278,
+      0.04296293969901582
     ],
     "Network Science": [
-      -0.018359808783512722,
-      0.024348955480029355,
-      0.0011482522550692743
+      0.00463164303465107,
+      -0.027594489567730435,
+      0.006702939023551058
     ],
     "Social Choice Theory": [
-      -0.01531247981160751,
-      -0.1285096017753468,
-      0.031244417140092757
+      -0.007923051307126408,
+      0.02698958572775243,
+      -0.09445409603484407
     ],
     "Agent-Based Modeling": [
-      0.07776521455564633,
-      0.0604049375938601,
-      0.03899090848002055
+      0.07992830493451804,
+      -0.0030749017560823618,
+      0.0716979189399368
     ],
     "Category Theory": [
-      -0.43688572719604124,
-      -0.30183104726672466,
-      -0.795120124586177
+      -0.20742505875765127,
+      -0.1669602407542171,
+      -0.5219124206891395
     ],
     "Formal Grammars": [
-      -0.32639264759569236,
-      -0.27978475757339283,
-      0.2259257358458757
+      -0.1458260478262792,
+      -0.10238341074484703,
+      -0.32268413675902846
     ],
     "Algebraic Linguistics": [
-      -0.433260483757697,
-      -0.40726543139767146,
-      0.5472705171531602
+      -0.19515604666774486,
+      -0.1365940391909836,
+      -0.5055987924613131
     ],
     "Topological Data Anal.": [
-      -0.1114852364923774,
-      0.009206669857606313,
-      -0.02914679826837414
+      -0.06705706828056325,
+      -0.06170509102336345,
+      -0.043174852655089024
     ],
     "Stochastic Processes": [
-      0.07694460142077118,
-      0.0701043683658299,
-      0.016179869524530377
+      0.07315436092134112,
+      -0.001098421527874642,
+      0.06769285378477236
     ],
     "Renormalization Group": [
-      -0.0059972169071169645,
-      0.06283069717932703,
-      -0.0011770525586637043
+      0.013040666352356109,
+      -0.03665767073793345,
+      0.034829515182224526
     ],
     "Gradient Flow Theory": [
-      0.019009388898262262,
-      0.11446278046176236,
-      -0.013192284054358745
+      0.03774719363553695,
+      -0.04930426339638019,
+      0.08477232521672519
     ],
     "Measure-Theoretic Prob.": [
-      0.02224350090755402,
-      -0.008212012291119158,
-      0.011261084249846745
+      0.01983380285606512,
+      0.007295612716752276,
+      -0.006957584776279559
     ],
     "Riemannian Geometry": [
-      -0.033989794108076676,
-      0.09439610039513771,
-      -0.028619979492103972
+      -0.008364593833615996,
+      -0.06444118998658076,
+      0.047536579987144126
     ],
     "Geometric Mechanics": [
-      -0.017516213714363765,
-      0.10381396731147689,
-      -0.01950324640414368
+      0.007466851812790321,
+      -0.06216686219999373,
+      0.06307922216617595
     ],
     "Symplectic Geometry": [
-      -0.050057969259483345,
-      0.12239389136663317,
-      -0.034394066632007426
+      -0.015845041900054455,
+      -0.08931509479792013,
+      0.06606139591764562
     ],
     "Fourier / Wavelet Anal.": [
-      -0.038599260747825964,
-      0.1108314000466079,
-      0.005806826745201819
+      -0.0029594804227036143,
+      -0.07629334898879724,
+      0.04575460676272926
     ],
     "Compressed Sensing": [
-      -0.013883107761556771,
-      0.06382177004715468,
-      -7.426602127385672e-05
+      0.005063242505838414,
+      -0.04229932605903298,
+      0.025581600352839254
+    ],
+    "Geometric Deep Learning": [
+      0.0006256674802885342,
+      -0.04665029650112374,
+      0.027859509990992657
+    ],
+    "Statistical Physics": [
+      0.07812925170974883,
+      -0.013840294349728114,
+      0.08961225391215101
+    ],
+    "Computational Psychiatry": [
+      0.0674234612493665,
+      -0.006442638914056857,
+      0.059962321292776184
+    ],
+    "Categorical Quantum Mechanics": [
+      -0.06522386775085456,
+      -0.05099374435252444,
+      -0.05587591909374597
+    ],
+    "Causal Inference": [
+      0.03448244999143501,
+      0.019908692951377115,
+      -0.011268621028565339
+    ],
+    "Algorithmic Info Theory": [
+      -0.04075627970956756,
+      -0.033936322308387466,
+      -0.08416650271846718
+    ],
+    "Homotopy Type Theory": [
+      -0.8369152678254014,
+      0.40405275221695774,
+      0.313439323280803
+    ],
+    "Evolutionary Dynamics": [
+      0.09687495976694299,
+      0.01218638949792776,
+      0.08654307156335242
     ]
   },
   "bridge_candidates": [
     {
       "name": "Optimal Control",
-      "score": 0.977449783980806,
-      "cluster": 6
+      "score": 0.9194769783633547,
+      "cluster": 4
     },
     {
       "name": "Game Theory",
-      "score": 0.9344777824430963,
-      "cluster": 3
+      "score": 0.9640376661589309,
+      "cluster": 2
     },
     {
       "name": "Prospect Theory",
-      "score": 0.9052840890116226,
-      "cluster": 3
+      "score": 0.9675344146377142,
+      "cluster": 2
     },
     {
       "name": "Reinforcement Learning",
-      "score": 0.9059702921664818,
-      "cluster": 6
+      "score": 0.9205074517203391,
+      "cluster": 4
     },
     {
       "name": "Variational Principles",
-      "score": 0.9578142091229571,
-      "cluster": 5
+      "score": 1.0011840991996461,
+      "cluster": 3
     },
     {
       "name": "Bayesian Inference",
-      "score": 0.9454801948006413,
-      "cluster": 3
+      "score": 0.965241862720455,
+      "cluster": 2
     },
     {
       "name": "Free Energy Principle",
-      "score": 0.9419455443612615,
-      "cluster": 6
+      "score": 0.9351137720546336,
+      "cluster": 4
     },
     {
       "name": "Information Geometry",
-      "score": 0.9658412755436937,
-      "cluster": 2
-    },
-    {
-      "name": "Predictive Coding",
-      "score": 0.9273352965280257,
-      "cluster": 6
-    },
-    {
-      "name": "Neural Field Theory",
-      "score": 1.0169154923271082,
-      "cluster": 4
-    },
-    {
-      "name": "Integrated Info Theory",
-      "score": 0.9603145907562189,
-      "cluster": 4
-    },
-    {
-      "name": "Global Workspace Theory",
-      "score": 0.9518650138945856,
-      "cluster": 4
-    },
-    {
-      "name": "Quantum Cognition",
-      "score": 0.94253251698328,
-      "cluster": 2
-    },
-    {
-      "name": "Dynamical Systems Psych",
-      "score": 0.9665211575573045,
-      "cluster": 4
-    },
-    {
-      "name": "Mean Field Theory",
-      "score": 0.9705057005625161,
-      "cluster": 4
-    },
-    {
-      "name": "Evolutionary Game Theory",
-      "score": 0.9891730018504815,
-      "cluster": 4
-    },
-    {
-      "name": "Network Science",
-      "score": 0.9361923680045825,
-      "cluster": 4
-    },
-    {
-      "name": "Social Choice Theory",
-      "score": 1.0142389624321642,
+      "score": 0.9500967664104564,
       "cluster": 3
     },
     {
-      "name": "Agent-Based Modeling",
-      "score": 0.9198962761089373,
+      "name": "Predictive Coding",
+      "score": 0.9225867808037429,
       "cluster": 4
     },
     {
+      "name": "Neural Field Theory",
+      "score": 0.9913370332742172,
+      "cluster": 6
+    },
+    {
+      "name": "Integrated Info Theory",
+      "score": 0.952608043567208,
+      "cluster": 6
+    },
+    {
+      "name": "Global Workspace Theory",
+      "score": 0.9651345607711952,
+      "cluster": 6
+    },
+    {
+      "name": "Quantum Cognition",
+      "score": 0.9998566232974733,
+      "cluster": 3
+    },
+    {
+      "name": "Dynamical Systems Psych",
+      "score": 0.9918911658776763,
+      "cluster": 6
+    },
+    {
+      "name": "Mean Field Theory",
+      "score": 0.9522115733355534,
+      "cluster": 5
+    },
+    {
+      "name": "Evolutionary Game Theory",
+      "score": 0.9513252688643118,
+      "cluster": 5
+    },
+    {
+      "name": "Network Science",
+      "score": 0.9663151138337671,
+      "cluster": 6
+    },
+    {
+      "name": "Social Choice Theory",
+      "score": 0.9539997081288747,
+      "cluster": 2
+    },
+    {
+      "name": "Agent-Based Modeling",
+      "score": 0.9338091110955812,
+      "cluster": 5
+    },
+    {
       "name": "Category Theory",
-      "score": 0.8585525070445099,
+      "score": 0.809439384523125,
       "cluster": 1
     },
     {
       "name": "Formal Grammars",
-      "score": 0.8299791627179409,
+      "score": 0.8317538757900109,
       "cluster": 1
     },
     {
       "name": "Algebraic Linguistics",
-      "score": 0.8317549454437808,
+      "score": 0.7910826317412636,
       "cluster": 1
     },
     {
       "name": "Topological Data Anal.",
-      "score": 1.0317104608700671,
-      "cluster": 2
+      "score": 0.9474645460833736,
+      "cluster": 1
     },
     {
       "name": "Stochastic Processes",
-      "score": 1.0404781237326526,
-      "cluster": 3
+      "score": 0.9973963827198197,
+      "cluster": 5
     },
     {
       "name": "Renormalization Group",
-      "score": 1.0101438365445818,
-      "cluster": 4
+      "score": 0.9811594335728013,
+      "cluster": 6
     },
     {
       "name": "Gradient Flow Theory",
-      "score": 0.942531140436328,
-      "cluster": 5
-    },
-    {
-      "name": "Measure-Theoretic Prob.",
-      "score": 0.9883527442704244,
+      "score": 0.9876611512391252,
       "cluster": 3
     },
     {
+      "name": "Measure-Theoretic Prob.",
+      "score": 0.9514582899234985,
+      "cluster": 2
+    },
+    {
       "name": "Riemannian Geometry",
-      "score": 0.9273929972891496,
-      "cluster": 5
+      "score": 0.9327028515976529,
+      "cluster": 3
     },
     {
       "name": "Geometric Mechanics",
-      "score": 0.8948844711291689,
-      "cluster": 5
+      "score": 0.95554455915342,
+      "cluster": 3
     },
     {
       "name": "Symplectic Geometry",
-      "score": 0.8765734818023908,
-      "cluster": 5
+      "score": 0.9328174401975029,
+      "cluster": 3
     },
     {
       "name": "Fourier / Wavelet Anal.",
-      "score": 0.9299480823081718,
-      "cluster": 2
+      "score": 0.9710232028903967,
+      "cluster": 3
     },
     {
       "name": "Compressed Sensing",
-      "score": 0.9473108459143111,
+      "score": 0.9513462817877685,
+      "cluster": 3
+    },
+    {
+      "name": "Geometric Deep Learning",
+      "score": 1.0116344266695003,
+      "cluster": 6
+    },
+    {
+      "name": "Statistical Physics",
+      "score": 0.9435291870034324,
+      "cluster": 5
+    },
+    {
+      "name": "Computational Psychiatry",
+      "score": 0.9290566584152797,
+      "cluster": 4
+    },
+    {
+      "name": "Categorical Quantum Mechanics",
+      "score": 0.8934259982951638,
+      "cluster": 1
+    },
+    {
+      "name": "Causal Inference",
+      "score": 0.9606295779459176,
       "cluster": 2
+    },
+    {
+      "name": "Algorithmic Info Theory",
+      "score": 1.046564262206165,
+      "cluster": 2
+    },
+    {
+      "name": "Homotopy Type Theory",
+      "score": 0.7721375311726305,
+      "cluster": 1
+    },
+    {
+      "name": "Evolutionary Dynamics",
+      "score": 0.9066001396960042,
+      "cluster": 5
     }
   ],
   "cluster_dominance": {
-    "6": [
+    "4": [
       "optimization",
       "control_theory"
     ],
-    "3": [
-      "measure_theory",
-      "stochastic_processes"
-    ],
-    "5": [
-      "geometry",
-      "optimization"
-    ],
     "2": [
+      "measure_theory",
+      "information_theory"
+    ],
+    "3": [
       "linear_algebra",
       "geometry"
     ],
-    "4": [
+    "6": [
+      "dynamical_systems",
+      "network_graph"
+    ],
+    "5": [
       "dynamical_systems",
       "statistical_mechanics"
     ],
     "1": [
-      "logic_formal",
-      "algebra_structure"
+      "algebra_structure",
+      "logic_formal"
     ]
   },
   "synergy_pairs": [
@@ -400,71 +488,360 @@
       "n1": "Quantum Cognition",
       "n2": "Measure-Theoretic Prob.",
       "sim": 0.9530521360833197,
-      "c1": 2,
-      "c2": 3
+      "c1": 3,
+      "c2": 2
     },
     {
       "n1": "Free Energy Principle",
       "n2": "Neural Field Theory",
       "sim": 0.9521414175695541,
-      "c1": 6,
-      "c2": 4
+      "c1": 4,
+      "c2": 6
     },
     {
       "n1": "Variational Principles",
       "n2": "Free Energy Principle",
       "sim": 0.9510103107048417,
-      "c1": 5,
-      "c2": 6
+      "c1": 3,
+      "c2": 4
     },
     {
       "n1": "Optimal Control",
       "n2": "Variational Principles",
       "sim": 0.9509791315449537,
-      "c1": 6,
-      "c2": 5
-    },
-    {
-      "n1": "Category Theory",
-      "n2": "Topological Data Anal.",
-      "sim": 0.950058641427747,
-      "c1": 1,
-      "c2": 2
+      "c1": 4,
+      "c2": 3
     },
     {
       "n1": "Neural Field Theory",
       "n2": "Gradient Flow Theory",
       "sim": 0.9495728438699382,
-      "c1": 4,
-      "c2": 5
+      "c1": 6,
+      "c2": 3
     },
     {
       "n1": "Optimal Control",
       "n2": "Gradient Flow Theory",
       "sim": 0.9443664368026303,
-      "c1": 6,
-      "c2": 5
+      "c1": 4,
+      "c2": 3
     },
     {
       "n1": "Predictive Coding",
       "n2": "Neural Field Theory",
       "sim": 0.9425131601051775,
-      "c1": 6,
-      "c2": 4
+      "c1": 4,
+      "c2": 6
     },
     {
       "n1": "Variational Principles",
       "n2": "Neural Field Theory",
       "sim": 0.9423742681382669,
-      "c1": 5,
-      "c2": 4
+      "c1": 3,
+      "c2": 6
     },
     {
       "n1": "Free Energy Principle",
       "n2": "Gradient Flow Theory",
       "sim": 0.9417895956871483,
-      "c1": 6,
-      "c2": 5
+      "c1": 4,
+      "c2": 3
+    },
+    {
+      "n1": "Stochastic Processes",
+      "n2": "Computational Psychiatry",
+      "sim": 0.9412071471995852,
+      "c1": 5,
+      "c2": 4
     }
-  ]
+  ],
+  "axis_correlation": {
+    "stochastic_processes": {
+      "optimization": 0.09087002057425964,
+      "topology": -0.6563085401284717,
+      "information_theory": 0.3340036792509661,
+      "algebra_structure": -0.5675860327912317,
+      "dynamical_systems": 0.25393803424506195,
+      "geometry": -0.45456954001633537,
+      "network_graph": 0.08367770205753712,
+      "measure_theory": 0.7411142862716649,
+      "linear_algebra": -0.23265988626407974,
+      "control_theory": 0.04879078553471914,
+      "statistical_mechanics": 0.3826529751991534,
+      "game_theory": 0.42122825233155353,
+      "logic_formal": -0.3901801426721541,
+      "signal_processing": 0.1058318641488731
+    },
+    "optimization": {
+      "stochastic_processes": 0.09087002057425965,
+      "topology": -0.3009035419733889,
+      "information_theory": -0.009944200736493478,
+      "algebra_structure": -0.5204860002162728,
+      "dynamical_systems": 0.34634132611520274,
+      "geometry": 0.264497270455045,
+      "network_graph": -0.4099369414912745,
+      "measure_theory": 0.041765881798762325,
+      "linear_algebra": 0.31087585845670995,
+      "control_theory": 0.6594961959927546,
+      "statistical_mechanics": 0.07071637158488742,
+      "game_theory": 0.16835807761338442,
+      "logic_formal": -0.5921697124846093,
+      "signal_processing": 0.1232092297710022
+    },
+    "topology": {
+      "stochastic_processes": -0.6563085401284717,
+      "optimization": -0.3009035419733889,
+      "information_theory": -0.29054416450497816,
+      "algebra_structure": 0.7246329168648877,
+      "dynamical_systems": -0.318544277372678,
+      "geometry": 0.7406790051488668,
+      "network_graph": -0.10053502552489532,
+      "measure_theory": -0.44752064228896227,
+      "linear_algebra": 0.5082096088671532,
+      "control_theory": -0.2565335115994702,
+      "statistical_mechanics": -0.3116122467751991,
+      "game_theory": -0.6442208257734122,
+      "logic_formal": 0.40154065488948865,
+      "signal_processing": 0.04656735776026349
+    },
+    "information_theory": {
+      "stochastic_processes": 0.3340036792509661,
+      "optimization": -0.009944200736493478,
+      "topology": -0.29054416450497816,
+      "algebra_structure": -0.0768443540164005,
+      "dynamical_systems": -0.18973801811670693,
+      "geometry": -0.2771465298169461,
+      "network_graph": 0.0006342394928442076,
+      "measure_theory": 0.4865396623171433,
+      "linear_algebra": 0.05599085998089486,
+      "control_theory": -0.06720815149895062,
+      "statistical_mechanics": 0.02081018160996328,
+      "game_theory": -0.08607734254042526,
+      "logic_formal": 0.10322817004681947,
+      "signal_processing": 0.44849505735096495
+    },
+    "algebra_structure": {
+      "stochastic_processes": -0.5675860327912317,
+      "optimization": -0.5204860002162728,
+      "topology": 0.7246329168648878,
+      "information_theory": -0.0768443540164005,
+      "dynamical_systems": -0.5895358534935158,
+      "geometry": 0.2534901701943832,
+      "network_graph": 0.06372122954021775,
+      "measure_theory": -0.2567027027909878,
+      "linear_algebra": 0.13963080865016206,
+      "control_theory": -0.5255688320765618,
+      "statistical_mechanics": -0.39315780469805556,
+      "game_theory": -0.29939444385131303,
+      "logic_formal": 0.8342378426085941,
+      "signal_processing": -0.18918884778776468
+    },
+    "dynamical_systems": {
+      "stochastic_processes": 0.25393803424506195,
+      "optimization": 0.3463413261152028,
+      "topology": -0.318544277372678,
+      "information_theory": -0.18973801811670693,
+      "algebra_structure": -0.5895358534935158,
+      "geometry": 0.091754078290101,
+      "network_graph": 0.12242049734494051,
+      "measure_theory": -0.21353938607841608,
+      "linear_algebra": 0.12620650301639338,
+      "control_theory": 0.6657765078864786,
+      "statistical_mechanics": 0.6568652669847974,
+      "game_theory": 0.05998947286850157,
+      "logic_formal": -0.6995133666398606,
+      "signal_processing": 0.10687145019392578
+    },
+    "geometry": {
+      "stochastic_processes": -0.4545695400163354,
+      "optimization": 0.26449727045504506,
+      "topology": 0.7406790051488668,
+      "information_theory": -0.2771465298169461,
+      "algebra_structure": 0.2534901701943832,
+      "dynamical_systems": 0.091754078290101,
+      "network_graph": -0.366940051755869,
+      "measure_theory": -0.3199479943757291,
+      "linear_algebra": 0.7600792247653045,
+      "control_theory": 0.18393264001547244,
+      "statistical_mechanics": -0.019091116698173243,
+      "game_theory": -0.6255988845503475,
+      "logic_formal": -0.16561903456843588,
+      "signal_processing": 0.24800851147574268
+    },
+    "network_graph": {
+      "stochastic_processes": 0.08367770205753712,
+      "optimization": -0.4099369414912746,
+      "topology": -0.10053502552489532,
+      "information_theory": 0.0006342394928442076,
+      "algebra_structure": 0.06372122954021775,
+      "dynamical_systems": 0.1224204973449405,
+      "geometry": -0.3669400517558691,
+      "measure_theory": -0.1470429244187616,
+      "linear_algebra": -0.36342351244473103,
+      "control_theory": -0.31004923920620286,
+      "statistical_mechanics": 0.3372300605285859,
+      "game_theory": 0.34068930550342275,
+      "logic_formal": 0.18567878158818052,
+      "signal_processing": -0.2575703621563443
+    },
+    "measure_theory": {
+      "stochastic_processes": 0.7411142862716649,
+      "optimization": 0.041765881798762325,
+      "topology": -0.44752064228896227,
+      "information_theory": 0.4865396623171433,
+      "algebra_structure": -0.25670270279098784,
+      "dynamical_systems": -0.2135393860784161,
+      "geometry": -0.31994799437572913,
+      "network_graph": -0.14704292441876163,
+      "linear_algebra": -0.25790056626250735,
+      "control_theory": -0.24346292027408845,
+      "statistical_mechanics": 0.1472314108597585,
+      "game_theory": 0.2966769069119847,
+      "logic_formal": -0.1017299225202731,
+      "signal_processing": 0.037688696853527714
+    },
+    "linear_algebra": {
+      "stochastic_processes": -0.2326598862640797,
+      "optimization": 0.31087585845670995,
+      "topology": 0.5082096088671532,
+      "information_theory": 0.05599085998089486,
+      "algebra_structure": 0.13963080865016206,
+      "dynamical_systems": 0.12620650301639336,
+      "geometry": 0.7600792247653047,
+      "network_graph": -0.36342351244473103,
+      "measure_theory": -0.2579005662625073,
+      "control_theory": 0.36377884326909576,
+      "statistical_mechanics": -0.08580000090965872,
+      "game_theory": -0.6314674090338994,
+      "logic_formal": -0.24736266568775458,
+      "signal_processing": 0.567364461250008
+    },
+    "control_theory": {
+      "stochastic_processes": 0.04879078553471914,
+      "optimization": 0.6594961959927546,
+      "topology": -0.2565335115994702,
+      "information_theory": -0.06720815149895062,
+      "algebra_structure": -0.5255688320765617,
+      "dynamical_systems": 0.6657765078864786,
+      "geometry": 0.18393264001547244,
+      "network_graph": -0.3100492392062029,
+      "measure_theory": -0.24346292027408842,
+      "linear_algebra": 0.3637788432690957,
+      "statistical_mechanics": 0.036436247308452296,
+      "game_theory": -0.07194582943951965,
+      "logic_formal": -0.5899758039701797,
+      "signal_processing": 0.1835160039456941
+    },
+    "statistical_mechanics": {
+      "stochastic_processes": 0.3826529751991535,
+      "optimization": 0.07071637158488743,
+      "topology": -0.3116122467751991,
+      "information_theory": 0.02081018160996328,
+      "algebra_structure": -0.3931578046980555,
+      "dynamical_systems": 0.6568652669847975,
+      "geometry": -0.019091116698173243,
+      "network_graph": 0.33723006052858584,
+      "measure_theory": 0.1472314108597585,
+      "linear_algebra": -0.08580000090965872,
+      "control_theory": 0.036436247308452296,
+      "game_theory": 0.1713143873206763,
+      "logic_formal": -0.456770532610466,
+      "signal_processing": 0.058496903614685486
+    },
+    "game_theory": {
+      "stochastic_processes": 0.4212282523315536,
+      "optimization": 0.16835807761338442,
+      "topology": -0.6442208257734122,
+      "information_theory": -0.08607734254042528,
+      "algebra_structure": -0.299394443851313,
+      "dynamical_systems": 0.05998947286850157,
+      "geometry": -0.6255988845503476,
+      "network_graph": 0.3406893055034228,
+      "measure_theory": 0.2966769069119846,
+      "linear_algebra": -0.6314674090338993,
+      "control_theory": -0.07194582943951965,
+      "statistical_mechanics": 0.17131438732067628,
+      "logic_formal": -0.09726536756449679,
+      "signal_processing": -0.5344954067983939
+    },
+    "logic_formal": {
+      "stochastic_processes": -0.3901801426721542,
+      "optimization": -0.5921697124846094,
+      "topology": 0.40154065488948865,
+      "information_theory": 0.10322817004681946,
+      "algebra_structure": 0.8342378426085941,
+      "dynamical_systems": -0.6995133666398607,
+      "geometry": -0.16561903456843588,
+      "network_graph": 0.1856787815881805,
+      "measure_theory": -0.1017299225202731,
+      "linear_algebra": -0.24736266568775456,
+      "control_theory": -0.5899758039701797,
+      "statistical_mechanics": -0.456770532610466,
+      "game_theory": -0.0972653675644968,
+      "signal_processing": -0.2659124897574531
+    },
+    "signal_processing": {
+      "stochastic_processes": 0.10583186414887312,
+      "optimization": 0.1232092297710022,
+      "topology": 0.04656735776026349,
+      "information_theory": 0.44849505735096495,
+      "algebra_structure": -0.18918884778776468,
+      "dynamical_systems": 0.10687145019392578,
+      "geometry": 0.2480085114757427,
+      "network_graph": -0.2575703621563443,
+      "measure_theory": 0.03768869685352772,
+      "linear_algebra": 0.567364461250008,
+      "control_theory": 0.18351600394569406,
+      "statistical_mechanics": 0.058496903614685486,
+      "game_theory": -0.5344954067983938,
+      "logic_formal": -0.2659124897574531
+    }
+  },
+  "axis_redundancy": [],
+  "cluster_stability": {
+    "1": 0.9488163056867687,
+    "2": 0.8762076043469436,
+    "3": 0.9068508305980099,
+    "4": 0.9515330214469732,
+    "5": 0.9330692632971397,
+    "6": 0.9157178084427186
+  },
+  "meta_axis_profiles": {
+    "4": {
+      "Symbolic/Formal": 0.19333333333333336,
+      "Statistical/Prob": 0.5349999999999999,
+      "Cybernetic/Control": 0.672,
+      "Structural/Geometric": 0.4666666666666666
+    },
+    "2": {
+      "Symbolic/Formal": 0.3904761904761904,
+      "Statistical/Prob": 0.5821428571428571,
+      "Cybernetic/Control": 0.38,
+      "Structural/Geometric": 0.3333333333333333
+    },
+    "3": {
+      "Symbolic/Formal": 0.4407407407407408,
+      "Statistical/Prob": 0.4194444444444444,
+      "Cybernetic/Control": 0.4822222222222222,
+      "Structural/Geometric": 0.6000000000000001
+    },
+    "6": {
+      "Symbolic/Formal": 0.3952380952380952,
+      "Statistical/Prob": 0.48571428571428565,
+      "Cybernetic/Control": 0.46571428571428564,
+      "Structural/Geometric": 0.6190476190476191
+    },
+    "5": {
+      "Symbolic/Formal": 0.24444444444444444,
+      "Statistical/Prob": 0.6583333333333333,
+      "Cybernetic/Control": 0.51,
+      "Structural/Geometric": 0.45555555555555555
+    },
+    "1": {
+      "Symbolic/Formal": 0.85,
+      "Statistical/Prob": 0.30833333333333335,
+      "Cybernetic/Control": 0.25,
+      "Structural/Geometric": 0.5388888888888889
+    }
+  }
 }

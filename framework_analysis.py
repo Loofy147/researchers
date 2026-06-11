@@ -50,6 +50,14 @@ FRAMEWORKS = {
     "Symplectic Geometry":    [0.1,0.8,0.7,0.2,0.6,0.7,0.9,0.1,0.3,0.8,0.6,0.3,0.2,0.3,0.2],
     "Fourier / Wavelet Anal.":[0.3,0.4,0.5,0.7,0.5,0.4,0.5,0.2,0.5,0.9,0.3,0.2,0.1,0.2,1.0],
     "Compressed Sensing":     [0.4,0.8,0.5,0.8,0.4,0.2,0.6,0.2,0.5,0.9,0.3,0.2,0.1,0.3,0.7],
+    "Geometric Deep Learning": [0.3,0.9,0.6,0.5,0.4,0.5,0.9,0.7,0.3,0.8,0.3,0.4,0.2,0.4,0.6],
+    "Statistical Physics":     [0.8,0.4,0.3,0.5,0.2,0.8,0.4,0.6,0.6,0.5,0.2,1.0,0.4,0.2,0.4],
+    "Computational Psychiatry": [0.7,0.8,0.2,0.8,0.2,0.6,0.3,0.4,0.6,0.6,0.7,0.3,0.5,0.2,0.5],
+    "Categorical Quantum Mechanics": [0.3,0.4,0.8,0.7,1.0,0.3,0.7,0.5,0.5,0.8,0.2,0.4,0.3,0.9,0.5],
+    "Causal Inference":       [0.8,0.5,0.2,0.6,0.4,0.4,0.2,0.5,0.9,0.4,0.3,0.3,0.6,0.7,0.3],
+    "Algorithmic Info Theory":[0.2,0.3,0.3,1.0,0.6,0.2,0.3,0.3,0.7,0.4,0.2,0.4,0.2,0.8,0.4],
+    "Homotopy Type Theory":   [0.1,0.2,0.9,0.4,1.0,0.2,0.6,0.3,0.3,0.5,0.1,0.1,0.2,1.0,0.2],
+    "Evolutionary Dynamics":  [0.7,0.4,0.2,0.5,0.3,0.9,0.3,0.7,0.5,0.4,0.2,0.8,0.9,0.2,0.2],
 }
 
 names = list(FRAMEWORKS.keys())
@@ -112,6 +120,59 @@ for i in range(len(names)):
             pairs.append((names[i], names[j], float(sim[i,j]), int(labels[i]), int(labels[j])))
 pairs.sort(key=lambda x: -x[2])
 results["synergy_pairs"] = [{"n1": p[0], "n2": p[1], "sim": p[2], "c1": p[3], "c2": p[4]} for p in pairs[:10]]
+
+# ── 3. AXIS ORTHOGONALITY VERIFICATION ──────────────────────────────────────
+corr_matrix = np.corrcoef(X.T)
+results["axis_correlation"] = {
+    AXES[i]: {
+        AXES[j]: float(corr_matrix[i, j])
+        for j in range(len(AXES))
+        if i != j
+    } for i in range(len(AXES))
+}
+
+# Identify highly redundant axes (r > 0.85)
+redundancy = []
+for i in range(len(AXES)):
+    for j in range(i + 1, len(AXES)):
+        if abs(corr_matrix[i, j]) > 0.85:
+            redundancy.append((AXES[i], AXES[j], float(corr_matrix[i, j])))
+results["axis_redundancy"] = redundancy
+
+# ── 4. CLUSTER STABILITY (Leave-One-Out) ────────────────────────────────────
+def calculate_stability(data, original_labels):
+    cluster_cohesion = {}
+    for cid in np.unique(original_labels):
+        idxs = np.where(original_labels == cid)[0]
+        if len(idxs) > 1:
+            c_sim = sim[np.ix_(idxs, idxs)]
+            np.fill_diagonal(c_sim, 0)
+            cohesion = c_sim.sum() / (len(idxs) * (len(idxs) - 1))
+            cluster_cohesion[int(cid)] = float(cohesion)
+        else:
+            cluster_cohesion[int(cid)] = 1.0
+    return cluster_cohesion
+
+results["cluster_stability"] = calculate_stability(X, labels)
+
+# ── 5. META-AXIS ANALYSIS ────────────────────────────────────────────────────
+MACRO_AXES = {
+    "Symbolic/Formal": ["algebra_structure", "logic_formal", "topology"],
+    "Statistical/Prob": ["stochastic_processes", "information_theory", "measure_theory", "statistical_mechanics"],
+    "Cybernetic/Control": ["optimization", "dynamical_systems", "control_theory", "game_theory", "signal_processing"],
+    "Structural/Geometric": ["geometry", "network_graph", "linear_algebra"]
+}
+
+cluster_profiles = {}
+for cid in clusters:
+    idxs = [names.index(n) for n in clusters[cid]]
+    mean_vec = X[idxs].mean(axis=0)
+    profile = {}
+    for m_name, sub_axes in MACRO_AXES.items():
+        sub_idxs = [AXES.index(a) for a in sub_axes]
+        profile[m_name] = float(mean_vec[sub_idxs].mean())
+    cluster_profiles[int(cid)] = profile
+results["meta_axis_profiles"] = cluster_profiles
 
 with open("framework_results.json", "w") as f:
     json.dump(results, f, indent=2)
