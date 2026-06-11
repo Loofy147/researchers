@@ -753,5 +753,51 @@
       "logic_formal": -0.273505383503131
     }
   },
-  "axis_redundancy": []
+  "axis_redundancy": [],
+  "cluster_stability": {
+    "1": 0.9457409869959432,
+    "2": 0.9086356083643216,
+    "3": 0.8932352770266561,
+    "4": 0.9015036373164894,
+    "5": 0.971595523952071,
+    "6": 0.9515330214469732
+  },
+  "meta_axis_profiles": {
+    "6": {
+      "Symbolic/Formal": 0.19333333333333336,
+      "Statistical/Prob": 0.5349999999999999,
+      "Cybernetic/Control": 0.672,
+      "Structural/Geometric": 0.4666666666666666
+    },
+    "2": {
+      "Symbolic/Formal": 0.3333333333333333,
+      "Statistical/Prob": 0.45833333333333337,
+      "Cybernetic/Control": 0.42000000000000004,
+      "Structural/Geometric": 0.30000000000000004
+    },
+    "5": {
+      "Symbolic/Formal": 0.4200000000000001,
+      "Statistical/Prob": 0.32499999999999996,
+      "Cybernetic/Control": 0.54,
+      "Structural/Geometric": 0.6
+    },
+    "3": {
+      "Symbolic/Formal": 0.4047619047619048,
+      "Statistical/Prob": 0.6250000000000001,
+      "Cybernetic/Control": 0.4057142857142858,
+      "Structural/Geometric": 0.5047619047619047
+    },
+    "4": {
+      "Symbolic/Formal": 0.34242424242424246,
+      "Statistical/Prob": 0.5431818181818182,
+      "Cybernetic/Control": 0.4836363636363636,
+      "Structural/Geometric": 0.5636363636363637
+    },
+    "1": {
+      "Symbolic/Formal": 0.8266666666666668,
+      "Statistical/Prob": 0.325,
+      "Cybernetic/Control": 0.264,
+      "Structural/Geometric": 0.5533333333333333
+    }
+  }
 }

@@ -240,6 +240,8 @@
   "metrics": {
     "mean_cluster_q": 0.8120166666666666,
     "mean_bridge_q": 0.875,
-    "feasibility": 0.8967058333333332
+    "roadmap_risk": 0.04054961156270788,
+    "conceptual_cohesion": 0.9287073425170758,
+    "feasibility": 0.8821993938948628
   }
 }

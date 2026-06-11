@@ -88,14 +88,15 @@ BRIDGES = {
     }
 }
 
-
 # ── 3. DYNAMIC BRIDGE DISCOVERY & VALIDATION ────────────────────────────────
 try:
     with open("framework_results.json", "r") as f:
         fw_res = json.load(f)
         DYNAMIC_SYNERGIES = fw_res.get("synergy_pairs", [])
+        STABILITY = fw_res.get("cluster_stability", {})
 except:
     DYNAMIC_SYNERGIES = []
+    STABILITY = {}
 
 def validate_clusters(clusters_dict):
     """Ensures all frameworks are uniquely assigned and members exist."""
@@ -118,9 +119,20 @@ for cid, info in CLUSTERS.items():
         "phenomena": info["phenomena"]
     }
 
-mean_q = np.mean([v["q_score"] for v in q_results.values()])
+# ── 4. REFINED FEASIBILITY MODELING ──────────────────────────────────────────
+# Roadmap Risk: Derived from Q-score variance (higher variance = more uncertainty in roadmap)
+q_vals = [v["q_score"] for v in q_results.values()]
+roadmap_risk = np.std(q_vals) / np.mean(q_vals) if np.mean(q_vals) > 0 else 1.0
+
+# Conceptual Cohesion: Derived from cluster stability
+stability_vals = list(STABILITY.values())
+conceptual_cohesion = np.mean(stability_vals) if stability_vals else 0.5
+
+mean_q = np.mean(q_vals)
 mean_synth = np.mean([b["predicted_synthesis_q"] for b in BRIDGES.values()])
-feasibility = 0.35 * mean_q + 0.30 * mean_synth + 0.20 * 1.0 + 0.15 * 1.0
+
+# Feasibility = Balanced weight of Q, Synthesis, Cohesion, minus Risk
+feasibility = (0.30 * mean_q + 0.30 * mean_synth + 0.25 * conceptual_cohesion + 0.15 * (1 - roadmap_risk))
 
 with open("qscore_results.json", "w") as f:
     json.dump({
@@ -129,7 +141,9 @@ with open("qscore_results.json", "w") as f:
         "metrics": {
             "mean_cluster_q": mean_q,
             "mean_bridge_q": mean_synth,
-            "feasibility": feasibility
+            "roadmap_risk": float(roadmap_risk),
+            "conceptual_cohesion": float(conceptual_cohesion),
+            "feasibility": float(feasibility)
         }
     }, f, indent=2)
 
