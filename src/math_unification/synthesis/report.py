@@ -67,6 +67,10 @@ def generate_report():
         doc += f"- **Morphism Rigor**: {proposal['morphism_rigor']:.3f} (Potential for formalization)\n"
         doc += f"- **Gestalt Consistency**: {proposal['gestalt_consistency']:.3f} (Preservation of unique profiles)\n"
         doc += f"- **Validation Audit**: {proposal.get('validation_audit', 'N/A')}\n"
+
+        m_verify = proposal.get("morphism_verification", {})
+        doc += f"- **Proof of Concept**: {m_verify.get('poc_score', 0.0):.2f} (Basis: {len(m_verify.get('basis_axes', []))}, Bridge: {len(m_verify.get('bridging_axes', []))})\n"
+
         if proposal.get("structural_synergy") is not None:
             doc += f"- **Structural Synergy**: {proposal['structural_synergy']:.3f} (Morphism potential)\n"
         doc += "\n"
@@ -79,6 +83,7 @@ def generate_report():
             doc += f"**Hypothesis**: {p['hypothesis']}\n\n"
             doc += f"**Background**: {p['background']}\n\n"
             doc += f"**Methodology**: {p['methodology']}\n\n"
+            doc += f"**Formal Proof/Morphism**: {p.get('formal_proof', 'N/A')}\n\n"
             doc += f"**Expected Impact**: {p['impact']}\n\n"
 
     if niche:

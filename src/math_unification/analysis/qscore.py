@@ -1,6 +1,7 @@
 import numpy as np
 import json
 from ..data import AXES, PHENOMENA_PROFILES, CLUSTERS, WEIGHTS, BRIDGES
+from .verification import verify_morphism_alignment
 
 def run_qscore_analysis():
     try:
@@ -180,12 +181,16 @@ def run_qscore_analysis():
             else:
                 validation = "SPECULATIVE: Morphism Not Yet Formalized"
 
+            # Morphism Verification
+            m_verify = verify_morphism_alignment(FW_X[n1_idxs[i]], FW_X[n2_idxs[i]])
+
             # Hypothesis Generation
             hypothesis = f"Unification of {n1} and {n2} formalizes the underlying invariants of {FW_TO_PHENOMENON.get(n1,  'Emergent Human Behavior')}."
 
             proposals.append({
                 "validation_audit": validation,
                 "core_hypothesis": hypothesis,
+                "morphism_verification": m_verify,
                 "title": title,
                 "sim": float(sims[i]),
                 "c1": s["c1"],
