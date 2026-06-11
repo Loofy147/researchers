@@ -1,18 +1,18 @@
 # Unified Mathematical Frameworks for Human Phenomena
 ### A Cross-Disciplinary Synthesis
 
-*Computational analysis of 36 formal frameworks across 6 thematic clusters. Feasibility Q = 0.882.*
+*Computational analysis of 40 formal frameworks across 6 thematic clusters. Feasibility Q = 0.881.*
 
 ---
 
 ## I. The Landscape: Six Thematic Clusters
 
 ### C1 Symbolic Structure
-**Q = 0.792 | 4 frameworks**
+**Q = 0.792 | 5 frameworks**
 
-*Macro-Axis Profile:* Symbolic/Formal: 0.83, Statistical/Prob: 0.33, Cybernetic/Control: 0.26, Structural/Geometric: 0.55
+*Macro-Axis Profile:* Symbolic/Formal: 0.85, Statistical/Prob: 0.31, Cybernetic/Control: 0.25, Structural/Geometric: 0.54
 
-*Members:* Category Theory, Formal Grammars, Algebraic Linguistics, Categorical Quantum Mechanics
+*Members:* Category Theory, Formal Grammars, Algebraic Linguistics, Categorical Quantum Mechanics, Homotopy Type Theory
 
 **Target Phenomena:** Generative AI, Identity formation, The Ship of Theseus, Postmodernism, Infinite regress, Natural language semantics
 
@@ -21,7 +21,7 @@ Compositional form — mathematics of syntax, morphism, and invariant structure.
 ### C2 Representational Geometry
 **Q = 0.825 | 5 frameworks**
 
-*Macro-Axis Profile:* Symbolic/Formal: 0.33, Statistical/Prob: 0.46, Cybernetic/Control: 0.42, Structural/Geometric: 0.30
+*Macro-Axis Profile:* Symbolic/Formal: 0.39, Statistical/Prob: 0.58, Cybernetic/Control: 0.38, Structural/Geometric: 0.33
 
 *Members:* Information Geometry, Quantum Cognition, Topological Data Anal., Fourier/Wavelet Anal., Compressed Sensing
 
@@ -30,31 +30,31 @@ Compositional form — mathematics of syntax, morphism, and invariant structure.
 Cognitive neuroscience substrate: the neural manifold hypothesis and conceptual spaces.
 
 ### C3 Probabilistic Choice
-**Q = 0.853 | 6 frameworks**
+**Q = 0.853 | 7 frameworks**
 
-*Macro-Axis Profile:* Symbolic/Formal: 0.40, Statistical/Prob: 0.63, Cybernetic/Control: 0.41, Structural/Geometric: 0.50
+*Macro-Axis Profile:* Symbolic/Formal: 0.44, Statistical/Prob: 0.42, Cybernetic/Control: 0.48, Structural/Geometric: 0.60
 
-*Members:* Game Theory, Prospect Theory, Bayesian Inference, Social Choice Theory, Stochastic Processes, Measure-Theoretic Prob.
+*Members:* Game Theory, Prospect Theory, Bayesian Inference, Social Choice Theory, Measure-Theoretic Prob., Causal Inference, Algorithmic Info Theory
 
-**Target Phenomena:** The lipstick effect, Influencer commodification, Decision fatigue, The Barnum effect, The mere exposure effect, Pascal's wager, Ethical egoism, The veil of ignorance, Soft authoritarianism, Geopolitical strategy, Proxy wars, Hyperinflation, Venture debt, Short selling, Monopoly power, Recession indicators, Leveraged buyouts, Speculative markets, Wealth inequality
+**Target Phenomena:** The lipstick effect, Influencer commodification, Decision fatigue, Geopolitical strategy, Proxy wars, Wealth inequality
 
 Theories of individual rationality and collective preference via probability measures.
 
 ### C4 Collective Dynamics
-**Q = 0.763 | 11 frameworks**
+**Q = 0.763 | 12 frameworks**
 
-*Macro-Axis Profile:* Symbolic/Formal: 0.34, Statistical/Prob: 0.54, Cybernetic/Control: 0.48, Structural/Geometric: 0.56
+*Macro-Axis Profile:* Symbolic/Formal: 0.19, Statistical/Prob: 0.53, Cybernetic/Control: 0.67, Structural/Geometric: 0.47
 
-*Members:* Neural Field Theory, Integrated Info Theory, Global Workspace Theory, Dynamical Systems Psych, Mean Field Theory, Evolutionary Game Theory, Network Science, Agent-Based Modeling, Renormalization Group, Geometric Deep Learning, Statistical Physics
+*Members:* Neural Field Theory, Integrated Info Theory, Global Workspace Theory, Dynamical Systems Psych, Mean Field Theory, Evolutionary Game Theory, Network Science, Agent-Based Modeling, Renormalization Group, Geometric Deep Learning, Statistical Physics, Evolutionary Dynamics
 
-**Target Phenomena:** Neurodivergence, Oxytocin and bonding, Neural pathways, Data monopolies, Digital immortality, Beauty standards, Quiet luxury, Trend forecasting, Personal branding, Pretty privilege, Parasocial relationships, Stan culture, Rebrand culture, Internet fame cycles, Cancel culture, Reality TV psychology, The bystander effect, Love bombing, Trauma bonding, Panpsychism, Neocolonialism, Populism, Nationalism, The military-industrial complex, Venture scaling, Third culture kids, Cultural assimilation, Digital subcultures, Hyper consumerism, Hustle culture, Modern loneliness, Luxury signalling, Inductive biases
+**Target Phenomena:** Neurodivergence, Oxytocin and bonding, Neural pathways, Stan culture, Cancel culture, Populism, Nationalism, Modern loneliness, Inductive biases
 
 Emergent macroscopic patterns from microscopic interactions.
 
 ### C5 Geometric Optimization
 **Q = 0.790 | 5 frameworks**
 
-*Macro-Axis Profile:* Symbolic/Formal: 0.42, Statistical/Prob: 0.32, Cybernetic/Control: 0.54, Structural/Geometric: 0.60
+*Macro-Axis Profile:* Symbolic/Formal: 0.24, Statistical/Prob: 0.66, Cybernetic/Control: 0.51, Structural/Geometric: 0.46
 
 *Members:* Variational Principles, Gradient Flow Theory, Riemannian Geometry, Geometric Mechanics, Symplectic Geometry
 
@@ -63,54 +63,69 @@ Emergent macroscopic patterns from microscopic interactions.
 Mathematics of motion constrained by form (motor control, biological morphogenesis).
 
 ### C6 Agency Control
-**Q = 0.850 | 5 frameworks**
+**Q = 0.850 | 6 frameworks**
 
-*Macro-Axis Profile:* Symbolic/Formal: 0.19, Statistical/Prob: 0.53, Cybernetic/Control: 0.67, Structural/Geometric: 0.47
+*Macro-Axis Profile:* Symbolic/Formal: 0.40, Statistical/Prob: 0.49, Cybernetic/Control: 0.47, Structural/Geometric: 0.62
 
-*Members:* Optimal Control, Reinforcement Learning, Free Energy Principle, Predictive Coding, Computational Psychiatry
+*Members:* Optimal Control, Reinforcement Learning, Free Energy Principle, Predictive Coding, Computational Psychiatry, Stochastic Processes
 
-**Target Phenomena:** Dopamine detoxing, The placebo effect, Cognitive overload, Neural interfaces, Autonomous vehicles, Emotional permanence, Repression, Solipsism, Virtue ethics, Simulation theory, Mental health diagnostics
+**Target Phenomena:** Dopamine detoxing, Neural interfaces, Autonomous vehicles, Simulation theory, Mental health diagnostics
 
 Active inference and goal-directed behavior (Free Energy Principle).
 
 ---
 
-## II. Bridge Concepts and Integration Strategies
+## II. High-Priority Research Frontiers
 
-### Free Energy Principle (C6↔C4, C6↔C5)
-**Predicted Synthesis Q = 0.897**
+Based on top-tier mathematical synergies, the following research proposals are prioritized:
 
-*Connects:* C6_Agency_Control, C4_Collective_Dynamics, C5_Geometric_Optimization
+### Synthesis: Quantum Cognition × Measure-Theoretic Prob.
+**Priority Score: 0.905**
 
-*Key Equation:* `dμ/dt = -∂F/∂μ`
+- **Mathematical Basis**: High similarity (0.953) between C3 and C2.
+- **Primary Phenomenon**: Brain mapping
 
-### Topological Data Analysis (C2↔C1, C2↔C4)
-**Predicted Synthesis Q = 0.873**
+### Synthesis: Free Energy Principle × Neural Field Theory
+**Priority Score: 0.905**
 
-*Connects:* C2_Representational_Geometry, C1_Symbolic_Structure, C4_Collective_Dynamics
+- **Mathematical Basis**: High similarity (0.952) between C4 and C6.
+- **Primary Phenomenon**: Dopamine detoxing
 
-*Key Equation:* `H_k(X)`
+### Synthesis: Variational Principles × Free Energy Principle
+**Priority Score: 0.903**
 
-### Stochastic Optimal Control (C3↔C6, C3↔C5)
-**Predicted Synthesis Q = 0.885**
+- **Mathematical Basis**: High similarity (0.951) between C3 and C4.
+- **Primary Phenomenon**: Phantom limb syndrome
 
-*Connects:* C3_Probabilistic_Choice, C6_Agency_Control, C5_Geometric_Optimization
+### Synthesis: Optimal Control × Variational Principles
+**Priority Score: 0.903**
 
-*Key Equation:* `∂V/∂t + H(x, ∇V, t) = 0`
+- **Mathematical Basis**: High similarity (0.951) between C4 and C3.
+- **Primary Phenomenon**: Dopamine detoxing
 
-### Categorical Probability (C1↔C3)
-**Predicted Synthesis Q = 0.852**
+### Synthesis: Neural Field Theory × Gradient Flow Theory
+**Priority Score: 0.902**
 
-*Connects:* C1_Symbolic_Structure, C3_Probabilistic_Choice
+- **Mathematical Basis**: High similarity (0.950) between C6 and C3.
+- **Primary Phenomenon**: Neurodivergence
 
-*Key Equation:* `P : C → Kleisli(Dist)`
+### Synthesis: Optimal Control × Gradient Flow Theory
+**Priority Score: 0.897**
 
-### Renormalization / Scale Symmetry (C4↔C5↔C2)
-**Predicted Synthesis Q = 0.868**
+- **Mathematical Basis**: High similarity (0.944) between C4 and C3.
+- **Primary Phenomenon**: Dopamine detoxing
 
-*Connects:* C4_Collective_Dynamics, C5_Geometric_Optimization, C2_Representational_Geometry
+### Synthesis: Predictive Coding × Neural Field Theory
+**Priority Score: 0.895**
 
-*Key Equation:* `dg_μν/dt = -2 R_μν`
+- **Mathematical Basis**: High similarity (0.943) between C4 and C6.
+- **Primary Phenomenon**: Dopamine detoxing
+
+### Synthesis: Variational Principles × Neural Field Theory
+**Priority Score: 0.895**
+
+- **Mathematical Basis**: High similarity (0.942) between C3 and C6.
+- **Primary Phenomenon**: Phantom limb syndrome
 
 ---
 
@@ -118,21 +133,21 @@ Active inference and goal-directed behavior (Free Energy Principle).
 
 Computational audit of the integration path identifies a **Roadmap Risk Score of 0.041**.
 
-- **Primary Driver**: Uniform Maturity.
-- **Conceptual Cohesion**: 0.929 (Leave-One-Out Stability).
-- **Mitigation Strategy**: Focus on grounding C4 (Collective Dynamics) which exhibits the highest profile diversity.
+- **Primary Driver**: Maturity variance and implementation sensitivity.
+- **Conceptual Cohesion**: 0.922 (Leave-One-Out Stability).
+- **Mitigation**: Focus on grounding C4 (Collective Dynamics) via Causal Inference.
 
 ---
 
 ## IV. A Unified Research Agenda
 
-The computational analysis yields a feasibility score of 0.882 with verdict **VIABLE — pursue staged integration**.
+The computational analysis yields a feasibility score of 0.881 with verdict **VIABLE — pursue staged integration**.
 
-**Stage 1: Consolidation (Years 1-3)**
-Establish formal dualities within clusters. Map optimal control and predictive coding explicitly under FEP.
+**Stage 1: Frontier Exploration (Years 1-2)**
+Launch pilot studies into HTT and Causal Inference bridges.
 
-**Stage 2: Bridge Construction (Years 3-7)**
-Scale FEP to collective dynamics using Renormalization Group methods.
+**Stage 2: Morphism Construction (Years 3-6)**
+Formalize cross-cluster synergies as rigorous morphisms in a categorical framework.
 
 **Stage 3: Grand Synthesis (Years 7-10)**
 A multi-scale, variational, and categorical framework for human phenomena.
@@ -142,15 +157,15 @@ A multi-scale, variational, and categorical framework for human phenomena.
 *Report generated by Computational Analysis Engine.*
 ---
 
-## V. Adversarial Review (ACT-P v4.0)
+## V. Adversarial Review (ACT-P v5.0)
 
-The ACT-P v4.0 protocol identifies a refined confidence score of 71%. Key insights include:
+The ACT-P v5.0 protocol identifies a refined confidence score of 73%. Key insights include:
 
-- **Structural Sensitivity**: Conceptual cohesion is high (0.929), but implementation remains sensitive to semantic drift in collective dynamics.
-- **Lock-in Risk**: High-performing formal dualities may cause "Theoretical Lock-in," potentially marginalizing valid non-geometric frameworks.
-- **Grounding shift**: Prioritizing empirical grounding (Weight = 0.23) confirms the synthesis remains viable under stress.
+- **Formal Hallucinations**: High priority synergies must be anchored in phenomenological reality.
+- **Semantic Over-Extension**: Risk identified in mapping rigorous morphisms to irregular human contexts (e.g., slang).
+- **Unification Verdict**: RESEARCH VIABLE — Proceed with Phenomenological Anchoring.
 
 ## VI. Validation & Consistency Analysis
 
 - **Axis Orthogonality**: Confirmed. No highly redundant conceptual axes detected (all |r| < 0.85).
-- **Cluster Integrity**: All 36 frameworks uniquely assigned with zero duplication.
+- **Cluster Integrity**: All 40 frameworks uniquely assigned with zero duplication.

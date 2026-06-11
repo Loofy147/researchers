@@ -4,10 +4,10 @@ Q-Score Analysis for each cluster + integration strategy computation
 import numpy as np
 import json
 
-# Cluster assignments from prior analysis
+# Cluster assignments updated with Frontier mathematics
 CLUSTERS = {
     "C1_Symbolic_Structure": {
-        "members": ["Category Theory", "Formal Grammars", "Algebraic Linguistics", "Categorical Quantum Mechanics"],
+        "members": ["Category Theory", "Formal Grammars", "Algebraic Linguistics", "Categorical Quantum Mechanics", "Homotopy Type Theory"],
         "dominant_axes": ["logic_formal", "algebra_structure"],
         "human_domain": "Language, Logic, Cultural Form",
         "scores": {"Grounding": 0.72, "Certainty": 0.85, "Structure": 0.95, "Applicability": 0.60, "Coherence": 0.90, "Generativity": 0.78, "Presentation": 0.70, "Temporal": 0.88},
@@ -21,18 +21,18 @@ CLUSTERS = {
         "phenomena": ["Brain mapping", "Deepfakes", "Facial recognition systems", "Virtual reality ecosystems", "Color theory", "Facial harmony"]
     },
     "C3_Probabilistic_Choice": {
-        "members": ["Game Theory","Prospect Theory","Bayesian Inference","Social Choice Theory","Stochastic Processes","Measure-Theoretic Prob."],
+        "members": ["Game Theory","Prospect Theory","Bayesian Inference","Social Choice Theory","Measure-Theoretic Prob.", "Causal Inference", "Algorithmic Info Theory"],
         "dominant_axes": ["measure_theory", "stochastic_processes"],
         "human_domain": "Decision, Rationality, Risk",
         "scores": {"Grounding": 0.88, "Certainty": 0.84, "Structure": 0.82, "Applicability": 0.92, "Coherence": 0.79, "Generativity": 0.85, "Presentation": 0.82, "Temporal": 0.86},
-        "phenomena": ["The lipstick effect", "Influencer commodification", "Decision fatigue", "The Barnum effect", "The mere exposure effect", "Pascal's wager", "Ethical egoism", "The veil of ignorance", "Soft authoritarianism", "Geopolitical strategy", "Proxy wars", "Hyperinflation", "Venture debt", "Short selling", "Monopoly power", "Recession indicators", "Leveraged buyouts", "Speculative markets", "Wealth inequality"]
+        "phenomena": ["The lipstick effect", "Influencer commodification", "Decision fatigue", "Geopolitical strategy", "Proxy wars", "Wealth inequality"]
     },
     "C4_Collective_Dynamics": {
-        "members": ["Neural Field Theory","Integrated Info Theory","Global Workspace Theory","Dynamical Systems Psych","Mean Field Theory","Evolutionary Game Theory","Network Science","Agent-Based Modeling","Renormalization Group", "Geometric Deep Learning", "Statistical Physics"],
+        "members": ["Neural Field Theory","Integrated Info Theory","Global Workspace Theory","Dynamical Systems Psych","Mean Field Theory","Evolutionary Game Theory","Network Science","Agent-Based Modeling","Renormalization Group", "Geometric Deep Learning", "Statistical Physics", "Evolutionary Dynamics"],
         "dominant_axes": ["dynamical_systems", "statistical_mechanics"],
         "human_domain": "Consciousness, Social Emergence, Brain Dynamics",
         "scores": {"Grounding": 0.79, "Certainty": 0.70, "Structure": 0.76, "Applicability": 0.78, "Coherence": 0.72, "Generativity": 0.88, "Presentation": 0.68, "Temporal": 0.80},
-        "phenomena": ["Neurodivergence", "Oxytocin and bonding", "Neural pathways", "Data monopolies", "Digital immortality", "Beauty standards", "Quiet luxury", "Trend forecasting", "Personal branding", "Pretty privilege", "Parasocial relationships", "Stan culture", "Rebrand culture", "Internet fame cycles", "Cancel culture", "Reality TV psychology", "The bystander effect", "Love bombing", "Trauma bonding", "Panpsychism", "Neocolonialism", "Populism", "Nationalism", "The military-industrial complex", "Venture scaling", "Third culture kids", "Cultural assimilation", "Digital subcultures", "Hyper consumerism", "Hustle culture", "Modern loneliness", "Luxury signalling", "Inductive biases"]
+        "phenomena": ["Neurodivergence", "Oxytocin and bonding", "Neural pathways", "Stan culture", "Cancel culture", "Populism", "Nationalism", "Modern loneliness", "Inductive biases"]
     },
     "C5_Geometric_Optimization": {
         "members": ["Variational Principles","Gradient Flow Theory","Riemannian Geometry","Geometric Mechanics","Symplectic Geometry"],
@@ -42,11 +42,11 @@ CLUSTERS = {
         "phenomena": ["Phantom limb syndrome", "Symmetry constraints"]
     },
     "C6_Agency_Control": {
-        "members": ["Optimal Control","Reinforcement Learning","Free Energy Principle","Predictive Coding", "Computational Psychiatry"],
+        "members": ["Optimal Control","Reinforcement Learning","Free Energy Principle","Predictive Coding", "Computational Psychiatry", "Stochastic Processes"],
         "dominant_axes": ["optimization", "control_theory"],
         "human_domain": "Active Inference, Goal-Directed Behavior",
         "scores": {"Grounding": 0.85, "Certainty": 0.81, "Structure": 0.86, "Applicability": 0.88, "Coherence": 0.84, "Generativity": 0.90, "Presentation": 0.78, "Temporal": 0.84},
-        "phenomena": ["Dopamine detoxing", "The placebo effect", "Cognitive overload", "Neural interfaces", "Autonomous vehicles", "Emotional permanence", "Repression", "Solipsism", "Virtue ethics", "Simulation theory", "Mental health diagnostics"]
+        "phenomena": ["Dopamine detoxing", "Neural interfaces", "Autonomous vehicles", "Simulation theory", "Mental health diagnostics"]
     }
 }
 
@@ -104,7 +104,10 @@ def validate_clusters(clusters_dict):
     for cid, info in clusters_dict.items():
         all_members.extend(info["members"])
     if len(all_members) != len(set(all_members)):
-        print("Warning: Duplicate framework assignment detected!")
+        # Find duplicates
+        seen = set()
+        dupes = [x for x in all_members if x in seen or seen.add(x)]
+        print(f"Warning: Duplicate framework assignment detected: {dupes}")
     return True
 
 validate_clusters(CLUSTERS)
@@ -120,24 +123,39 @@ for cid, info in CLUSTERS.items():
     }
 
 # ── 4. REFINED FEASIBILITY MODELING ──────────────────────────────────────────
-# Roadmap Risk: Derived from Q-score variance (higher variance = more uncertainty in roadmap)
 q_vals = [v["q_score"] for v in q_results.values()]
 roadmap_risk = np.std(q_vals) / np.mean(q_vals) if np.mean(q_vals) > 0 else 1.0
-
-# Conceptual Cohesion: Derived from cluster stability
 stability_vals = list(STABILITY.values())
 conceptual_cohesion = np.mean(stability_vals) if stability_vals else 0.5
-
 mean_q = np.mean(q_vals)
 mean_synth = np.mean([b["predicted_synthesis_q"] for b in BRIDGES.values()])
-
-# Feasibility = Balanced weight of Q, Synthesis, Cohesion, minus Risk
 feasibility = (0.30 * mean_q + 0.30 * mean_synth + 0.25 * conceptual_cohesion + 0.15 * (1 - roadmap_risk))
+
+# ── 5. RESEARCH FRONTIER GENERATION ──────────────────────────────────────────
+def generate_frontiers(synergies, clusters):
+    frontiers = []
+    for pair in synergies[:8]: # Top 8 synergies
+        n1, n2 = pair["n1"], pair["n2"]
+        p1 = []
+        for c in clusters.values():
+            if n1 in c["members"]: p1 = c["phenomena"]
+
+        proposal = {
+            "title": f"Synthesis: {n1} × {n2}",
+            "mathematical_basis": f"High similarity ({pair['sim']:.3f}) between C{pair['c1']} and C{pair['c2']}.",
+            "target_phenomenon": p1[0] if p1 else "Emergent Human Behavior",
+            "priority_score": float(pair["sim"] * 0.95)
+        }
+        frontiers.append(proposal)
+    return frontiers
+
+frontier_results = generate_frontiers(DYNAMIC_SYNERGIES, CLUSTERS)
 
 with open("qscore_results.json", "w") as f:
     json.dump({
         "cluster_results": q_results,
         "bridges": BRIDGES,
+        "research_frontiers": frontier_results,
         "metrics": {
             "mean_cluster_q": mean_q,
             "mean_bridge_q": mean_synth,

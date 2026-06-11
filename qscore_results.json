@@ -7,7 +7,8 @@
         "Category Theory",
         "Formal Grammars",
         "Algebraic Linguistics",
-        "Categorical Quantum Mechanics"
+        "Categorical Quantum Mechanics",
+        "Homotopy Type Theory"
       ],
       "dominant_axes": [
         "logic_formal",
@@ -53,8 +54,9 @@
         "Prospect Theory",
         "Bayesian Inference",
         "Social Choice Theory",
-        "Stochastic Processes",
-        "Measure-Theoretic Prob."
+        "Measure-Theoretic Prob.",
+        "Causal Inference",
+        "Algorithmic Info Theory"
       ],
       "dominant_axes": [
         "measure_theory",
@@ -64,21 +66,8 @@
         "The lipstick effect",
         "Influencer commodification",
         "Decision fatigue",
-        "The Barnum effect",
-        "The mere exposure effect",
-        "Pascal's wager",
-        "Ethical egoism",
-        "The veil of ignorance",
-        "Soft authoritarianism",
         "Geopolitical strategy",
         "Proxy wars",
-        "Hyperinflation",
-        "Venture debt",
-        "Short selling",
-        "Monopoly power",
-        "Recession indicators",
-        "Leveraged buyouts",
-        "Speculative markets",
         "Wealth inequality"
       ]
     },
@@ -96,7 +85,8 @@
         "Agent-Based Modeling",
         "Renormalization Group",
         "Geometric Deep Learning",
-        "Statistical Physics"
+        "Statistical Physics",
+        "Evolutionary Dynamics"
       ],
       "dominant_axes": [
         "dynamical_systems",
@@ -106,35 +96,11 @@
         "Neurodivergence",
         "Oxytocin and bonding",
         "Neural pathways",
-        "Data monopolies",
-        "Digital immortality",
-        "Beauty standards",
-        "Quiet luxury",
-        "Trend forecasting",
-        "Personal branding",
-        "Pretty privilege",
-        "Parasocial relationships",
         "Stan culture",
-        "Rebrand culture",
-        "Internet fame cycles",
         "Cancel culture",
-        "Reality TV psychology",
-        "The bystander effect",
-        "Love bombing",
-        "Trauma bonding",
-        "Panpsychism",
-        "Neocolonialism",
         "Populism",
         "Nationalism",
-        "The military-industrial complex",
-        "Venture scaling",
-        "Third culture kids",
-        "Cultural assimilation",
-        "Digital subcultures",
-        "Hyper consumerism",
-        "Hustle culture",
         "Modern loneliness",
-        "Luxury signalling",
         "Inductive biases"
       ]
     },
@@ -165,7 +131,8 @@
         "Reinforcement Learning",
         "Free Energy Principle",
         "Predictive Coding",
-        "Computational Psychiatry"
+        "Computational Psychiatry",
+        "Stochastic Processes"
       ],
       "dominant_axes": [
         "optimization",
@@ -173,14 +140,8 @@
       ],
       "phenomena": [
         "Dopamine detoxing",
-        "The placebo effect",
-        "Cognitive overload",
         "Neural interfaces",
         "Autonomous vehicles",
-        "Emotional permanence",
-        "Repression",
-        "Solipsism",
-        "Virtue ethics",
         "Simulation theory",
         "Mental health diagnostics"
       ]
@@ -237,11 +198,61 @@
       "key_equation": "dg_\u03bc\u03bd/dt = -2 R_\u03bc\u03bd"
     }
   },
+  "research_frontiers": [
+    {
+      "title": "Synthesis: Quantum Cognition \u00d7 Measure-Theoretic Prob.",
+      "mathematical_basis": "High similarity (0.953) between C3 and C2.",
+      "target_phenomenon": "Brain mapping",
+      "priority_score": 0.9053995292791537
+    },
+    {
+      "title": "Synthesis: Free Energy Principle \u00d7 Neural Field Theory",
+      "mathematical_basis": "High similarity (0.952) between C4 and C6.",
+      "target_phenomenon": "Dopamine detoxing",
+      "priority_score": 0.9045343466910764
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Free Energy Principle",
+      "mathematical_basis": "High similarity (0.951) between C3 and C4.",
+      "target_phenomenon": "Phantom limb syndrome",
+      "priority_score": 0.9034597951695995
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Variational Principles",
+      "mathematical_basis": "High similarity (0.951) between C4 and C3.",
+      "target_phenomenon": "Dopamine detoxing",
+      "priority_score": 0.903430174967706
+    },
+    {
+      "title": "Synthesis: Neural Field Theory \u00d7 Gradient Flow Theory",
+      "mathematical_basis": "High similarity (0.950) between C6 and C3.",
+      "target_phenomenon": "Neurodivergence",
+      "priority_score": 0.9020942016764413
+    },
+    {
+      "title": "Synthesis: Optimal Control \u00d7 Gradient Flow Theory",
+      "mathematical_basis": "High similarity (0.944) between C4 and C3.",
+      "target_phenomenon": "Dopamine detoxing",
+      "priority_score": 0.8971481149624988
+    },
+    {
+      "title": "Synthesis: Predictive Coding \u00d7 Neural Field Theory",
+      "mathematical_basis": "High similarity (0.943) between C4 and C6.",
+      "target_phenomenon": "Dopamine detoxing",
+      "priority_score": 0.8953875020999186
+    },
+    {
+      "title": "Synthesis: Variational Principles \u00d7 Neural Field Theory",
+      "mathematical_basis": "High similarity (0.942) between C3 and C6.",
+      "target_phenomenon": "Phantom limb syndrome",
+      "priority_score": 0.8952555547313534
+    }
+  ],
   "metrics": {
     "mean_cluster_q": 0.8120166666666666,
     "mean_bridge_q": 0.875,
     "roadmap_risk": 0.04054961156270788,
-    "conceptual_cohesion": 0.9287073425170758,
-    "feasibility": 0.8821993938948628
+    "conceptual_cohesion": 0.9220324723030923,
+    "feasibility": 0.880530676341367
   }
 }

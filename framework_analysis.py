@@ -54,6 +54,10 @@ FRAMEWORKS = {
     "Statistical Physics":     [0.8,0.4,0.3,0.5,0.2,0.8,0.4,0.6,0.6,0.5,0.2,1.0,0.4,0.2,0.4],
     "Computational Psychiatry": [0.7,0.8,0.2,0.8,0.2,0.6,0.3,0.4,0.6,0.6,0.7,0.3,0.5,0.2,0.5],
     "Categorical Quantum Mechanics": [0.3,0.4,0.8,0.7,1.0,0.3,0.7,0.5,0.5,0.8,0.2,0.4,0.3,0.9,0.5],
+    "Causal Inference":       [0.8,0.5,0.2,0.6,0.4,0.4,0.2,0.5,0.9,0.4,0.3,0.3,0.6,0.7,0.3],
+    "Algorithmic Info Theory":[0.2,0.3,0.3,1.0,0.6,0.2,0.3,0.3,0.7,0.4,0.2,0.4,0.2,0.8,0.4],
+    "Homotopy Type Theory":   [0.1,0.2,0.9,0.4,1.0,0.2,0.6,0.3,0.3,0.5,0.1,0.1,0.2,1.0,0.2],
+    "Evolutionary Dynamics":  [0.7,0.4,0.2,0.5,0.3,0.9,0.3,0.7,0.5,0.4,0.2,0.8,0.9,0.2,0.2],
 }
 
 names = list(FRAMEWORKS.keys())
@@ -137,23 +141,6 @@ results["axis_redundancy"] = redundancy
 
 # ── 4. CLUSTER STABILITY (Leave-One-Out) ────────────────────────────────────
 def calculate_stability(data, original_labels):
-    n = len(data)
-    stability_scores = []
-    for i in range(n):
-        # Remove framework i
-        X_sub = np.delete(data, i, axis=0)
-        X_sub_n = X_sub / (np.linalg.norm(X_sub, axis=1, keepdims=True) + 1e-9)
-        sim_sub = X_sub_n @ X_sub_n.T
-        dist_sub = np.clip(1 - sim_sub, 0, 2)
-        np.fill_diagonal(dist_sub, 0)
-        Z_sub = linkage(squareform(dist_sub), method='ward')
-        labels_sub = fcluster(Z_sub, t=6, criterion='maxclust')
-
-        # Simple overlap metric: how many pairs remain in the same cluster?
-        # (This is a simplified stability index)
-        stability_scores.append(1.0) # Placeholder for now, real implementation would compare partitions
-
-    # Actually, let's use a simpler "Core vs Peripheral" metric per cluster
     cluster_cohesion = {}
     for cid in np.unique(original_labels):
         idxs = np.where(original_labels == cid)[0]
