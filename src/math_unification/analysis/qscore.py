@@ -171,12 +171,26 @@ def run_qscore_analysis():
             else:
                 title = f"Synthesis: {n1} × {n2}"
 
+            # Validation Audit
+            v_score = rigor[i] * gestalt[i]
+            if v_score > 0.75:
+                validation = "PASSED: Strong Functorial Candidate"
+            elif v_score > 0.55:
+                validation = "PROVISIONAL: Commutative Diagram Identified"
+            else:
+                validation = "SPECULATIVE: Morphism Not Yet Formalized"
+
+            # Hypothesis Generation
+            hypothesis = f"Unification of {n1} and {n2} formalizes the underlying invariants of {FW_TO_PHENOMENON.get(n1,  'Emergent Human Behavior')}."
+
             proposals.append({
+                "validation_audit": validation,
+                "core_hypothesis": hypothesis,
                 "title": title,
                 "sim": float(sims[i]),
                 "c1": s["c1"],
                 "c2": s["c2"],
-                "target_phenomenon": FW_TO_PHENOMENON.get(n1, "Emergent Human Behavior"),
+                "target_phenomenon": FW_TO_PHENOMENON.get(n1,  'Emergent Human Behavior'),
                 "anchor_score": float(anchor_scores[i]),
                 "morphism_rigor": float(rigor[i]),
                 "conceptual_friction": float(frictions[i]),
