@@ -9494,6 +9494,138 @@
       "structural_synergy": null
     }
   ],
+  "research_transactions": [
+    {
+      "source": "Stochastic Processes",
+      "target": "Agent-Based Modeling",
+      "improvement_potential": 0.8000830635042202,
+      "transacted_assets": [
+        "stochastic_processes",
+        "measure_theory"
+      ],
+      "distance": 0.008113774613782654,
+      "transaction_id": "TX-STO-AGE"
+    },
+    {
+      "source": "Computational Psychiatry",
+      "target": "Agent-Based Modeling",
+      "improvement_potential": 0.7363158679446254,
+      "transacted_assets": [
+        "optimization",
+        "information_theory"
+      ],
+      "distance": 0.017476756601020625,
+      "transaction_id": "TX-COM-AGE"
+    },
+    {
+      "source": "Reinforcement Learning",
+      "target": "Evolutionary Dynamics",
+      "improvement_potential": 0.7293158662389914,
+      "transacted_assets": [
+        "optimization",
+        "control_theory"
+      ],
+      "distance": 0.018604303024520524,
+      "transaction_id": "TX-REI-EVO"
+    },
+    {
+      "source": "Bayesian Inference",
+      "target": "Evolutionary Game Theory",
+      "improvement_potential": 0.7054689529110897,
+      "transacted_assets": [
+        "information_theory",
+        "measure_theory"
+      ],
+      "distance": 0.027149465089649244,
+      "transaction_id": "TX-BAY-EVO"
+    },
+    {
+      "source": "Free Energy Principle",
+      "target": "Mean Field Theory",
+      "improvement_potential": 0.6952211163710995,
+      "transacted_assets": [
+        "information_theory",
+        "control_theory"
+      ],
+      "distance": 0.02442084678254723,
+      "transaction_id": "TX-FRE-MEA"
+    },
+    {
+      "source": "Predictive Coding",
+      "target": "Statistical Physics",
+      "improvement_potential": 0.6937076779722386,
+      "transacted_assets": [
+        "optimization"
+      ],
+      "distance": 0.02469229150360023,
+      "transaction_id": "TX-PRE-STA"
+    },
+    {
+      "source": "Stochastic Processes",
+      "target": "Statistical Physics",
+      "improvement_potential": 0.6873956667760766,
+      "transacted_assets": [
+        "measure_theory"
+      ],
+      "distance": 0.025837278558489853,
+      "transaction_id": "TX-STO-STA"
+    },
+    {
+      "source": "Predictive Coding",
+      "target": "Agent-Based Modeling",
+      "improvement_potential": 0.6870670531504838,
+      "transacted_assets": [
+        "optimization",
+        "information_theory"
+      ],
+      "distance": 0.02589746459732293,
+      "transaction_id": "TX-PRE-AGE"
+    },
+    {
+      "source": "Free Energy Principle",
+      "target": "Agent-Based Modeling",
+      "improvement_potential": 0.6769666885944534,
+      "transacted_assets": [
+        "optimization",
+        "information_theory",
+        "control_theory"
+      ],
+      "distance": 0.027775858779100243,
+      "transaction_id": "TX-FRE-AGE"
+    },
+    {
+      "source": "Stochastic Processes",
+      "target": "Evolutionary Game Theory",
+      "improvement_potential": 0.6738565276001055,
+      "transacted_assets": [
+        "stochastic_processes",
+        "measure_theory"
+      ],
+      "distance": 0.028365603740701194,
+      "transaction_id": "TX-STO-EVO"
+    },
+    {
+      "source": "Free Energy Principle",
+      "target": "Neural Field Theory",
+      "improvement_potential": 0.6707602370815932,
+      "transacted_assets": [
+        "optimization",
+        "information_theory"
+      ],
+      "distance": 0.028958151091889966,
+      "transaction_id": "TX-FRE-NEU"
+    },
+    {
+      "source": "Computational Psychiatry",
+      "target": "Statistical Physics",
+      "improvement_potential": 0.6534224731872564,
+      "transacted_assets": [
+        "optimization"
+      ],
+      "distance": 0.03237989746216002,
+      "transaction_id": "TX-COM-STA"
+    }
+  ],
   "metrics": {
     "mean_cluster_q": 0.8120166666666666,
     "mean_bridge_q": 0.875,
