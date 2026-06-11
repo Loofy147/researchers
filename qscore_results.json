@@ -200,103 +200,159 @@
   },
   "research_frontiers": [
     {
-      "title": "Synthesis: Variational Principles \u00d7 Neural Field Theory",
-      "sim": 0.9423742681382669,
+      "title": "Synthesis: Quantum Cognition \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.9407518721737493,
       "c1": 3,
-      "c2": 6,
-      "target_phenomenon": "Phantom limb syndrome",
-      "anchor_score": 0.9781368612411583,
-      "priority_score": 0.9531030460691342,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8852921798012232,
+      "morphism_rigor": 0.75,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9530879232609879,
+      "priority_score": 0.9785764415101157,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Variational Principles \u00d7 Free Energy Principle",
-      "sim": 0.9510103107048417,
+      "title": "Synthesis: Categorical Quantum Mechanics \u00d7 Algorithmic Info Theory",
+      "sim": 0.914875359138033,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9316785331948374,
+      "morphism_rigor": 0.7333333333333334,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.927800356035932,
+      "priority_score": 0.9613613735025648,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Quantum Cognition \u00d7 Topological Data Anal.",
+      "sim": 0.9149891864360916,
       "c1": 3,
-      "c2": 4,
-      "target_phenomenon": "Phantom limb syndrome",
-      "anchor_score": 0.9578669940775301,
-      "priority_score": 0.9530673157166482,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9063079494722497,
+      "morphism_rigor": 0.6666666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9295818519280936,
+      "priority_score": 0.9487560330827228,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Neural Field Theory \u00d7 Gradient Flow Theory",
-      "sim": 0.9495728438699382,
+      "title": "Synthesis: Integrated Info Theory \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.915531583955176,
       "c1": 6,
-      "c2": 3,
+      "c2": 1,
       "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.953627308882075,
-      "priority_score": 0.9507891833735792,
+      "anchor_score": 0.8770462567796917,
+      "morphism_rigor": 0.7,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9281309433246265,
+      "priority_score": 0.9468905330146563,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Free Energy Principle \u00d7 Neural Field Theory",
-      "sim": 0.9521414175695541,
-      "c1": 4,
-      "c2": 6,
-      "target_phenomenon": "Dopamine detoxing",
-      "anchor_score": 0.9473807421799683,
-      "priority_score": 0.9507132149526782,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Dynamical Systems Psych \u00d7 Mean Field Theory",
-      "sim": 0.9382108074394702,
-      "c1": 6,
-      "c2": 5,
-      "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.9710114239389415,
-      "priority_score": 0.9480509923893116,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Stochastic Processes \u00d7 Computational Psychiatry",
-      "sim": 0.9412071471995852,
-      "c1": 5,
-      "c2": 4,
-      "target_phenomenon": "Dopamine detoxing",
-      "anchor_score": 0.9631846397295599,
-      "priority_score": 0.9478003949585776,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Riemannian Geometry \u00d7 Geometric Deep Learning",
-      "sim": 0.9397429868957602,
+      "title": "Synthesis: Quantum Cognition \u00d7 Category Theory",
+      "sim": 0.8635987099335501,
       "c1": 3,
-      "c2": 6,
-      "target_phenomenon": "Phantom limb syndrome",
-      "anchor_score": 0.9649921470208873,
-      "priority_score": 0.9473177349332982,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8561132522891364,
+      "morphism_rigor": 0.75,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9562565989018283,
+      "priority_score": 0.9428299938038707,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Neural Field Theory \u00d7 Mean Field Theory",
-      "sim": 0.9343373123747841,
+      "title": "Synthesis: Formal Grammars \u00d7 Algorithmic Info Theory",
+      "sim": 0.9041497082537232,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9136569495548493,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9246285329834569,
+      "priority_score": 0.9425152495051007,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Information Geometry \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.8928258799435356,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.9090173227237045,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9190584251701679,
+      "priority_score": 0.9406088904419471,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Renormalization Group \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.8868308076479915,
       "c1": 6,
-      "c2": 5,
+      "c2": 1,
       "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.975900749680155,
-      "priority_score": 0.9468063435663954,
+      "anchor_score": 0.8962551748781531,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9314625631755402,
+      "priority_score": 0.9369181587334156,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Dynamical Systems Psych \u00d7 Statistical Physics",
-      "sim": 0.9313447927614632,
+      "title": "Synthesis: Algebraic Linguistics \u00d7 Algorithmic Info Theory",
+      "sim": 0.8825128880588073,
+      "c1": 1,
+      "c2": 2,
+      "target_phenomenon": "Generative AI",
+      "anchor_score": 0.9086032218848604,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9349449164396275,
+      "priority_score": 0.9359446909299878,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Geometric Deep Learning \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.8913620193043359,
       "c1": 6,
-      "c2": 5,
+      "c2": 1,
       "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.9757029262516369,
-      "priority_score": 0.9446522328085152,
+      "anchor_score": 0.8821242136692822,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9220120557803577,
+      "priority_score": 0.9330692989356243,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Free Energy Principle \u00d7 Stochastic Processes",
-      "sim": 0.936634191034971,
-      "c1": 4,
-      "c2": 5,
-      "target_phenomenon": "Dopamine detoxing",
-      "anchor_score": 0.9607158985480957,
-      "priority_score": 0.9438587032889084,
+      "title": "Synthesis: Network Science \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.888272874659613,
+      "c1": 6,
+      "c2": 1,
+      "target_phenomenon": "Neurodivergence",
+      "anchor_score": 0.8867331423357235,
+      "morphism_rigor": 0.7,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9109821729579197,
+      "priority_score": 0.9327797952976254,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Quantum Cognition \u00d7 Algebraic Linguistics",
+      "sim": 0.8633443639718453,
+      "c1": 3,
+      "c2": 1,
+      "target_phenomenon": "Brain mapping",
+      "anchor_score": 0.8475145479853073,
+      "morphism_rigor": 0.7,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9602324836646834,
+      "priority_score": 0.9322012799872795,
       "structural_synergy": null
     }
   ],
@@ -308,7 +364,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9111091315559923,
-      "priority_score": 0.8674804810715926,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8506288636651049,
+      "priority_score": 0.8541619685039532,
       "structural_synergy": null
     },
     {
@@ -318,7 +377,10 @@
       "c2": 5,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9741588195312965,
-      "priority_score": 0.8863921947250024,
+      "morphism_rigor": 0.25,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.8345873589934824,
+      "priority_score": 0.8305725488140869,
       "structural_synergy": null
     },
     {
@@ -328,7 +390,10 @@
       "c2": 6,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9465546563422947,
-      "priority_score": 0.8779759686496734,
+      "morphism_rigor": 0.4833333333333333,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8480573779869356,
+      "priority_score": 0.8794771607572704,
       "structural_synergy": null
     },
     {
@@ -338,7 +403,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9140056762889531,
-      "priority_score": 0.8680572962896267,
+      "morphism_rigor": 0.4,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8230768641221615,
+      "priority_score": 0.8425181625212292,
       "structural_synergy": null
     },
     {
@@ -348,7 +416,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.956664354552059,
-      "priority_score": 0.8807573414589693,
+      "morphism_rigor": 0.25,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.8351940610046416,
+      "priority_score": 0.8289328039734,
       "structural_synergy": null
     },
     {
@@ -358,7 +429,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9732905822383677,
-      "priority_score": 0.8856917265172932,
+      "morphism_rigor": 0.18333333333333335,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.897322336973807,
+      "priority_score": 0.8342922132742709,
       "structural_synergy": null
     },
     {
@@ -368,7 +442,23 @@
       "c2": 4,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8984496785017354,
-      "priority_score": 0.8631544258143298,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8893429788943537,
+      "priority_score": 0.8458185662683204,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Integrated Info Theory",
+      "sim": 0.8478802984050477,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9116895772450253,
+      "morphism_rigor": 0.43333333333333335,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.824086730728022,
+      "priority_score": 0.8506836659265821,
       "structural_synergy": null
     },
     {
@@ -378,7 +468,23 @@
       "c2": 5,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9539832457534333,
-      "priority_score": 0.8792760629547218,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.8067392894639919,
+      "priority_score": 0.837575321978569,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Computational Psychiatry",
+      "sim": 0.8472409621795124,
+      "c1": 2,
+      "c2": 4,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.934865271243966,
+      "morphism_rigor": 0.15000000000000002,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8278188866725616,
+      "priority_score": 0.7968624927369605,
       "structural_synergy": null
     },
     {
@@ -388,7 +494,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9259766500918133,
-      "priority_score": 0.8702535256211406,
+      "morphism_rigor": 0.38333333333333336,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8080380399031513,
+      "priority_score": 0.8424705917086741,
       "structural_synergy": null
     },
     {
@@ -398,7 +507,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9289654604778725,
-      "priority_score": 0.870928273520267,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.9132839116393091,
+      "priority_score": 0.8575143972268593,
       "structural_synergy": null
     },
     {
@@ -408,7 +520,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9131741162388365,
-      "priority_score": 0.8660111789483562,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7961576134534001,
+      "priority_score": 0.8170399917895307,
       "structural_synergy": null
     },
     {
@@ -418,7 +533,23 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8996267100387048,
-      "priority_score": 0.861815317378609,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8888881034214566,
+      "priority_score": 0.8701368921886612,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Computational Psychiatry",
+      "sim": 0.845280211365071,
+      "c1": 2,
+      "c2": 4,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9351453312303241,
+      "morphism_rigor": 0.2833333333333334,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8482235612687332,
+      "priority_score": 0.8289222734539736,
       "structural_synergy": null
     },
     {
@@ -428,7 +559,10 @@
       "c2": 6,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9562694241808927,
-      "priority_score": 0.8784914251320635,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8460486473847137,
+      "priority_score": 0.8494466529333582,
       "structural_synergy": null
     },
     {
@@ -438,7 +572,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9219224582409241,
-      "priority_score": 0.867885504978481,
+      "morphism_rigor": 0.4833333333333333,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.7929185139371996,
+      "priority_score": 0.8564657452130577,
       "structural_synergy": null
     },
     {
@@ -448,7 +585,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9662301692781382,
-      "priority_score": 0.8810959845855502,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8339498248783734,
+      "priority_score": 0.8442565852528936,
       "structural_synergy": null
     },
     {
@@ -458,7 +598,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9662784140504458,
-      "priority_score": 0.8808182132269877,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.833850384393378,
+      "priority_score": 0.8321725056050329,
       "structural_synergy": null
     },
     {
@@ -468,7 +611,10 @@
       "c2": 6,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9650360747914332,
-      "priority_score": 0.8803951379824762,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.8542829184271845,
+      "priority_score": 0.8494603438939959,
       "structural_synergy": null
     },
     {
@@ -478,7 +624,10 @@
       "c2": 6,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.942528416225468,
-      "priority_score": 0.8735313598878358,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8311086231826638,
+      "priority_score": 0.8584043891154105,
       "structural_synergy": null
     },
     {
@@ -488,7 +637,10 @@
       "c2": 5,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.981833647889115,
-      "priority_score": 0.8852257288307745,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.8332436823822187,
+      "priority_score": 0.8330555080347057,
       "structural_synergy": null
     },
     {
@@ -498,7 +650,10 @@
       "c2": 2,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8558650520353476,
-      "priority_score": 0.8473891607303571,
+      "morphism_rigor": 0.4833333333333333,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8536045414385569,
+      "priority_score": 0.8557113522623071,
       "structural_synergy": null
     },
     {
@@ -508,7 +663,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.903584737551111,
-      "priority_score": 0.8614158932544249,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8255348333182743,
+      "priority_score": 0.8296199646280497,
       "structural_synergy": null
     },
     {
@@ -518,7 +676,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.948369735868613,
-      "priority_score": 0.8743815976557294,
+      "morphism_rigor": 0.4,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8190098006763235,
+      "priority_score": 0.852094154030204,
       "structural_synergy": null
     },
     {
@@ -528,7 +689,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9088914127220692,
-      "priority_score": 0.862314351370405,
+      "morphism_rigor": 0.6166666666666667,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9430709675266766,
+      "priority_score": 0.911803372674315,
       "structural_synergy": null
     },
     {
@@ -538,17 +702,23 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9193012924170297,
-      "priority_score": 0.8654296248807748,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8780836663861403,
+      "priority_score": 0.8482020865177439,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Integrated Info Theory \u00d7 Category Theory",
-      "sim": 0.8422472284085186,
-      "c1": 6,
-      "c2": 1,
-      "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.8326549997727724,
-      "priority_score": 0.8393695598177947,
+      "title": "Synthesis: Measure-Theoretic Prob. \u00d7 Statistical Physics",
+      "sim": 0.842225064976412,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9109013705796829,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8433537441434305,
+      "priority_score": 0.8393897778552649,
       "structural_synergy": null
     },
     {
@@ -558,7 +728,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9572311235487846,
-      "priority_score": 0.8760172878923138,
+      "morphism_rigor": 0.18333333333333335,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.8453869009819931,
+      "priority_score": 0.8159649139950895,
       "structural_synergy": null
     },
     {
@@ -568,7 +741,10 @@
       "c2": 2,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.87283575017425,
-      "priority_score": 0.850526455028463,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8648755610649479,
+      "priority_score": 0.8680369415054917,
       "structural_synergy": null
     },
     {
@@ -578,17 +754,23 @@
       "c2": 4,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9569581780632678,
-      "priority_score": 0.8755542329433519,
+      "morphism_rigor": 0.35000000000000003,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.8812667266821055,
+      "priority_score": 0.8565493699299815,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Network Science \u00d7 Category Theory",
-      "sim": 0.8406072208165096,
-      "c1": 6,
-      "c2": 1,
-      "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.8379367504234906,
-      "priority_score": 0.8398060796986039,
+      "title": "Synthesis: Bayesian Inference \u00d7 Statistical Physics",
+      "sim": 0.8405811460734153,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9348308271073249,
+      "morphism_rigor": 0.25,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8209905063005306,
+      "priority_score": 0.8168091302467245,
       "structural_synergy": null
     },
     {
@@ -598,7 +780,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9344521471589111,
-      "priority_score": 0.8686402245650547,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.8889162875329577,
+      "priority_score": 0.8609170134670383,
       "structural_synergy": null
     },
     {
@@ -608,7 +793,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9345306562918765,
-      "priority_score": 0.8682325890594501,
+      "morphism_rigor": 0.4833333333333333,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.7934211301537488,
+      "priority_score": 0.8571750980686035,
       "structural_synergy": null
     },
     {
@@ -618,7 +806,23 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9139821025156221,
-      "priority_score": 0.8609112464752797,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8513292878169947,
+      "priority_score": 0.834033665626664,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Mean Field Theory",
+      "sim": 0.8381300321410298,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9578802156484919,
+      "morphism_rigor": 0.2833333333333334,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8102098701913742,
+      "priority_score": 0.8238710382159234,
       "structural_synergy": null
     },
     {
@@ -628,7 +832,23 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9322562394826819,
-      "priority_score": 0.8659445000200923,
+      "morphism_rigor": 0.4833333333333333,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8105699005204556,
+      "priority_score": 0.8609472663901483,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Stochastic Processes",
+      "sim": 0.8374263576263408,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9544567109611989,
+      "morphism_rigor": 0.16666666666666666,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7640107410964823,
+      "priority_score": 0.7857117954107884,
       "structural_synergy": null
     },
     {
@@ -638,7 +858,23 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8906399674639001,
-      "priority_score": 0.853246838817322,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8570095171935244,
+      "priority_score": 0.8440993547250395,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Network Science",
+      "sim": 0.8370523364590103,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9287678720527559,
+      "morphism_rigor": 0.43333333333333335,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8069379603613152,
+      "priority_score": 0.8446235089997012,
       "structural_synergy": null
     },
     {
@@ -648,7 +884,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8989891603409572,
-      "priority_score": 0.8556120251651687,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8142638136918834,
+      "priority_score": 0.8161241938164577,
       "structural_synergy": null
     },
     {
@@ -658,7 +897,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9525369236431738,
-      "priority_score": 0.8711370197900485,
+      "morphism_rigor": 0.4,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8018610303096166,
+      "priority_score": 0.8452145409333619,
       "structural_synergy": null
     },
     {
@@ -668,7 +910,23 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9071035867552047,
-      "priority_score": 0.8573726027762079,
+      "morphism_rigor": 0.7166666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8451427495471237,
+      "priority_score": 0.9020114848218127,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Global Workspace Theory",
+      "sim": 0.8359671338593326,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8970033240251275,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8845373132819381,
+      "priority_score": 0.8344496575638247,
       "structural_synergy": null
     },
     {
@@ -678,7 +936,10 @@
       "c2": 4,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.961141681079737,
-      "priority_score": 0.8722382716993091,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8347067310611668,
+      "priority_score": 0.8364096610691525,
       "structural_synergy": null
     },
     {
@@ -688,7 +949,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9347856656945407,
-      "priority_score": 0.8640925294630777,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8235378160941091,
+      "priority_score": 0.8571849748261939,
       "structural_synergy": null
     },
     {
@@ -698,7 +962,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9140084266509534,
-      "priority_score": 0.8568155360467726,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8313906690204275,
+      "priority_score": 0.8252551862432305,
       "structural_synergy": null
     },
     {
@@ -708,7 +975,10 @@
       "c2": 2,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9021929747542325,
-      "priority_score": 0.8530264551951012,
+      "morphism_rigor": 0.7333333333333334,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9309690316767725,
+      "priority_score": 0.9232467567193865,
       "structural_synergy": null
     },
     {
@@ -718,7 +988,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9008440541465051,
-      "priority_score": 0.8525049697582854,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8772796990703202,
+      "priority_score": 0.8747022868366917,
       "structural_synergy": null
     },
     {
@@ -728,7 +1001,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.966637564966094,
-      "priority_score": 0.8716226022952034,
+      "morphism_rigor": 0.23333333333333334,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.8243127517893771,
+      "priority_score": 0.8174001757937364,
       "structural_synergy": null
     },
     {
@@ -738,7 +1014,10 @@
       "c2": 3,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9279007992825458,
-      "priority_score": 0.8599533084249257,
+      "morphism_rigor": 0.5166666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8493560061599545,
+      "priority_score": 0.8653443568199964,
       "structural_synergy": null
     },
     {
@@ -748,7 +1027,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9363369480005718,
-      "priority_score": 0.8623312142686237,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7793384856409553,
+      "priority_score": 0.8005532116791426,
       "structural_synergy": null
     },
     {
@@ -758,7 +1040,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9471851787732201,
-      "priority_score": 0.8652431746329954,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7966930399838079,
+      "priority_score": 0.8210668381170483,
       "structural_synergy": null
     },
     {
@@ -768,7 +1053,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8802108999937093,
-      "priority_score": 0.8451212747623114,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7838665010587411,
+      "priority_score": 0.8004737637863896,
       "structural_synergy": null
     },
     {
@@ -778,7 +1066,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9538841921258184,
-      "priority_score": 0.8670550659875731,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8384778402961592,
+      "priority_score": 0.8472388656178904,
       "structural_synergy": null
     },
     {
@@ -788,7 +1079,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9350599647481528,
-      "priority_score": 0.8612607233476784,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7840587909470598,
+      "priority_score": 0.8079877756041743,
       "structural_synergy": null
     },
     {
@@ -798,7 +1092,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.860750416451566,
-      "priority_score": 0.8388100871928068,
+      "morphism_rigor": 0.6499999999999999,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9078103499054446,
+      "priority_score": 0.8930853889168273,
       "structural_synergy": null
     },
     {
@@ -808,7 +1105,10 @@
       "c2": 5,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9609430032800151,
-      "priority_score": 0.8688101999586008,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.8174585811060262,
+      "priority_score": 0.8383427998789172,
       "structural_synergy": null
     },
     {
@@ -818,7 +1118,10 @@
       "c2": 3,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9369387763172571,
-      "priority_score": 0.8615294485552714,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8538840215777403,
+      "priority_score": 0.8778616408636641,
       "structural_synergy": null
     },
     {
@@ -828,7 +1131,10 @@
       "c2": 6,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9637410020496698,
-      "priority_score": 0.8694796627180224,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.8053956128527282,
+      "priority_score": 0.8351864023731589,
       "structural_synergy": null
     },
     {
@@ -838,7 +1144,10 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9215564353124547,
-      "priority_score": 0.8567204141753266,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.864422177336981,
+      "priority_score": 0.901168905821807,
       "structural_synergy": null
     },
     {
@@ -848,7 +1157,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9214366468367874,
-      "priority_score": 0.8566743168699386,
+      "morphism_rigor": 0.4666666666666666,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8952921467737016,
+      "priority_score": 0.8730768650026586,
       "structural_synergy": null
     },
     {
@@ -858,7 +1170,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9305765470532402,
-      "priority_score": 0.8590049478185584,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7914373081472956,
+      "priority_score": 0.8054508851944169,
       "structural_synergy": null
     },
     {
@@ -868,7 +1183,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9657963959541895,
-      "priority_score": 0.8694781082828416,
+      "morphism_rigor": 0.23333333333333334,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.8233873777183357,
+      "priority_score": 0.8158731050221627,
       "structural_synergy": null
     },
     {
@@ -878,7 +1196,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9229597805791633,
-      "priority_score": 0.8565731177388123,
+      "morphism_rigor": 0.4833333333333333,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8100672843039064,
+      "priority_score": 0.8551757928243515,
       "structural_synergy": null
     },
     {
@@ -888,7 +1209,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9521729124695965,
-      "priority_score": 0.8650447535967645,
+      "morphism_rigor": 0.39999999999999997,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8255099247225055,
+      "priority_score": 0.8488175139703924,
       "structural_synergy": null
     },
     {
@@ -898,7 +1222,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9180928635726908,
-      "priority_score": 0.8545358336328074,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.8625953813695544,
+      "priority_score": 0.8311603482209364,
       "structural_synergy": null
     },
     {
@@ -908,17 +1235,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9434643698025102,
-      "priority_score": 0.8614113790674058,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Quantum Cognition \u00d7 Homotopy Type Theory",
-      "sim": 0.8259834007987583,
-      "c1": 3,
-      "c2": 1,
-      "target_phenomenon": "Brain mapping",
-      "anchor_score": 0.845852308371999,
-      "priority_score": 0.8319440730707305,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8688751529293015,
+      "priority_score": 0.8528353862442144,
       "structural_synergy": null
     },
     {
@@ -928,7 +1248,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9081206013097507,
-      "priority_score": 0.8506121333085654,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.8531448739743719,
+      "priority_score": 0.825798159752445,
       "structural_synergy": null
     },
     {
@@ -938,17 +1261,36 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.8872694656349585,
-      "priority_score": 0.8439423260312131,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8670882367612722,
+      "priority_score": 0.8936873312902439,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Network Science \u00d7 Algebraic Linguistics",
-      "sim": 0.824482743779297,
-      "c1": 6,
-      "c2": 1,
-      "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.8496071788147443,
-      "priority_score": 0.8320200742899311,
+      "title": "Synthesis: Social Choice Theory \u00d7 Agent-Based Modeling",
+      "sim": 0.8248301603435552,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9306267238820402,
+      "morphism_rigor": 0.4,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7722391836265035,
+      "priority_score": 0.8250425185075155,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Evolutionary Dynamics",
+      "sim": 0.824215411773304,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9643382520776959,
+      "morphism_rigor": 0.25,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7987262921848652,
+      "priority_score": 0.8094850572860548,
       "structural_synergy": null
     },
     {
@@ -958,7 +1300,10 @@
       "c2": 2,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9339666673797473,
-      "priority_score": 0.8566173319055634,
+      "morphism_rigor": 0.6666666666666667,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9134563550863619,
+      "priority_score": 0.9076193697470658,
       "structural_synergy": null
     },
     {
@@ -968,7 +1313,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9515003864439505,
-      "priority_score": 0.8618533139219088,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8168660038136083,
+      "priority_score": 0.81818104908011,
       "structural_synergy": null
     },
     {
@@ -978,7 +1326,23 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9549190790943075,
-      "priority_score": 0.8626927614149498,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.8805747698012538,
+      "priority_score": 0.8422674439265737,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Evolutionary Dynamics",
+      "sim": 0.8226014994224781,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9821820717823878,
+      "morphism_rigor": 0.16666666666666666,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7328110592368275,
+      "priority_score": 0.7759670197355847,
       "structural_synergy": null
     },
     {
@@ -988,7 +1352,10 @@
       "c2": 2,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8851195127371225,
-      "priority_score": 0.8413020468972812,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9223067324064191,
+      "priority_score": 0.8867939251866561,
       "structural_synergy": null
     },
     {
@@ -998,7 +1365,10 @@
       "c2": 2,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9115494251813293,
-      "priority_score": 0.8485285152702824,
+      "morphism_rigor": 0.6166666666666667,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9102845320338868,
+      "priority_score": 0.8914051492626367,
       "structural_synergy": null
     },
     {
@@ -1008,7 +1378,10 @@
       "c2": 6,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9347037538099798,
-      "priority_score": 0.8548048029091633,
+      "morphism_rigor": 0.4166666666666667,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.9159832136170156,
+      "priority_score": 0.8729423147603179,
       "structural_synergy": null
     },
     {
@@ -1018,7 +1391,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9582288707398519,
-      "priority_score": 0.8615052502216107,
+      "morphism_rigor": 0.21666666666666667,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.8247310543295994,
+      "priority_score": 0.8081707407739526,
       "structural_synergy": null
     },
     {
@@ -1028,7 +1404,23 @@
       "c2": 5,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9733524575335325,
-      "priority_score": 0.8658033890125164,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.8195529961844747,
+      "priority_score": 0.8342741692214565,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Mean Field Theory",
+      "sim": 0.8197048304395416,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9646944300400674,
+      "morphism_rigor": 0.15000000000000002,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7898051955952028,
+      "priority_score": 0.7850757313681253,
       "structural_synergy": null
     },
     {
@@ -1038,7 +1430,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9138955583210536,
-      "priority_score": 0.8479070709516917,
+      "morphism_rigor": 0.4833333333333333,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8748117565560812,
+      "priority_score": 0.8650407667884011,
       "structural_synergy": null
     },
     {
@@ -1048,7 +1443,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9315926482043185,
-      "priority_score": 0.8528463453722217,
+      "morphism_rigor": 0.35000000000000003,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.8784532808579154,
+      "priority_score": 0.8420046710032516,
       "structural_synergy": null
     },
     {
@@ -1058,7 +1456,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8739726568947326,
-      "priority_score": 0.834928990261791,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9398991444742014,
+      "priority_score": 0.8842053692442977,
       "structural_synergy": null
     },
     {
@@ -1068,7 +1469,23 @@
       "c2": 6,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9350936776344876,
-      "priority_score": 0.8531253844895911,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9251807314211982,
+      "priority_score": 0.9152674330987517,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Quantum Cognition",
+      "sim": 0.8175650607639839,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.925877723961323,
+      "morphism_rigor": 0.48333333333333334,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8490437106643833,
+      "priority_score": 0.8578690073666992,
       "structural_synergy": null
     },
     {
@@ -1078,7 +1495,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9592790516584093,
-      "priority_score": 0.8598842762452572,
+      "morphism_rigor": 0.18333333333333332,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.8319679870218963,
+      "priority_score": 0.8027788882404461,
       "structural_synergy": null
     },
     {
@@ -1088,7 +1508,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.939644011832222,
-      "priority_score": 0.8533373090491008,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.863425999434547,
+      "priority_score": 0.831340409542874,
       "structural_synergy": null
     },
     {
@@ -1098,7 +1521,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.8813860814356234,
-      "priority_score": 0.8354749921882175,
+      "morphism_rigor": 0.7166666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.848311425187964,
+      "priority_score": 0.8897143813117968,
       "structural_synergy": null
     },
     {
@@ -1108,7 +1534,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9458903996863954,
-      "priority_score": 0.8543641106270379,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.9231402163031921,
+      "priority_score": 0.8608098466612657,
       "structural_synergy": null
     },
     {
@@ -1118,7 +1547,10 @@
       "c2": 6,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9490558011859864,
-      "priority_score": 0.8543773525954479,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.813959852815957,
+      "priority_score": 0.8425011076943345,
       "structural_synergy": null
     },
     {
@@ -1128,7 +1560,23 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9261473757795802,
-      "priority_score": 0.8474766934578811,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7704030178969659,
+      "priority_score": 0.7890931431149216,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Global Workspace Theory",
+      "sim": 0.8133623233924636,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9159386418965461,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.839026754930072,
+      "priority_score": 0.8255416294458008,
       "structural_synergy": null
     },
     {
@@ -1138,7 +1586,10 @@
       "c2": 6,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9511283927538372,
-      "priority_score": 0.854607054474691,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8819537155261955,
+      "priority_score": 0.8497564082927216,
       "structural_synergy": null
     },
     {
@@ -1148,7 +1599,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9128448801618074,
-      "priority_score": 0.8431117931443279,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.7741417023638915,
+      "priority_score": 0.8430836022716697,
       "structural_synergy": null
     },
     {
@@ -1158,7 +1612,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9583585848191096,
-      "priority_score": 0.8564929306003493,
+      "morphism_rigor": 0.25,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.8742037857206908,
+      "priority_score": 0.8235783264957227,
       "structural_synergy": null
     },
     {
@@ -1168,7 +1625,23 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8849180242416945,
-      "priority_score": 0.8344107105133793,
+      "morphism_rigor": 0.43333333333333335,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.85939388133484,
+      "priority_score": 0.8418752687121542,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Social Choice Theory \u00d7 Evolutionary Dynamics",
+      "sim": 0.8121368415234907,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9511622053749768,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.773582860237767,
+      "priority_score": 0.8211420569281228,
       "structural_synergy": null
     },
     {
@@ -1178,7 +1651,23 @@
       "c2": 6,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9461171254711522,
-      "priority_score": 0.8522660627302481,
+      "morphism_rigor": 0.39999999999999997,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8801461725556924,
+      "priority_score": 0.857733256768098,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Neural Field Theory",
+      "sim": 0.8117538317509732,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8789873103482301,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.9007769784602923,
+      "priority_score": 0.819366366871941,
       "structural_synergy": null
     },
     {
@@ -1188,7 +1677,23 @@
       "c2": 6,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9454389640024925,
-      "priority_score": 0.8518314338558857,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.8332087692345685,
+      "priority_score": 0.8362560650413325,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Renormalization Group",
+      "sim": 0.8111301266679689,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8839088439058539,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8729289089308018,
+      "priority_score": 0.8317467706914168,
       "structural_synergy": null
     },
     {
@@ -1198,7 +1703,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9131750545435556,
-      "priority_score": 0.8413532906494852,
+      "morphism_rigor": 0.3666666666666667,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8126138574471193,
+      "priority_score": 0.8174294300078148,
       "structural_synergy": null
     },
     {
@@ -1208,7 +1716,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9374188555522871,
-      "priority_score": 0.8484415211827132,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.9055317497376152,
+      "priority_score": 0.8500478951713433,
       "structural_synergy": null
     },
     {
@@ -1218,7 +1729,23 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9587450324058603,
-      "priority_score": 0.85438685973049,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8614548286662949,
+      "priority_score": 0.8700077728833632,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Free Energy Principle",
+      "sim": 0.8094022305772945,
+      "c1": 2,
+      "c2": 4,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.91775634585413,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8558731221195853,
+      "priority_score": 0.8200548189855466,
       "structural_synergy": null
     },
     {
@@ -1228,7 +1755,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9299574181925618,
-      "priority_score": 0.8454606585523852,
+      "morphism_rigor": 0.39999999999999997,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.906900551124838,
+      "priority_score": 0.8570616988319435,
       "structural_synergy": null
     },
     {
@@ -1238,7 +1768,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9174222689281812,
-      "priority_score": 0.8409454693622633,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8389202237377911,
+      "priority_score": 0.8085429814752121,
       "structural_synergy": null
     },
     {
@@ -1248,7 +1781,23 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9261204695623122,
-      "priority_score": 0.8435018523237594,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7825018404033062,
+      "priority_score": 0.7937840166601655,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Free Energy Principle",
+      "sim": 0.8079901964021353,
+      "c1": 2,
+      "c2": 4,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9145627279662187,
+      "morphism_rigor": 0.18333333333333335,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8354684475234138,
+      "priority_score": 0.7860632126923826,
       "structural_synergy": null
     },
     {
@@ -1258,7 +1807,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8812259897428703,
-      "priority_score": 0.8299597320344254,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8283646495494397,
+      "priority_score": 0.8251884721962117,
       "structural_synergy": null
     },
     {
@@ -1268,7 +1820,10 @@
       "c2": 1,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8829058118378355,
-      "priority_score": 0.8301026254311219,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9222271008110082,
+      "priority_score": 0.9021959143394803,
       "structural_synergy": null
     },
     {
@@ -1278,7 +1833,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9422529758111444,
-      "priority_score": 0.8475290674750982,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7961904237672587,
+      "priority_score": 0.8106527862200829,
       "structural_synergy": null
     },
     {
@@ -1288,7 +1846,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.939670565558695,
-      "priority_score": 0.8465834934068148,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9358045613721364,
+      "priority_score": 0.8781804601679003,
       "structural_synergy": null
     },
     {
@@ -1298,7 +1859,23 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9110320791360155,
-      "priority_score": 0.8378944499367749,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.7912904727305983,
+      "priority_score": 0.8451951000909144,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Agent-Based Modeling",
+      "sim": 0.8053010034032404,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9539461214946836,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7973826155736017,
+      "priority_score": 0.802771098171381,
       "structural_synergy": null
     },
     {
@@ -1308,7 +1885,10 @@
       "c2": 2,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8731819340326159,
-      "priority_score": 0.8256438216598259,
+      "morphism_rigor": 0.65,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9042942847030377,
+      "priority_score": 0.8821015599198244,
       "structural_synergy": null
     },
     {
@@ -1318,7 +1898,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9354945534954836,
-      "priority_score": 0.8443156985506773,
+      "morphism_rigor": 0.5833333333333334,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9593106327050307,
+      "priority_score": 0.900483750829122,
       "structural_synergy": null
     },
     {
@@ -1328,7 +1911,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9346119927053036,
-      "priority_score": 0.8437063449742256,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8367863583605446,
+      "priority_score": 0.8495053271413737,
       "structural_synergy": null
     },
     {
@@ -1338,7 +1924,10 @@
       "c2": 2,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8780466303320792,
-      "priority_score": 0.8264837880383694,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8505315601153778,
+      "priority_score": 0.836810623326029,
       "structural_synergy": null
     },
     {
@@ -1348,7 +1937,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9317240297853409,
-      "priority_score": 0.8420005946435136,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8629356981207501,
+      "priority_score": 0.8519455381711558,
       "structural_synergy": null
     },
     {
@@ -1358,7 +1950,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9225126560511131,
-      "priority_score": 0.8389944924057895,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9195648961937822,
+      "priority_score": 0.8751484292945438,
       "structural_synergy": null
     },
     {
@@ -1368,7 +1963,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9363891459161978,
-      "priority_score": 0.8426534718196362,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8165993655742849,
+      "priority_score": 0.8171552094382617,
       "structural_synergy": null
     },
     {
@@ -1378,7 +1976,23 @@
       "c2": 4,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9605256441458532,
-      "priority_score": 0.8496505202877531,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8342041148446175,
+      "priority_score": 0.8233339886280449,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Network Science",
+      "sim": 0.8000778905376337,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9254621030817775,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8524485187131814,
+      "priority_score": 0.8328257443425148,
       "structural_synergy": null
     },
     {
@@ -1388,7 +2002,23 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.898251405679842,
-      "priority_score": 0.8293576410785559,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8567993088526997,
+      "priority_score": 0.8585903824744172,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Social Choice Theory \u00d7 Computational Psychiatry",
+      "sim": 0.7994716288985426,
+      "c1": 2,
+      "c2": 4,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.914508014604457,
+      "morphism_rigor": 0.3666666666666667,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8685906876735012,
+      "priority_score": 0.8292481817302859,
       "structural_synergy": null
     },
     {
@@ -1398,7 +2028,10 @@
       "c2": 6,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9588162838849318,
-      "priority_score": 0.8471980961152596,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9291566161840532,
+      "priority_score": 0.9037509653494314,
       "structural_synergy": null
     },
     {
@@ -1408,7 +2041,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8883347440741208,
-      "priority_score": 0.8256296779864916,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8302551386243786,
+      "priority_score": 0.8168177429198146,
       "structural_synergy": null
     },
     {
@@ -1418,7 +2054,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9742752557752274,
-      "priority_score": 0.8510087642313693,
+      "morphism_rigor": 0.19999999999999998,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.8195924464832727,
+      "priority_score": 0.7977563012361655,
       "structural_synergy": null
     },
     {
@@ -1428,7 +2067,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9343482273638162,
-      "priority_score": 0.8387375897533784,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8507499604259428,
+      "priority_score": 0.8205133287642258,
       "structural_synergy": null
     },
     {
@@ -1438,7 +2080,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9513521081699253,
-      "priority_score": 0.8435874890749775,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.8839063896521675,
+      "priority_score": 0.8289143846135479,
       "structural_synergy": null
     },
     {
@@ -1448,7 +2093,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9471305028256871,
-      "priority_score": 0.8421883119929967,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8063890457274023,
+      "priority_score": 0.8398763576513111,
       "structural_synergy": null
     },
     {
@@ -1458,7 +2106,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9486403544324522,
-      "priority_score": 0.8421994504819257,
+      "morphism_rigor": 0.39999999999999997,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8250073085059564,
+      "priority_score": 0.8355113399530301,
       "structural_synergy": null
     },
     {
@@ -1468,7 +2119,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9546354015520558,
-      "priority_score": 0.8439401321446589,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8907837676502406,
+      "priority_score": 0.8420628767954206,
       "structural_synergy": null
     },
     {
@@ -1478,7 +2132,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9411505044491945,
-      "priority_score": 0.8397696494935402,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.874455882256985,
+      "priority_score": 0.8236061353850082,
       "structural_synergy": null
     },
     {
@@ -1488,7 +2145,10 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9047765178546745,
-      "priority_score": 0.8285679906281501,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.8284884639284642,
+      "priority_score": 0.8137181264770482,
       "structural_synergy": null
     },
     {
@@ -1498,7 +2158,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9496376439908976,
-      "priority_score": 0.8409710238673412,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8982566302159407,
+      "priority_score": 0.8298117515747394,
       "structural_synergy": null
     },
     {
@@ -1508,7 +2171,10 @@
       "c2": 2,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8642583685647004,
-      "priority_score": 0.8151361568806361,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8392605404889868,
+      "priority_score": 0.8198843397736724,
       "structural_synergy": null
     },
     {
@@ -1518,7 +2184,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9475891043081676,
-      "priority_score": 0.839982006787462,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8602312320204042,
+      "priority_score": 0.8119143101662045,
       "structural_synergy": null
     },
     {
@@ -1528,7 +2197,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9278068093491847,
-      "priority_score": 0.8331677794018023,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7756188907911918,
+      "priority_score": 0.8058621283864664,
       "structural_synergy": null
     },
     {
@@ -1538,7 +2210,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9041338726042436,
-      "priority_score": 0.8259801510502289,
+      "morphism_rigor": 0.38333333333333336,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8980849097601178,
+      "priority_score": 0.8365605813124051,
       "structural_synergy": null
     },
     {
@@ -1548,17 +2223,23 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9726701693653181,
-      "priority_score": 0.8463123852037646,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8402853832666624,
+      "priority_score": 0.8264649102679936,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Integrated Info Theory \u00d7 Homotopy Type Theory",
-      "sim": 0.7914797706110476,
-      "c1": 6,
-      "c2": 1,
-      "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.81664380185058,
-      "priority_score": 0.7990289799829073,
+      "title": "Synthesis: Measure-Theoretic Prob. \u00d7 Evolutionary Dynamics",
+      "sim": 0.7919657528914615,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9496098606168568,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8210895300277652,
+      "priority_score": 0.8203484867940197,
       "structural_synergy": null
     },
     {
@@ -1568,7 +2249,23 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9487327999346528,
-      "priority_score": 0.8386397390612179,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8400582681906037,
+      "priority_score": 0.8122519944760173,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Stochastic Processes",
+      "sim": 0.7907060987744557,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.964962486153817,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7844154156926538,
+      "priority_score": 0.8019129159540761,
       "structural_synergy": null
     },
     {
@@ -1578,7 +2275,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8899883187768723,
-      "priority_score": 0.8204544450595624,
+      "morphism_rigor": 0.43333333333333335,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.827020972938176,
+      "priority_score": 0.8229374622472158,
       "structural_synergy": null
     },
     {
@@ -1588,7 +2288,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.8984098342847526,
-      "priority_score": 0.822165373147663,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8675908529778213,
+      "priority_score": 0.8817124393260313,
       "structural_synergy": null
     },
     {
@@ -1598,7 +2301,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9043185390962818,
-      "priority_score": 0.8238452693306588,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8264272457544508,
+      "priority_score": 0.7988222300066078,
       "structural_synergy": null
     },
     {
@@ -1608,7 +2314,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9090365774736562,
-      "priority_score": 0.8252406879546597,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.90573447061097,
+      "priority_score": 0.8452396431759854,
       "structural_synergy": null
     },
     {
@@ -1618,7 +2327,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8966669855865319,
-      "priority_score": 0.8214671827213806,
+      "morphism_rigor": 0.38333333333333336,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8952714639359276,
+      "priority_score": 0.8329243688910144,
       "structural_synergy": null
     },
     {
@@ -1628,7 +2340,10 @@
       "c2": 2,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9122871482608014,
-      "priority_score": 0.8257840434493209,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9426409806868383,
+      "priority_score": 0.8914696539535765,
       "structural_synergy": null
     },
     {
@@ -1638,7 +2353,23 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8657650727584701,
-      "priority_score": 0.8118010171238201,
+      "morphism_rigor": 0.39999999999999997,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8342767641840385,
+      "priority_score": 0.8162188241962279,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Statistical Physics",
+      "sim": 0.7877330784717362,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9616646710374405,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7754799479486645,
+      "priority_score": 0.7973835044865162,
       "structural_synergy": null
     },
     {
@@ -1648,7 +2379,10 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9319030064709128,
-      "priority_score": 0.8306277949285485,
+      "morphism_rigor": 0.6166666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8849608999991891,
+      "priority_score": 0.8793827374649331,
       "structural_synergy": null
     },
     {
@@ -1658,7 +2392,10 @@
       "c2": 6,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9342844959561643,
-      "priority_score": 0.8311558053459047,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9346312388163807,
+      "priority_score": 0.9055254206158193,
       "structural_synergy": null
     },
     {
@@ -1668,7 +2405,23 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9335410485626572,
-      "priority_score": 0.8300372726906078,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8728620774928488,
+      "priority_score": 0.8721291173034956,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Predictive Coding",
+      "sim": 0.7853759915334274,
+      "c1": 2,
+      "c2": 4,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9148064442070453,
+      "morphism_rigor": 0.2833333333333334,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.845410115444543,
+      "priority_score": 0.8000487743694034,
       "structural_synergy": null
     },
     {
@@ -1678,7 +2431,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9247881372782253,
-      "priority_score": 0.826236799059065,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7708985854850874,
+      "priority_score": 0.7937325621586625,
       "structural_synergy": null
     },
     {
@@ -1688,7 +2444,10 @@
       "c2": 6,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9722195968445289,
-      "priority_score": 0.8404613509645034,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9188402327278826,
+      "priority_score": 0.8971894334538509,
       "structural_synergy": null
     },
     {
@@ -1698,7 +2457,10 @@
       "c2": 1,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8806092025645731,
-      "priority_score": 0.8125568909673218,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9262029855738633,
+      "priority_score": 0.8832969283812151,
       "structural_synergy": null
     },
     {
@@ -1708,7 +2470,23 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9321551426790841,
-      "priority_score": 0.8265743003749244,
+      "morphism_rigor": 0.3666666666666667,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7774136121939506,
+      "priority_score": 0.7994237472680277,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Renormalization Group",
+      "sim": 0.7806315556434654,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9035568262736419,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8274183505789356,
+      "priority_score": 0.8198237712496133,
       "structural_synergy": null
     },
     {
@@ -1718,7 +2496,23 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.898716894556309,
-      "priority_score": 0.8157613356210611,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8678291916751377,
+      "priority_score": 0.8508099962657174,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Predictive Coding",
+      "sim": 0.7801955911773484,
+      "c1": 2,
+      "c2": 4,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9121495491459859,
+      "morphism_rigor": 0.15000000000000002,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8250054408483716,
+      "priority_score": 0.7646571661692418,
       "structural_synergy": null
     },
     {
@@ -1728,7 +2522,10 @@
       "c2": 6,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9546785443994268,
-      "priority_score": 0.8324564158014964,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9386071235792357,
+      "priority_score": 0.8980440791176786,
       "structural_synergy": null
     },
     {
@@ -1738,7 +2535,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.935502605599494,
-      "priority_score": 0.8259012145995146,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8163633875970591,
+      "priority_score": 0.7970291280067925,
       "structural_synergy": null
     },
     {
@@ -1748,7 +2548,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9086970387785325,
-      "priority_score": 0.8177401723979477,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8501912433641821,
+      "priority_score": 0.8050814920459115,
       "structural_synergy": null
     },
     {
@@ -1758,7 +2561,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9099265104073309,
-      "priority_score": 0.8177135127837503,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8197458534165015,
+      "priority_score": 0.8098332086092278,
       "structural_synergy": null
     },
     {
@@ -1768,7 +2574,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9510252142751302,
-      "priority_score": 0.8298813081069032,
+      "morphism_rigor": 0.33333333333333337,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8763516454423896,
+      "priority_score": 0.8262631448559594,
       "structural_synergy": null
     },
     {
@@ -1778,7 +2587,10 @@
       "c2": 2,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9118562597430725,
-      "priority_score": 0.8179063433753684,
+      "morphism_rigor": 0.6166666666666667,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9206009154900574,
+      "priority_score": 0.8770104470613009,
       "structural_synergy": null
     },
     {
@@ -1788,7 +2600,23 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.93804217607328,
-      "priority_score": 0.8251850309886344,
+      "morphism_rigor": 0.4833333333333334,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9213724391642854,
+      "priority_score": 0.8582432719479538,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Quantum Cognition",
+      "sim": 0.7767039044871277,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.934000644146113,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8286390360682119,
+      "priority_score": 0.8103610598473966,
       "structural_synergy": null
     },
     {
@@ -1798,7 +2626,10 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.8666915962949879,
-      "priority_score": 0.8033707444181202,
+      "morphism_rigor": 0.7166666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8652660536137999,
+      "priority_score": 0.8760356429669024,
       "structural_synergy": null
     },
     {
@@ -1808,7 +2639,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9354015342163886,
-      "priority_score": 0.8239224497824347,
+      "morphism_rigor": 0.43333333333333335,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8062304969326481,
+      "priority_score": 0.8257227107418219,
       "structural_synergy": null
     },
     {
@@ -1818,7 +2652,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9655219409025046,
-      "priority_score": 0.832648836798505,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.0035169157221307534,
+      "gestalt_consistency": 0.8706826958998046,
+      "priority_score": 0.8275721270131362,
       "structural_synergy": null
     },
     {
@@ -1828,7 +2665,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9242900614625855,
-      "priority_score": 0.8201932363598761,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8534851907255676,
+      "priority_score": 0.8364366392670151,
       "structural_synergy": null
     },
     {
@@ -1838,7 +2678,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9599915695826914,
-      "priority_score": 0.8308620156600578,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9149319659474724,
+      "priority_score": 0.8859770947087122,
       "structural_synergy": null
     },
     {
@@ -1848,7 +2691,23 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9350362349883827,
-      "priority_score": 0.823308158768096,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8715022516467952,
+      "priority_score": 0.8120757161577282,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Geometric Deep Learning",
+      "sim": 0.7746273717494168,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8633354066734612,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8634784015356193,
+      "priority_score": 0.8101958290589627,
       "structural_synergy": null
     },
     {
@@ -1858,7 +2717,10 @@
       "c2": 4,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.964035082246439,
-      "priority_score": 0.8311303814914308,
+      "morphism_rigor": 0.3666666666666667,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8154273032713094,
+      "priority_score": 0.8138849450276946,
       "structural_synergy": null
     },
     {
@@ -1868,7 +2730,23 @@
       "c2": 2,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9050047791460539,
-      "priority_score": 0.8132801253111447,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9529573641430089,
+      "priority_score": 0.8872114052224771,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Agent-Based Modeling",
+      "sim": 0.7735868452036009,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9799742787324581,
+      "morphism_rigor": 0.18333333333333335,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.731467382625564,
+      "priority_score": 0.7588498297880022,
       "structural_synergy": null
     },
     {
@@ -1878,7 +2756,10 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.8647254278380021,
-      "priority_score": 0.8007766771094675,
+      "morphism_rigor": 0.75,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8464892420404917,
+      "priority_score": 0.8755307657435755,
       "structural_synergy": null
     },
     {
@@ -1888,7 +2769,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8811543183531055,
-      "priority_score": 0.8051584536626861,
+      "morphism_rigor": 0.5833333333333334,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.95991733471619,
+      "priority_score": 0.8593631862177391,
       "structural_synergy": null
     },
     {
@@ -1898,7 +2782,10 @@
       "c2": 6,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9633431777803193,
-      "priority_score": 0.8296693188215,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.7959451054575457,
+      "priority_score": 0.8095911158060386,
       "structural_synergy": null
     },
     {
@@ -1908,7 +2795,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9309523831049357,
-      "priority_score": 0.8199250911458961,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.7975865760237509,
+      "priority_score": 0.7945178171566976,
       "structural_synergy": null
     },
     {
@@ -1918,17 +2808,23 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9421367917500033,
-      "priority_score": 0.8225798229185277,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.8592637615186408,
+      "priority_score": 0.8159205874244734,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Network Science \u00d7 Homotopy Type Theory",
-      "sim": 0.7710955298150536,
-      "c1": 6,
-      "c2": 1,
-      "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.8269559474244053,
-      "priority_score": 0.787853655097859,
+      "title": "Synthesis: Social Choice Theory \u00d7 Renormalization Group",
+      "sim": 0.7712875061740297,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8705300222489757,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8477854769837037,
+      "priority_score": 0.8322575952450029,
       "structural_synergy": null
     },
     {
@@ -1938,7 +2834,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9709843790019869,
-      "priority_score": 0.8310044895405357,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9046155824913018,
+      "priority_score": 0.8832776735869713,
       "structural_synergy": null
     },
     {
@@ -1948,7 +2847,10 @@
       "c2": 6,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9667542293612158,
-      "priority_score": 0.8296670017315142,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9282907401230651,
+      "priority_score": 0.8937002327540317,
       "structural_synergy": null
     },
     {
@@ -1958,7 +2860,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8860607034429171,
-      "priority_score": 0.805084539008027,
+      "morphism_rigor": 0.43333333333333335,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8389970694901429,
+      "priority_score": 0.8210434701223998,
       "structural_synergy": null
     },
     {
@@ -1968,7 +2873,23 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8728727374503499,
-      "priority_score": 0.800714529415908,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.950215527930372,
+      "priority_score": 0.8677177375279478,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Gradient Flow Theory",
+      "sim": 0.7696157389194939,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8607635272432757,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8143284232481105,
+      "priority_score": 0.7752518530604119,
       "structural_synergy": null
     },
     {
@@ -1978,7 +2899,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9184077321834896,
-      "priority_score": 0.8140394633723109,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8710641215241273,
+      "priority_score": 0.8686824113868284,
       "structural_synergy": null
     },
     {
@@ -1988,7 +2912,23 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8971465912457323,
-      "priority_score": 0.8064366312869296,
+      "morphism_rigor": 0.3666666666666667,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8305769965961423,
+      "priority_score": 0.8062734787317483,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Statistical Physics",
+      "sim": 0.7671471804134941,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9683125441675893,
+      "morphism_rigor": 0.16666666666666666,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7550752733524929,
+      "priority_score": 0.757690650843731,
       "structural_synergy": null
     },
     {
@@ -1998,7 +2938,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9146760553357345,
-      "priority_score": 0.8113658134103907,
+      "morphism_rigor": 0.39999999999999997,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8487904835973507,
+      "priority_score": 0.818696012726166,
       "structural_synergy": null
     },
     {
@@ -2008,7 +2951,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9500053952945002,
-      "priority_score": 0.8213336758035746,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.9087080940953411,
+      "priority_score": 0.8343899137838297,
       "structural_synergy": null
     },
     {
@@ -2018,7 +2964,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9099478149087532,
-      "priority_score": 0.8092967782743965,
+      "morphism_rigor": 0.6666666666666666,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.852287309950819,
+      "priority_score": 0.8667642168891306,
       "structural_synergy": null
     },
     {
@@ -2028,17 +2977,10 @@
       "c2": 1,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8740005547498003,
-      "priority_score": 0.7982461078871643,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Geometric Deep Learning \u00d7 Homotopy Type Theory",
-      "sim": 0.7656601764057189,
-      "c1": 6,
-      "c2": 1,
-      "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.8257235921104192,
-      "priority_score": 0.783679201117129,
+      "morphism_rigor": 0.7166666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9204049176635358,
+      "priority_score": 0.8898577658342713,
       "structural_synergy": null
     },
     {
@@ -2048,7 +2990,10 @@
       "c2": 2,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8792667822722623,
-      "priority_score": 0.7996969242182895,
+      "morphism_rigor": 0.5833333333333334,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8899502837534676,
+      "priority_score": 0.8498120805704463,
       "structural_synergy": null
     },
     {
@@ -2058,7 +3003,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9429261062671498,
-      "priority_score": 0.8187543457897098,
+      "morphism_rigor": 0.65,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9109560811846174,
+      "priority_score": 0.8873780761163558,
       "structural_synergy": null
     },
     {
@@ -2068,7 +3016,10 @@
       "c2": 2,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8569061485378971,
-      "priority_score": 0.7928767957775911,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8353813389783312,
+      "priority_score": 0.8224575476417793,
       "structural_synergy": null
     },
     {
@@ -2078,7 +3029,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9053095230279247,
-      "priority_score": 0.8069670146611772,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7481388037813006,
+      "priority_score": 0.7586701237749153,
       "structural_synergy": null
     },
     {
@@ -2088,7 +3042,10 @@
       "c2": 5,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9613462976139269,
-      "priority_score": 0.8237519938356967,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.04146593570567647,
+      "gestalt_consistency": 0.7972887820688094,
+      "priority_score": 0.8032225031737283,
       "structural_synergy": null
     },
     {
@@ -2098,7 +3055,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.966423886319802,
-      "priority_score": 0.8248979890119986,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8096609555574614,
+      "priority_score": 0.7957858316975248,
       "structural_synergy": null
     },
     {
@@ -2108,7 +3068,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9440892243469278,
-      "priority_score": 0.8180335569499164,
+      "morphism_rigor": 0.4,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8762402485243533,
+      "priority_score": 0.8299411868389072,
       "structural_synergy": null
     },
     {
@@ -2118,7 +3081,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9050251256321745,
-      "priority_score": 0.8062131651254607,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7602376262876409,
+      "priority_score": 0.7651942070570057,
       "structural_synergy": null
     },
     {
@@ -2128,7 +3094,23 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9542064172607212,
-      "priority_score": 0.8204007883092456,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8742182698581595,
+      "priority_score": 0.8676198516151122,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Dynamical Systems Psych",
+      "sim": 0.7626508077677862,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8979135278522292,
+      "morphism_rigor": 0.25,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8863448562524412,
+      "priority_score": 0.7958474307837774,
       "structural_synergy": null
     },
     {
@@ -2138,7 +3120,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8683170912046323,
-      "priority_score": 0.7939629001137083,
+      "morphism_rigor": 0.55,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9494543280411476,
+      "priority_score": 0.8427933804591874,
       "structural_synergy": null
     },
     {
@@ -2148,7 +3133,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9013575468434253,
-      "priority_score": 0.8038268898092595,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7703959692685383,
+      "priority_score": 0.7801066694242434,
       "structural_synergy": null
     },
     {
@@ -2158,7 +3146,10 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9249041663406237,
-      "priority_score": 0.8104898274942373,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8842207414550022,
+      "priority_score": 0.8249436813632876,
       "structural_synergy": null
     },
     {
@@ -2168,7 +3159,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.917209192045903,
-      "priority_score": 0.8078549594769708,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8366916610910103,
+      "priority_score": 0.8097992057278384,
       "structural_synergy": null
     },
     {
@@ -2178,7 +3172,23 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8881483990473793,
-      "priority_score": 0.7990394760912504,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9364112633832956,
+      "priority_score": 0.8323479704159342,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Formal Grammars",
+      "sim": 0.7607442020000468,
+      "c1": 2,
+      "c2": 1,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8515529043673674,
+      "morphism_rigor": 0.5833333333333333,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8747671844920722,
+      "priority_score": 0.8377738334187184,
       "structural_synergy": null
     },
     {
@@ -2188,7 +3198,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9389617210355933,
-      "priority_score": 0.8141086125267643,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.761963117741098,
+      "priority_score": 0.7845264890672187,
       "structural_synergy": null
     },
     {
@@ -2198,7 +3211,10 @@
       "c2": 2,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.8920485289093277,
-      "priority_score": 0.7998632475836047,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9489814793801539,
+      "priority_score": 0.8879816739425483,
       "structural_synergy": null
     },
     {
@@ -2208,7 +3224,23 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9091500989047115,
-      "priority_score": 0.8046848579782173,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8085229111046488,
+      "priority_score": 0.7784670906080011,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Geometric Deep Learning",
+      "sim": 0.7599104566729812,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8786070353065446,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8179678431837532,
+      "priority_score": 0.8037102212494454,
       "structural_synergy": null
     },
     {
@@ -2218,7 +3250,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9277152073838177,
-      "priority_score": 0.8084854159840866,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8189841189979877,
+      "priority_score": 0.798098205315562,
       "structural_synergy": null
     },
     {
@@ -2228,7 +3263,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9742254153468425,
-      "priority_score": 0.8222196126796405,
+      "morphism_rigor": 0.21666666666666667,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8545823840904279,
+      "priority_score": 0.7900302267161885,
       "structural_synergy": null
     },
     {
@@ -2238,7 +3276,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9016627692054499,
-      "priority_score": 0.8001120898639119,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8931799335953629,
+      "priority_score": 0.8448301053774477,
       "structural_synergy": null
     },
     {
@@ -2248,7 +3289,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9253701963019668,
-      "priority_score": 0.8068765512803162,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7751162745746427,
+      "priority_score": 0.7906181670793034,
       "structural_synergy": null
     },
     {
@@ -2258,7 +3302,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8777063318695301,
-      "priority_score": 0.7925445699998993,
+      "morphism_rigor": 0.55,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9522677738653378,
+      "priority_score": 0.8430952038746935,
       "structural_synergy": null
     },
     {
@@ -2268,7 +3315,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9357154968043907,
-      "priority_score": 0.8097483351010739,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.8053283459478939,
+      "priority_score": 0.7882850544984477,
       "structural_synergy": null
     },
     {
@@ -2278,7 +3328,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9621547223822857,
-      "priority_score": 0.8176787888757739,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7467951271700369,
+      "priority_score": 0.7693455165147638,
       "structural_synergy": null
     },
     {
@@ -2288,7 +3341,36 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9459837211694444,
-      "priority_score": 0.8124831318158439,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8845346533143301,
+      "priority_score": 0.8659554573388403,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.7550996475144323,
+      "c1": 2,
+      "c2": 1,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8597746718736297,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8779390075445475,
+      "priority_score": 0.8481119120414675,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Social Choice Theory \u00d7 Stochastic Processes",
+      "sim": 0.7547578694708276,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9429729985055287,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8047825420974218,
+      "priority_score": 0.8059125312910643,
       "structural_synergy": null
     },
     {
@@ -2298,7 +3380,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9389994546305119,
-      "priority_score": 0.8100020455446975,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9448785104971797,
+      "priority_score": 0.8733131191481599,
       "structural_synergy": null
     },
     {
@@ -2308,17 +3393,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9650650228363402,
-      "priority_score": 0.8177329917218918,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Stochastic Processes \u00d7 Categorical Quantum Mechanics",
-      "sim": 0.7540651132424937,
-      "c1": 5,
-      "c2": 1,
-      "target_phenomenon": "Dopamine detoxing",
-      "anchor_score": 0.8428567488138451,
-      "priority_score": 0.780702603913899,
+      "morphism_rigor": 0.21666666666666667,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.7870490880123543,
+      "priority_score": 0.7720487503674107,
       "structural_synergy": null
     },
     {
@@ -2328,7 +3406,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9207655819802577,
-      "priority_score": 0.8035138032492083,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7588939496763772,
+      "priority_score": 0.7670316722304752,
       "structural_synergy": null
     },
     {
@@ -2338,7 +3419,36 @@
       "c2": 6,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9305531815512069,
-      "priority_score": 0.8049705223341522,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.05489014844087414,
+      "gestalt_consistency": 0.842114991151934,
+      "priority_score": 0.800382538546281,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Information Geometry",
+      "sim": 0.7511139977785137,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8990844275032566,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8150142125735632,
+      "priority_score": 0.8023877401203184,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Information Geometry",
+      "sim": 0.7505265786705457,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8920097927812078,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7946095379773916,
+      "priority_score": 0.7679497764872034,
       "structural_synergy": null
     },
     {
@@ -2348,7 +3458,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.867905005119052,
-      "priority_score": 0.7857142522288252,
+      "morphism_rigor": 0.6166666666666667,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.946239643167517,
+      "priority_score": 0.8678114499255782,
       "structural_synergy": null
     },
     {
@@ -2358,7 +3471,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9433429770461843,
-      "priority_score": 0.8081846211033312,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.9051277685998107,
+      "priority_score": 0.8389450491184129,
       "structural_synergy": null
     },
     {
@@ -2368,7 +3484,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.932189894896311,
-      "priority_score": 0.8044016245162902,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.879524160545269,
+      "priority_score": 0.8373900730454222,
       "structural_synergy": null
     },
     {
@@ -2378,7 +3497,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.902243637228906,
-      "priority_score": 0.7949614086505564,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.816434034944399,
+      "priority_score": 0.7959265872739897,
       "structural_synergy": null
     },
     {
@@ -2388,7 +3510,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9107098878028586,
-      "priority_score": 0.7967103302454133,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7563394630013345,
+      "priority_score": 0.7854236551540584,
       "structural_synergy": null
     },
     {
@@ -2398,7 +3523,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9585301982467029,
-      "priority_score": 0.8109681498840506,
+      "morphism_rigor": 0.19999999999999998,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.788392764623618,
+      "priority_score": 0.7650661868361293,
       "structural_synergy": null
     },
     {
@@ -2408,7 +3536,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9323238279645285,
-      "priority_score": 0.8025355905646361,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7614605015245488,
+      "priority_score": 0.7775728947075787,
       "structural_synergy": null
     },
     {
@@ -2418,7 +3549,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9241618679446407,
-      "priority_score": 0.8000462824465597,
+      "morphism_rigor": 0.39999999999999997,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.825341296440049,
+      "priority_score": 0.8084896724913443,
       "structural_synergy": null
     },
     {
@@ -2428,7 +3562,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9329978162284907,
-      "priority_score": 0.8021907489389654,
+      "morphism_rigor": 0.55,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.9142540827879788,
+      "priority_score": 0.8432354423787786,
       "structural_synergy": null
     },
     {
@@ -2438,7 +3575,10 @@
       "c2": 5,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.952602764330477,
-      "priority_score": 0.8073893449273097,
+      "morphism_rigor": 0.19999999999999998,
+      "conceptual_friction": 0.02248591006033951,
+      "gestalt_consistency": 0.8106569787392832,
+      "priority_score": 0.7695310644122275,
       "structural_synergy": null
     },
     {
@@ -2448,7 +3588,23 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9265692164847004,
-      "priority_score": 0.7993962096869407,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8715667377406764,
+      "priority_score": 0.860698807983045,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Variational Principles",
+      "sim": 0.7448072822463819,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8780287093453012,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7809166874025846,
+      "priority_score": 0.7720913193912478,
       "structural_synergy": null
     },
     {
@@ -2458,17 +3614,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9402047145183097,
-      "priority_score": 0.8032357598691042,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Renormalization Group \u00d7 Homotopy Type Theory",
-      "sim": 0.7444020903037356,
-      "c1": 6,
-      "c2": 1,
-      "target_phenomenon": "Neurodivergence",
-      "anchor_score": 0.8448343599798193,
-      "priority_score": 0.7745317712065607,
+      "morphism_rigor": 0.3666666666666667,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.865777241849311,
+      "priority_score": 0.8115687481284459,
       "structural_synergy": null
     },
     {
@@ -2478,7 +3627,10 @@
       "c2": 1,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.884329833796296,
-      "priority_score": 0.7863337765220196,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.9158866021176927,
+      "priority_score": 0.8653236802679548,
       "structural_synergy": null
     },
     {
@@ -2488,7 +3640,10 @@
       "c2": 2,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9036842370535155,
-      "priority_score": 0.7917093361984122,
+      "morphism_rigor": 0.6666666666666667,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.9166250307272024,
+      "priority_score": 0.8706144768830535,
       "structural_synergy": null
     },
     {
@@ -2498,7 +3653,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9248607605587353,
-      "priority_score": 0.797560340909858,
+      "morphism_rigor": 0.38333333333333336,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8600712186827588,
+      "priority_score": 0.8141747461702543,
       "structural_synergy": null
     },
     {
@@ -2508,7 +3666,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9313615390715035,
-      "priority_score": 0.7970466248380881,
+      "morphism_rigor": 0.65,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8805587685514751,
+      "priority_score": 0.8655240541484678,
       "structural_synergy": null
     },
     {
@@ -2518,7 +3679,10 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.8881311674916029,
-      "priority_score": 0.7830945588034613,
+      "morphism_rigor": 0.7166666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8657686698303491,
+      "priority_score": 0.865212595229108,
       "structural_synergy": null
     },
     {
@@ -2528,7 +3692,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9505749201679259,
-      "priority_score": 0.8001140954534633,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8090718257385616,
+      "priority_score": 0.7730696066477012,
       "structural_synergy": null
     },
     {
@@ -2538,7 +3705,23 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9431082964020426,
-      "priority_score": 0.7971889206984517,
+      "morphism_rigor": 0.26666666666666666,
+      "conceptual_friction": 0.06552085346319025,
+      "gestalt_consistency": 0.8298339193872619,
+      "priority_score": 0.7782139012423666,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Social Choice Theory \u00d7 Statistical Physics",
+      "sim": 0.7345636811982106,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9439348194848617,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.7958470743534325,
+      "priority_score": 0.7953465798546874,
       "structural_synergy": null
     },
     {
@@ -2548,7 +3731,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9390808759995359,
-      "priority_score": 0.7957806301242882,
+      "morphism_rigor": 0.46666666666666673,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8907480114550845,
+      "priority_score": 0.8160278309830294,
       "structural_synergy": null
     },
     {
@@ -2558,7 +3744,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9135597706544231,
-      "priority_score": 0.7879209802775125,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7943351514586194,
+      "priority_score": 0.7785479678862978,
       "structural_synergy": null
     },
     {
@@ -2568,7 +3757,10 @@
       "c2": 1,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.8648190365207,
-      "priority_score": 0.7727201269997577,
+      "morphism_rigor": 0.6833333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.909133898037145,
+      "priority_score": 0.8649611893946237,
       "structural_synergy": null
     },
     {
@@ -2578,7 +3770,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9498159946131363,
-      "priority_score": 0.7981562007114693,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7383552270141691,
+      "priority_score": 0.7719719133902346,
       "structural_synergy": null
     },
     {
@@ -2588,7 +3783,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9070603443608135,
-      "priority_score": 0.7846190113178423,
+      "morphism_rigor": 0.3666666666666667,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8043352124380587,
+      "priority_score": 0.7831912860595435,
       "structural_synergy": null
     },
     {
@@ -2598,7 +3796,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8800369105633487,
-      "priority_score": 0.7764198196738512,
+      "morphism_rigor": 0.46666666666666673,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9259482567082533,
+      "priority_score": 0.809385126980126,
       "structural_synergy": null
     },
     {
@@ -2608,7 +3809,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9265734263574417,
-      "priority_score": 0.7883903135534231,
+      "morphism_rigor": 0.48333333333333334,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8649535569563641,
+      "priority_score": 0.8070424342221925,
       "structural_synergy": null
     },
     {
@@ -2618,7 +3822,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9067508722000365,
-      "priority_score": 0.7824373138934533,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8307780358939691,
+      "priority_score": 0.8065352734587387,
       "structural_synergy": null
     },
     {
@@ -2628,7 +3835,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9117915368136011,
-      "priority_score": 0.7836633017768426,
+      "morphism_rigor": 0.5833333333333334,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.85591626981834,
+      "priority_score": 0.8212077587929151,
       "structural_synergy": null
     },
     {
@@ -2638,7 +3848,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9511945385530464,
-      "priority_score": 0.7952768131893044,
+      "morphism_rigor": 0.48333333333333334,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8560180892123748,
+      "priority_score": 0.8090003968965165,
       "structural_synergy": null
     },
     {
@@ -2648,7 +3861,23 @@
       "c2": 4,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9225540946353548,
-      "priority_score": 0.7862776421298125,
+      "morphism_rigor": 0.46666666666666673,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9287617025324435,
+      "priority_score": 0.8170769788185611,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Bayesian Inference \u00d7 Topological Data Anal.",
+      "sim": 0.7257479252001986,
+      "c1": 2,
+      "c2": 1,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8568002974839799,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8999434945635192,
+      "priority_score": 0.8157110276768689,
       "structural_synergy": null
     },
     {
@@ -2658,7 +3887,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.915190118095078,
-      "priority_score": 0.781619853899049,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7396989036254327,
+      "priority_score": 0.7586030312469528,
       "structural_synergy": null
     },
     {
@@ -2668,7 +3900,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9324273972723668,
-      "priority_score": 0.7854587134277178,
+      "morphism_rigor": 0.6666666666666666,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8419709264946484,
+      "priority_score": 0.8506898242931377,
       "structural_synergy": null
     },
     {
@@ -2678,7 +3913,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9116470181725594,
-      "priority_score": 0.778590735967551,
+      "morphism_rigor": 0.5166666666666667,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8696738622624685,
+      "priority_score": 0.8090989650549097,
       "structural_synergy": null
     },
     {
@@ -2688,7 +3926,23 @@
       "c2": 3,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9060629928816705,
-      "priority_score": 0.7767023717095267,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.75161915769523,
+      "priority_score": 0.7657750093058772,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Neural Field Theory",
+      "sim": 0.7212074814965636,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.914178358692587,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8552664201084261,
+      "priority_score": 0.7865328689334887,
       "structural_synergy": null
     },
     {
@@ -2698,7 +3952,23 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.8991115064269952,
-      "priority_score": 0.7741781386554725,
+      "morphism_rigor": 0.43333333333333335,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8012838138073526,
+      "priority_score": 0.7894158771984875,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Compressed Sensing",
+      "sim": 0.7203168889919072,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.880336923983392,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8037431929471723,
+      "priority_score": 0.7762714233471191,
       "structural_synergy": null
     },
     {
@@ -2708,7 +3978,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9424629486113492,
-      "priority_score": 0.786646844231369,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8607477380679567,
+      "priority_score": 0.8506218630245209,
       "structural_synergy": null
     },
     {
@@ -2718,7 +3991,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.969761344353,
-      "priority_score": 0.7937937967974523,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8445891732803761,
+      "priority_score": 0.7873280618930509,
       "structural_synergy": null
     },
     {
@@ -2728,7 +4004,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9445895393240659,
-      "priority_score": 0.7857579496974955,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8612503542845058,
+      "priority_score": 0.8503254678904927,
       "structural_synergy": null
     },
     {
@@ -2738,7 +4017,23 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.903104663953599,
-      "priority_score": 0.7732452176800692,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.80173340571312,
+      "priority_score": 0.7888241100545746,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Integrated Info Theory",
+      "sim": 0.717540530289681,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9428756577629268,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8036820561318505,
+      "priority_score": 0.7719969057384977,
       "structural_synergy": null
     },
     {
@@ -2748,7 +4043,23 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8689190578004795,
-      "priority_score": 0.7624555185755524,
+      "morphism_rigor": 0.5499999999999999,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8900081105428876,
+      "priority_score": 0.8114249831139292,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Gradient Flow Theory",
+      "sim": 0.7156609040591206,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8864185351078915,
+      "morphism_rigor": 0.33333333333333337,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7688178648962443,
+      "priority_score": 0.7551477531836258,
       "structural_synergy": null
     },
     {
@@ -2758,7 +4069,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.8983324040594719,
-      "priority_score": 0.770363204782722,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8097366970152118,
+      "priority_score": 0.8064161865468681,
       "structural_synergy": null
     },
     {
@@ -2768,7 +4082,23 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9108661132627364,
-      "priority_score": 0.7739230962071008,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7958953122821909,
+      "priority_score": 0.791322767441938,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Network Science",
+      "sim": 0.7151824581501002,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9597041036540378,
+      "morphism_rigor": 0.3,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.7865332857651437,
+      "priority_score": 0.7692747349508755,
       "structural_synergy": null
     },
     {
@@ -2778,7 +4108,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9498048711500254,
-      "priority_score": 0.7848742874413233,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7885868063648455,
+      "priority_score": 0.7761180713230748,
       "structural_synergy": null
     },
     {
@@ -2788,7 +4121,23 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8709639631762741,
-      "priority_score": 0.7608704623607314,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8527444467658649,
+      "priority_score": 0.7960652301068997,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Dynamical Systems Psych",
+      "sim": 0.7131733190649276,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9243128446155012,
+      "morphism_rigor": 0.30000000000000004,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8408342979005751,
+      "priority_score": 0.7776831311497285,
       "structural_synergy": null
     },
     {
@@ -2798,7 +4147,23 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9252376203195889,
-      "priority_score": 0.7764544837690593,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8572599464296037,
+      "priority_score": 0.8145423776815416,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Variational Principles",
+      "sim": 0.7098438176562516,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8770374923669139,
+      "morphism_rigor": 0.21666666666666667,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7605120128064131,
+      "priority_score": 0.7251196211140001,
       "structural_synergy": null
     },
     {
@@ -2808,7 +4173,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9227110134918399,
-      "priority_score": 0.7736972263065518,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8760307531336893,
+      "priority_score": 0.8405759782028354,
       "structural_synergy": null
     },
     {
@@ -2818,7 +4186,23 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9391858603687944,
-      "priority_score": 0.7779724789155141,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7426836899512407,
+      "priority_score": 0.7647665121714481,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Algorithmic Info Theory \u00d7 Evolutionary Dynamics",
+      "sim": 0.7068718987551128,
+      "c1": 2,
+      "c2": 5,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8983686816356737,
+      "morphism_rigor": 0.39999999999999997,
+      "conceptual_friction": 0.02686645494265716,
+      "gestalt_consistency": 0.8030770823243837,
+      "priority_score": 0.7806589750322294,
       "structural_synergy": null
     },
     {
@@ -2828,7 +4212,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9654372058797054,
-      "priority_score": 0.783790317053342,
+      "morphism_rigor": 0.13333333333333333,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.7886671511423902,
+      "priority_score": 0.7313783009653074,
       "structural_synergy": null
     },
     {
@@ -2838,7 +4225,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.902120291315026,
-      "priority_score": 0.7637213586717513,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7953926960656417,
+      "priority_score": 0.785092537643982,
       "structural_synergy": null
     },
     {
@@ -2848,7 +4238,23 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9235028776161901,
-      "priority_score": 0.7699128711326123,
+      "morphism_rigor": 0.6166666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8881295756400296,
+      "priority_score": 0.8453990943065154,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Topological Data Anal.",
+      "sim": 0.7039822769127004,
+      "c1": 2,
+      "c2": 1,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8744426094978012,
+      "morphism_rigor": 0.55,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8544329362116531,
+      "priority_score": 0.806880063259074,
       "structural_synergy": null
     },
     {
@@ -2858,7 +4264,10 @@
       "c2": 4,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.96190123756359,
-      "priority_score": 0.7811681358256097,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9490959508128627,
+      "priority_score": 0.8280484061649015,
       "structural_synergy": null
     },
     {
@@ -2868,7 +4277,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9134297508185097,
-      "priority_score": 0.7663868864684198,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.810239313231761,
+      "priority_score": 0.8047261422824898,
       "structural_synergy": null
     },
     {
@@ -2878,7 +4290,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9457730984633944,
-      "priority_score": 0.7757979029066422,
+      "morphism_rigor": 0.4,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8906956463919597,
+      "priority_score": 0.8128448150508223,
       "structural_synergy": null
     },
     {
@@ -2888,7 +4303,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9214856116990158,
-      "priority_score": 0.7664235657694822,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8324101984854457,
+      "priority_score": 0.7879149665760432,
       "structural_synergy": null
     },
     {
@@ -2898,7 +4316,36 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9281261243838803,
-      "priority_score": 0.76791183131062,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7929914748473559,
+      "priority_score": 0.7704605803617266,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Geometric Mechanics",
+      "sim": 0.6991307084060207,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.864099798075891,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7603779647403763,
+      "priority_score": 0.7582066241358921,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Compressed Sensing",
+      "sim": 0.6966809813579958,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8762371482843272,
+      "morphism_rigor": 0.25,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7833385183510008,
+      "priority_score": 0.7332090361082234,
       "structural_synergy": null
     },
     {
@@ -2908,7 +4355,49 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8808049905936218,
-      "priority_score": 0.751556431202614,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9462825049886725,
+      "priority_score": 0.8079663627196477,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Neural Field Theory",
+      "sim": 0.6952349067073036,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9144893979211054,
+      "morphism_rigor": 0.18333333333333335,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8348617455122546,
+      "priority_score": 0.7434179778179703,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Global Workspace Theory",
+      "sim": 0.6938478208629096,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9449657189458562,
+      "morphism_rigor": 0.21666666666666667,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8186220803339004,
+      "priority_score": 0.7507531747983232,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Social Choice Theory \u00d7 Gradient Flow Theory",
+      "sim": 0.6934303186048699,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8527996248330951,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7891849913010123,
+      "priority_score": 0.7623085415350634,
       "structural_synergy": null
     },
     {
@@ -2918,7 +4407,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9373947597590294,
-      "priority_score": 0.7662945112635215,
+      "morphism_rigor": 0.4,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8756335465131941,
+      "priority_score": 0.802656294470999,
       "structural_synergy": null
     },
     {
@@ -2928,7 +4420,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9124930361732959,
-      "priority_score": 0.7583909184471467,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7391962874088835,
+      "priority_score": 0.7451015094974215,
       "structural_synergy": null
     },
     {
@@ -2938,7 +4433,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9174404928253509,
-      "priority_score": 0.7590714154356557,
+      "morphism_rigor": 0.43333333333333335,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.8186792133876288,
+      "priority_score": 0.786525769129771,
       "structural_synergy": null
     },
     {
@@ -2948,7 +4446,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8535741123059193,
-      "priority_score": 0.7395595463283822,
+      "morphism_rigor": 0.65,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9444174600200446,
+      "priority_score": 0.8471478899102319,
       "structural_synergy": null
     },
     {
@@ -2958,7 +4459,23 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8985268115263487,
-      "priority_score": 0.7529003668071483,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9567455116637148,
+      "priority_score": 0.8190462323323532,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Renormalization Group",
+      "sim": 0.6889285081438306,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9214314780504703,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8070136759827641,
+      "priority_score": 0.7539294135596067,
       "structural_synergy": null
     },
     {
@@ -2968,7 +4485,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9499102495159178,
-      "priority_score": 0.7660057920349259,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7378526107976199,
+      "priority_score": 0.7534521594216103,
       "structural_synergy": null
     },
     {
@@ -2978,7 +4498,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9350245232537462,
-      "priority_score": 0.7612487624953981,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8294389521433296,
+      "priority_score": 0.7731933524907844,
       "structural_synergy": null
     },
     {
@@ -2988,7 +4511,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9519811243272526,
-      "priority_score": 0.7662768743250477,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8769456219333277,
+      "priority_score": 0.7841363678373028,
       "structural_synergy": null
     },
     {
@@ -2998,7 +4524,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8634244790937236,
-      "priority_score": 0.7395933333631037,
+      "morphism_rigor": 0.5499999999999999,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.9003244939990582,
+      "priority_score": 0.8012988043520454,
       "structural_synergy": null
     },
     {
@@ -3008,7 +4537,36 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9189536010730062,
-      "priority_score": 0.7561015915092381,
+      "morphism_rigor": 0.48333333333333334,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8337538750967093,
+      "priority_score": 0.779014122059492,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Gradient Flow Theory",
+      "sim": 0.684384024604091,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8848029979669215,
+      "morphism_rigor": 0.2,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7484131903000728,
+      "priority_score": 0.709525824927902,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Riemannian Geometry",
+      "sim": 0.6825730299986891,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8686561078757008,
+      "morphism_rigor": 0.41666666666666663,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7598753485238272,
+      "priority_score": 0.7523440298679567,
       "structural_synergy": null
     },
     {
@@ -3018,7 +4576,10 @@
       "c2": 2,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9282261702693687,
-      "priority_score": 0.7557998910318896,
+      "morphism_rigor": 0.38333333333333336,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8612014243053431,
+      "priority_score": 0.7887344389289588,
       "structural_synergy": null
     },
     {
@@ -3028,7 +4589,10 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.917761390086942,
-      "priority_score": 0.7520379169769285,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8921054604028846,
+      "priority_score": 0.8262135577170026,
       "structural_synergy": null
     },
     {
@@ -3038,7 +4602,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9311726637418705,
-      "priority_score": 0.7559461255768661,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9561388096525556,
+      "priority_score": 0.8389118225068127,
       "structural_synergy": null
     },
     {
@@ -3048,7 +4615,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8751681033126525,
-      "priority_score": 0.7379789299542736,
+      "morphism_rigor": 0.45,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.8896099670022719,
+      "priority_score": 0.7730449752595054,
       "structural_synergy": null
     },
     {
@@ -3058,7 +4628,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9048493712926541,
-      "priority_score": 0.7468272833727772,
+      "morphism_rigor": 0.55,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7909598854419037,
+      "priority_score": 0.7941869108568077,
       "structural_synergy": null
     },
     {
@@ -3068,7 +4641,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9097822164257138,
-      "priority_score": 0.7474680766726054,
+      "morphism_rigor": 0.5833333333333334,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9624793083458711,
+      "priority_score": 0.8453582171033397,
       "structural_synergy": null
     },
     {
@@ -3078,7 +4654,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9351073829673022,
-      "priority_score": 0.7543012461809593,
+      "morphism_rigor": 0.35,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8802441825125593,
+      "priority_score": 0.7844672796994041,
       "structural_synergy": null
     },
     {
@@ -3088,7 +4667,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8994757380894338,
-      "priority_score": 0.7430454803357069,
+      "morphism_rigor": 0.5166666666666667,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9344270466177793,
+      "priority_score": 0.8034131079747895,
       "structural_synergy": null
     },
     {
@@ -3098,7 +4680,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9346104958758472,
-      "priority_score": 0.75298668855242,
+      "morphism_rigor": 0.4,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7190757992243118,
+      "priority_score": 0.7466091590937076,
       "structural_synergy": null
     },
     {
@@ -3108,7 +4693,10 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.939400678453435,
-      "priority_score": 0.7543478528967641,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8852878052367833,
+      "priority_score": 0.8007230336290652,
       "structural_synergy": null
     },
     {
@@ -3118,7 +4706,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9498959539670223,
-      "priority_score": 0.7572834680391854,
+      "morphism_rigor": 0.5499999999999999,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8800066378965443,
+      "priority_score": 0.823166165778202,
       "structural_synergy": null
     },
     {
@@ -3128,7 +4719,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9046784473555844,
-      "priority_score": 0.7433154440401137,
+      "morphism_rigor": 0.43333333333333335,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.910920975284885,
+      "priority_score": 0.779997533718377,
       "structural_synergy": null
     },
     {
@@ -3138,7 +4732,10 @@
       "c2": 5,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9149846457007111,
-      "priority_score": 0.7450877826652681,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7204194758355753,
+      "priority_score": 0.738604529660377,
       "structural_synergy": null
     },
     {
@@ -3148,7 +4745,10 @@
       "c2": 5,
       "target_phenomenon": "Brain mapping",
       "anchor_score": 0.9149966474366019,
-      "priority_score": 0.7442771696292314,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7830641318322286,
+      "priority_score": 0.7436017285836155,
       "structural_synergy": null
     },
     {
@@ -3158,7 +4758,10 @@
       "c2": 2,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9085502875540349,
-      "priority_score": 0.7410951999219197,
+      "morphism_rigor": 0.48333333333333334,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7766158844923335,
+      "priority_score": 0.7733806414455813,
       "structural_synergy": null
     },
     {
@@ -3168,7 +4771,10 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9092481199365385,
-      "priority_score": 0.740991122179584,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.881789076946714,
+      "priority_score": 0.8165629522202287,
       "structural_synergy": null
     },
     {
@@ -3178,7 +4784,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8753712810243974,
-      "priority_score": 0.7300463574853442,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9131160383351662,
+      "priority_score": 0.7922363698498449,
       "structural_synergy": null
     },
     {
@@ -3188,7 +4797,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.922940207097635,
-      "priority_score": 0.7434240888862652,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9664551931087262,
+      "priority_score": 0.8346160749591995,
       "structural_synergy": null
     },
     {
@@ -3198,7 +4810,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9705299664580359,
-      "priority_score": 0.756914821449566,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7513231425878226,
+      "priority_score": 0.7462209467272879,
       "structural_synergy": null
     },
     {
@@ -3208,7 +4823,23 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9101362017312201,
-      "priority_score": 0.7386035694268349,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8540881233771285,
+      "priority_score": 0.7815302677534315,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Dynamical Systems Psych",
+      "sim": 0.6626240838598157,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.9333716941634619,
+      "morphism_rigor": 0.16666666666666669,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.8204296233044035,
+      "priority_score": 0.7264871379317577,
       "structural_synergy": null
     },
     {
@@ -3218,7 +4849,23 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8630817690017162,
-      "priority_score": 0.7223890349144065,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8963486092362032,
+      "priority_score": 0.8002652195213044,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Geometric Deep Learning",
+      "sim": 0.6614659618318195,
+      "c1": 2,
+      "c2": 6,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8942685868858227,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.04699054769515354,
+      "gestalt_consistency": 0.7975631685875816,
+      "priority_score": 0.734676664583318,
       "structural_synergy": null
     },
     {
@@ -3228,7 +4875,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8705694080485641,
-      "priority_score": 0.7239982064229087,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8630608302220355,
+      "priority_score": 0.7780790116042033,
       "structural_synergy": null
     },
     {
@@ -3238,7 +4888,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8854787751332109,
-      "priority_score": 0.7280738075631974,
+      "morphism_rigor": 0.5333333333333333,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9670618951198854,
+      "priority_score": 0.8075817410471429,
       "structural_synergy": null
     },
     {
@@ -3248,7 +4901,10 @@
       "c2": 3,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9607295261678659,
-      "priority_score": 0.7496301732061476,
+      "morphism_rigor": 0.3333333333333333,
+      "conceptual_friction": 0.060948454428501164,
+      "gestalt_consistency": 0.7817204552209649,
+      "priority_score": 0.750897471798415,
       "structural_synergy": null
     },
     {
@@ -3258,7 +4914,10 @@
       "c2": 3,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9654173407232671,
-      "priority_score": 0.7508115230582058,
+      "morphism_rigor": 0.5499999999999999,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8696902544403737,
+      "priority_score": 0.8168164646595409,
       "structural_synergy": null
     },
     {
@@ -3268,7 +4927,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9244629407064184,
-      "priority_score": 0.7379912439157608,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9417066874447045,
+      "priority_score": 0.8207972137609081,
       "structural_synergy": null
     },
     {
@@ -3278,7 +4940,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9014224893784912,
-      "priority_score": 0.7286403384462901,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9480471861380201,
+      "priority_score": 0.8266976902055502,
       "structural_synergy": null
     },
     {
@@ -3288,7 +4953,10 @@
       "c2": 4,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9653108245236582,
-      "priority_score": 0.7476988653148614,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9594123342690333,
+      "priority_score": 0.812115440537327,
       "structural_synergy": null
     },
     {
@@ -3298,7 +4966,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8673743067632521,
-      "priority_score": 0.717499345455548,
+      "morphism_rigor": 0.5833333333333334,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9630860103570303,
+      "priority_score": 0.8098291553176307,
       "structural_synergy": null
     },
     {
@@ -3308,7 +4979,10 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9358987926401735,
-      "priority_score": 0.7364424378672176,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.876352337492794,
+      "priority_score": 0.7877106736943201,
       "structural_synergy": null
     },
     {
@@ -3318,7 +4992,10 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9118304253784686,
-      "priority_score": 0.728926138210314,
+      "morphism_rigor": 0.65,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.8863073924925573,
+      "priority_score": 0.8277646171522636,
       "structural_synergy": null
     },
     {
@@ -3328,7 +5005,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8695868856918808,
-      "priority_score": 0.7161746626450838,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9565988884448431,
+      "priority_score": 0.7905226070121463,
       "structural_synergy": null
     },
     {
@@ -3338,7 +5018,10 @@
       "c2": 1,
       "target_phenomenon": "Phantom limb syndrome",
       "anchor_score": 0.9120664220727434,
-      "priority_score": 0.7284145038955294,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.10709120297925145,
+      "gestalt_consistency": 0.874208569986217,
+      "priority_score": 0.8205160173641305,
       "structural_synergy": null
     },
     {
@@ -3348,7 +5031,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8663758612327203,
-      "priority_score": 0.7126100654788535,
+      "morphism_rigor": 0.5833333333333334,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8590849454591805,
+      "priority_score": 0.7802589214411483,
       "structural_synergy": null
     },
     {
@@ -3358,7 +5044,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9221967601946728,
-      "priority_score": 0.7247330955668834,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.9110822597355037,
+      "priority_score": 0.7877137776494515,
       "structural_synergy": null
     },
     {
@@ -3368,7 +5057,23 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9062276523519535,
-      "priority_score": 0.7186771558396888,
+      "morphism_rigor": 0.4666666666666666,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9312552235653042,
+      "priority_score": 0.7787297160402514,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Game Theory \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.6373119461715279,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8738320946117515,
+      "morphism_rigor": 0.3833333333333333,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7733458803140301,
+      "priority_score": 0.7326492865546965,
       "structural_synergy": null
     },
     {
@@ -3378,7 +5083,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9176247599473415,
-      "priority_score": 0.7198998493001663,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9520230709008751,
+      "priority_score": 0.8133588124243031,
       "structural_synergy": null
     },
     {
@@ -3388,7 +5096,10 @@
       "c2": 4,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9539864975203938,
-      "priority_score": 0.7281004327343925,
+      "morphism_rigor": 0.55,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9554364495061782,
+      "priority_score": 0.8094000185766808,
       "structural_synergy": null
     },
     {
@@ -3398,7 +5109,23 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9405928138406413,
-      "priority_score": 0.7234551808613912,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8956041886929539,
+      "priority_score": 0.786199054228195,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Geometric Mechanics",
+      "sim": 0.6296009587516098,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8689881406034908,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7399732901442049,
+      "priority_score": 0.6985843237341295,
       "structural_synergy": null
     },
     {
@@ -3408,7 +5135,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8954542558882154,
-      "priority_score": 0.7089234052203369,
+      "morphism_rigor": 0.6166666666666667,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9606571251983987,
+      "priority_score": 0.8290433319805398,
       "structural_synergy": null
     },
     {
@@ -3418,7 +5148,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8529882250628549,
-      "priority_score": 0.696138709045943,
+      "morphism_rigor": 0.55,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.952623003681988,
+      "priority_score": 0.7874064777943799,
       "structural_synergy": null
     },
     {
@@ -3428,7 +5161,23 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9080848528295468,
-      "priority_score": 0.7121958649819358,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8644045068332991,
+      "priority_score": 0.7694764559960069,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Riemannian Geometry",
+      "sim": 0.6274637268009079,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8701340725578635,
+      "morphism_rigor": 0.2833333333333333,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7394706739276558,
+      "priority_score": 0.6978078324797586,
       "structural_synergy": null
     },
     {
@@ -3438,7 +5187,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9066867632922926,
-      "priority_score": 0.706353645774006,
+      "morphism_rigor": 0.55,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.9174227584288193,
+      "priority_score": 0.7886702417500197,
       "structural_synergy": null
     },
     {
@@ -3448,7 +5200,10 @@
       "c2": 2,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.9219653690854177,
-      "priority_score": 0.7106650980117073,
+      "morphism_rigor": 0.36666666666666664,
+      "conceptual_friction": 0.07352612385406143,
+      "gestalt_consistency": 0.8589331742299462,
+      "priority_score": 0.7560968826260415,
       "structural_synergy": null
     },
     {
@@ -3458,7 +5213,10 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9334020677844586,
-      "priority_score": 0.712900785980128,
+      "morphism_rigor": 0.5166666666666666,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8866687209489645,
+      "priority_score": 0.7772818812283852,
       "structural_synergy": null
     },
     {
@@ -3468,7 +5226,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.9156729736895929,
-      "priority_score": 0.7073876681063398,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.9213986431916743,
+      "priority_score": 0.7807106259515613,
       "structural_synergy": null
     },
     {
@@ -3478,7 +5239,10 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9291135984809674,
-      "priority_score": 0.7088761756493974,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8916283039300988,
+      "priority_score": 0.7863474510964942,
       "structural_synergy": null
     },
     {
@@ -3488,7 +5252,10 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.8985221662692083,
-      "priority_score": 0.6982298443851037,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.860428622070444,
+      "priority_score": 0.7700298877529509,
       "structural_synergy": null
     },
     {
@@ -3498,7 +5265,49 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.9200152337616614,
-      "priority_score": 0.703843297520579,
+      "morphism_rigor": 0.5666666666666667,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8826928361861095,
+      "priority_score": 0.780530927136278,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Categorical Quantum Mechanics",
+      "sim": 0.6074259327349452,
+      "c1": 2,
+      "c2": 1,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.885061838125155,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8575343329483759,
+      "priority_score": 0.7613117903344595,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Topological Data Anal.",
+      "sim": 0.6063625184277749,
+      "c1": 2,
+      "c2": 1,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8885907983249156,
+      "morphism_rigor": 0.4166666666666667,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8340282616154815,
+      "priority_score": 0.7378737285850087,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Fourier / Wavelet Anal.",
+      "sim": 0.6045333066902016,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8686714190623619,
+      "morphism_rigor": 0.25,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7529412057178585,
+      "priority_score": 0.6857176266067699,
       "structural_synergy": null
     },
     {
@@ -3508,7 +5317,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8871094115692958,
-      "priority_score": 0.6843347144082212,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.13170634920740398,
+      "gestalt_consistency": 0.9462250029905477,
+      "priority_score": 0.8070912573973873,
       "structural_synergy": null
     },
     {
@@ -3518,7 +5330,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8950188837240858,
-      "priority_score": 0.6857859972931968,
+      "morphism_rigor": 0.4666666666666666,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9415716070214748,
+      "priority_score": 0.7627094328040251,
       "structural_synergy": null
     },
     {
@@ -3528,7 +5343,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8524158052476191,
-      "priority_score": 0.6721022613913932,
+      "morphism_rigor": 0.6333333333333333,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8945264260887309,
+      "priority_score": 0.7773451902661761,
       "structural_synergy": null
     },
     {
@@ -3538,17 +5356,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8888621820661865,
-      "priority_score": 0.6822759388169449,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Free Energy Principle \u00d7 Homotopy Type Theory",
-      "sim": 0.5927385011305505,
-      "c1": 4,
-      "c2": 1,
-      "target_phenomenon": "Dopamine detoxing",
-      "anchor_score": 0.8475253356938661,
-      "priority_score": 0.6691745514995451,
+      "morphism_rigor": 0.4833333333333333,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9099442152826911,
+      "priority_score": 0.7543728951533537,
       "structural_synergy": null
     },
     {
@@ -3558,17 +5369,23 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8750691352986619,
-      "priority_score": 0.6739630208827581,
+      "morphism_rigor": 0.5166666666666667,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9375957222586198,
+      "priority_score": 0.7641906880427631,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Optimal Control \u00d7 Category Theory",
-      "sim": 0.5866792356629751,
-      "c1": 4,
-      "c2": 1,
-      "target_phenomenon": "Dopamine detoxing",
-      "anchor_score": 0.8461318388760092,
-      "priority_score": 0.6645150166268853,
+      "title": "Synthesis: Prospect Theory \u00d7 Symplectic Geometry",
+      "sim": 0.581717457057143,
+      "c1": 2,
+      "c2": 3,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8520766065251565,
+      "morphism_rigor": 0.31666666666666665,
+      "conceptual_friction": 0.05712341597140658,
+      "gestalt_consistency": 0.7206938623543475,
+      "priority_score": 0.6769314545703855,
       "structural_synergy": null
     },
     {
@@ -3578,7 +5395,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8545299003303978,
-      "priority_score": 0.6602549659253271,
+      "morphism_rigor": 0.6166666666666667,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8572627623117082,
+      "priority_score": 0.7561232773929204,
       "structural_synergy": null
     },
     {
@@ -3588,27 +5408,10 @@
       "c2": 1,
       "target_phenomenon": "Dopamine detoxing",
       "anchor_score": 0.8701094592341629,
-      "priority_score": 0.6633759780409316,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Predictive Coding \u00d7 Homotopy Type Theory",
-      "sim": 0.5737058338029694,
-      "c1": 4,
-      "c2": 1,
-      "target_phenomenon": "Dopamine detoxing",
-      "anchor_score": 0.8277254777488577,
-      "priority_score": 0.6499117269867358,
-      "structural_synergy": null
-    },
-    {
-      "title": "Synthesis: Computational Psychiatry \u00d7 Homotopy Type Theory",
-      "sim": 0.5653574832408148,
-      "c1": 4,
-      "c2": 1,
-      "target_phenomenon": "Dopamine detoxing",
-      "anchor_score": 0.8397753136962617,
-      "priority_score": 0.6476828323774488,
+      "morphism_rigor": 0.4833333333333333,
+      "conceptual_friction": 0.30545063481122603,
+      "gestalt_consistency": 0.9202605987388617,
+      "priority_score": 0.7461320405229966,
       "structural_synergy": null
     },
     {
@@ -3618,7 +5421,23 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8939096612790851,
-      "priority_score": 0.6599534272780478,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8808706530386371,
+      "priority_score": 0.7608251395063259,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Formal Grammars",
+      "sim": 0.5567461302046693,
+      "c1": 2,
+      "c2": 1,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8926217330958667,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8543625098959007,
+      "priority_score": 0.731600301400749,
       "structural_synergy": null
     },
     {
@@ -3628,7 +5447,10 @@
       "c2": 1,
       "target_phenomenon": "Neurodivergence",
       "anchor_score": 0.8987446941243555,
-      "priority_score": 0.6546568041577991,
+      "morphism_rigor": 0.5833333333333334,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.915600575281347,
+      "priority_score": 0.7650222848583853,
       "structural_synergy": null
     },
     {
@@ -3638,17 +5460,36 @@
       "c2": 5,
       "target_phenomenon": "Generative AI",
       "anchor_score": 0.8965400122067615,
-      "priority_score": 0.6501147125824305,
+      "morphism_rigor": 0.6,
+      "conceptual_friction": 0.2609257660069506,
+      "gestalt_consistency": 0.8586064389229717,
+      "priority_score": 0.7485989054720642,
       "structural_synergy": null
     },
     {
-      "title": "Synthesis: Optimal Control \u00d7 Homotopy Type Theory",
-      "sim": 0.5133208288795851,
-      "c1": 4,
+      "title": "Synthesis: Prospect Theory \u00d7 Algebraic Linguistics",
+      "sim": 0.5418640042612621,
+      "c1": 2,
       "c2": 1,
-      "target_phenomenon": "Dopamine detoxing",
-      "anchor_score": 0.8258423774880879,
-      "priority_score": 0.6070772934621358,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.884784779190975,
+      "morphism_rigor": 0.44999999999999996,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8646788933520713,
+      "priority_score": 0.7271749752792589,
+      "structural_synergy": null
+    },
+    {
+      "title": "Synthesis: Prospect Theory \u00d7 Category Theory",
+      "sim": 0.5260567363621258,
+      "c1": 2,
+      "c2": 1,
+      "target_phenomenon": "Wealth inequality",
+      "anchor_score": 0.8663988500490685,
+      "morphism_rigor": 0.5,
+      "conceptual_friction": 0.15931250269062258,
+      "gestalt_consistency": 0.8607030085892162,
+      "priority_score": 0.7259821168623666,
       "structural_synergy": null
     }
   ],
@@ -3657,6 +5498,7 @@
     "mean_bridge_q": 0.875,
     "roadmap_risk": 0.04054961156270788,
     "conceptual_cohesion": 0.9220324723030923,
-    "feasibility": 0.880530676341367
+    "feasibility": 0.880530676341367,
+    "structural_sensitivity": 0.32
   }
 }
