@@ -1,10 +1,65 @@
-"""
-Q-Score Analysis for each cluster + integration strategy computation
-"""
-import numpy as np
-import json
+AXES = [
+    "stochastic_processes", "optimization", "topology", "information_theory",
+    "algebra_structure", "dynamical_systems", "geometry", "network_graph",
+    "measure_theory", "linear_algebra", "control_theory", "statistical_mechanics",
+    "game_theory", "logic_formal", "signal_processing",
+]
 
-# Cluster assignments updated with Frontier mathematics
+FRAMEWORKS = {
+    "Optimal Control":        [0.3,1.0,0.2,0.4,0.2,0.8,0.5,0.1,0.3,0.8,1.0,0.3,0.5,0.1,0.3],
+    "Game Theory":            [0.4,0.9,0.1,0.5,0.5,0.3,0.2,0.6,0.7,0.3,0.2,0.4,1.0,0.5,0.1],
+    "Prospect Theory":        [0.6,0.7,0.1,0.4,0.1,0.2,0.2,0.2,0.8,0.2,0.1,0.2,0.8,0.1,0.1],
+    "Reinforcement Learning": [0.7,0.9,0.1,0.6,0.2,0.7,0.3,0.4,0.5,0.7,0.8,0.2,0.8,0.1,0.2],
+    "Variational Principles": [0.2,1.0,0.5,0.5,0.3,0.8,0.8,0.1,0.5,0.7,0.7,0.5,0.3,0.2,0.4],
+    "Bayesian Inference":     [0.8,0.7,0.1,0.9,0.3,0.3,0.3,0.3,1.0,0.5,0.3,0.3,0.5,0.4,0.3],
+    "Free Energy Principle":  [0.7,1.0,0.3,0.9,0.3,0.9,0.6,0.3,0.7,0.7,0.8,0.5,0.4,0.2,0.5],
+    "Information Geometry":   [0.4,0.7,0.7,0.8,0.5,0.3,1.0,0.2,0.8,0.8,0.2,0.4,0.3,0.2,0.5],
+    "Predictive Coding":      [0.6,0.8,0.2,0.8,0.2,0.7,0.4,0.3,0.5,0.6,0.7,0.3,0.3,0.2,0.6],
+    "Neural Field Theory":    [0.5,0.6,0.4,0.5,0.3,0.9,0.7,0.4,0.5,0.7,0.5,0.6,0.2,0.1,0.7],
+    "Integrated Info Theory": [0.3,0.5,0.4,0.9,0.6,0.6,0.4,0.7,0.5,0.6,0.3,0.5,0.3,0.5,0.2],
+    "Global Workspace Theory":[0.3,0.4,0.3,0.7,0.3,0.7,0.3,0.8,0.4,0.5,0.5,0.4,0.3,0.4,0.4],
+    "Quantum Cognition":      [0.7,0.5,0.5,0.7,0.8,0.4,0.7,0.3,0.8,0.9,0.2,0.4,0.4,0.5,0.4],
+    "Dynamical Systems Psych":[0.4,0.4,0.4,0.4,0.2,1.0,0.5,0.5,0.4,0.5,0.5,0.6,0.2,0.1,0.3],
+    "Mean Field Theory":      [0.7,0.7,0.2,0.5,0.3,0.8,0.5,0.5,0.7,0.6,0.4,1.0,0.5,0.1,0.3],
+    "Evolutionary Game Theory":[0.6,0.8,0.2,0.6,0.4,0.8,0.3,0.5,0.6,0.4,0.3,0.7,0.9,0.3,0.2],
+    "Network Science":        [0.4,0.4,0.6,0.5,0.6,0.6,0.5,1.0,0.5,0.7,0.3,0.5,0.5,0.3,0.2],
+    "Social Choice Theory":   [0.3,0.6,0.3,0.4,0.6,0.2,0.2,0.5,0.6,0.3,0.2,0.2,0.8,0.7,0.1],
+    "Agent-Based Modeling":   [0.6,0.3,0.2,0.4,0.3,0.8,0.2,0.8,0.4,0.3,0.4,0.6,0.7,0.3,0.2],
+    "Category Theory":        [0.1,0.3,0.8,0.4,1.0,0.2,0.7,0.5,0.4,0.6,0.2,0.1,0.3,0.9,0.1],
+    "Formal Grammars":        [0.2,0.3,0.5,0.6,0.9,0.3,0.2,0.5,0.3,0.5,0.2,0.1,0.3,1.0,0.3],
+    "Algebraic Linguistics":  [0.1,0.3,0.6,0.5,0.9,0.2,0.4,0.4,0.3,0.5,0.1,0.1,0.3,0.9,0.2],
+    "Topological Data Anal.": [0.3,0.4,1.0,0.4,0.7,0.3,0.8,0.5,0.5,0.7,0.2,0.2,0.2,0.5,0.2],
+    "Stochastic Processes":   [1.0,0.5,0.2,0.6,0.3,0.7,0.3,0.3,0.9,0.6,0.4,0.5,0.3,0.2,0.5],
+    "Renormalization Group":  [0.3,0.7,0.5,0.6,0.6,0.7,0.7,0.4,0.5,0.7,0.3,0.9,0.2,0.3,0.4],
+    "Gradient Flow Theory":   [0.3,0.9,0.5,0.4,0.3,0.8,0.8,0.2,0.4,0.8,0.6,0.4,0.2,0.1,0.3],
+    "Measure-Theoretic Prob.": [0.9,0.4,0.4,0.7,0.5,0.3,0.4,0.2,1.0,0.5,0.2,0.3,0.3,0.5,0.3],
+    "Riemannian Geometry":    [0.2,0.7,0.7,0.3,0.5,0.5,1.0,0.2,0.4,0.8,0.5,0.3,0.2,0.2,0.3],
+    "Geometric Mechanics":    [0.2,0.8,0.6,0.3,0.6,0.8,0.9,0.2,0.4,0.7,0.7,0.3,0.2,0.2,0.3],
+    "Symplectic Geometry":    [0.1,0.8,0.7,0.2,0.6,0.7,0.9,0.1,0.3,0.8,0.6,0.3,0.2,0.3,0.2],
+    "Fourier / Wavelet Anal.":[0.3,0.4,0.5,0.7,0.5,0.4,0.5,0.2,0.5,0.9,0.3,0.2,0.1,0.2,1.0],
+    "Compressed Sensing":     [0.4,0.8,0.5,0.8,0.4,0.2,0.6,0.2,0.5,0.9,0.3,0.2,0.1,0.3,0.7],
+    "Geometric Deep Learning": [0.3,0.9,0.6,0.5,0.4,0.5,0.9,0.7,0.3,0.8,0.3,0.4,0.2,0.4,0.6],
+    "Statistical Physics":     [0.8,0.4,0.3,0.5,0.2,0.8,0.4,0.6,0.6,0.5,0.2,1.0,0.4,0.2,0.4],
+    "Computational Psychiatry": [0.7,0.8,0.2,0.8,0.2,0.6,0.3,0.4,0.6,0.6,0.7,0.3,0.5,0.2,0.5],
+    "Categorical Quantum Mechanics": [0.3,0.4,0.8,0.7,1.0,0.3,0.7,0.5,0.5,0.8,0.2,0.4,0.3,0.9,0.5],
+    "Causal Inference":       [0.8,0.5,0.2,0.6,0.4,0.4,0.2,0.5,0.9,0.4,0.3,0.3,0.6,0.7,0.3],
+    "Algorithmic Info Theory":[0.2,0.3,0.3,1.0,0.6,0.2,0.3,0.3,0.7,0.4,0.2,0.4,0.2,0.8,0.4],
+    "Homotopy Type Theory":   [0.1,0.2,0.9,0.4,1.0,0.2,0.6,0.3,0.3,0.5,0.1,0.1,0.2,1.0,0.2],
+    "Evolutionary Dynamics":  [0.7,0.4,0.2,0.5,0.3,0.9,0.3,0.7,0.5,0.4,0.2,0.8,0.9,0.2,0.2],
+}
+
+PHENOMENA_PROFILES = {
+    "Generative AI": [0.3, 0.9, 0.4, 0.8, 0.7, 0.5, 0.4, 0.6, 0.4, 0.8, 0.3, 0.4, 0.2, 0.6, 0.6],
+    "Brain mapping": [0.5, 0.4, 0.8, 0.6, 0.3, 0.7, 0.9, 0.8, 0.4, 0.8, 0.2, 0.5, 0.1, 0.2, 0.7],
+    "Dopamine detoxing": [0.7, 0.9, 0.1, 0.7, 0.2, 0.8, 0.3, 0.4, 0.6, 0.5, 0.9, 0.3, 0.6, 0.1, 0.4],
+    "Neurodivergence": [0.5, 0.5, 0.4, 0.6, 0.3, 0.9, 0.5, 0.7, 0.5, 0.6, 0.4, 0.6, 0.2, 0.1, 0.6],
+    "Phantom limb syndrome": [0.2, 0.8, 0.6, 0.4, 0.3, 0.8, 0.9, 0.3, 0.4, 0.7, 0.7, 0.3, 0.1, 0.1, 0.5],
+    "Stan culture": [0.6, 0.3, 0.3, 0.5, 0.2, 0.9, 0.3, 0.9, 0.4, 0.4, 0.2, 0.8, 0.6, 0.2, 0.3],
+    "Wealth inequality": [0.8, 0.6, 0.1, 0.4, 0.3, 0.4, 0.2, 0.6, 0.9, 0.4, 0.1, 0.5, 0.9, 0.2, 0.1],
+    "Postmodernism": [0.2, 0.2, 0.7, 0.4, 0.9, 0.3, 0.4, 0.4, 0.3, 0.4, 0.1, 0.2, 0.3, 1.0, 0.2],
+    "Virtual reality ecosystems": [0.3, 0.5, 0.8, 0.7, 0.4, 0.6, 0.9, 0.7, 0.4, 0.8, 0.3, 0.3, 0.2, 0.3, 0.8]
+}
+
 CLUSTERS = {
     "C1_Symbolic_Structure": {
         "members": ["Category Theory", "Formal Grammars", "Algebraic Linguistics", "Categorical Quantum Mechanics", "Homotopy Type Theory"],
@@ -52,9 +107,6 @@ CLUSTERS = {
 
 WEIGHTS = {'Grounding':0.23,'Certainty':0.15,'Structure':0.18,'Applicability':0.16, 'Coherence':0.12,'Generativity':0.08,'Presentation':0.05,'Temporal':0.03}
 
-def q_score(scores):
-    return sum(WEIGHTS[k] * v for k, v in scores.items())
-
 BRIDGES = {
     "Free Energy Principle (C6↔C4, C6↔C5)": {
         "connects": ["C6_Agency_Control","C4_Collective_Dynamics","C5_Geometric_Optimization"],
@@ -88,81 +140,9 @@ BRIDGES = {
     }
 }
 
-# ── 3. DYNAMIC BRIDGE DISCOVERY & VALIDATION ────────────────────────────────
-try:
-    with open("framework_results.json", "r") as f:
-        fw_res = json.load(f)
-        DYNAMIC_SYNERGIES = fw_res.get("synergy_pairs", [])
-        STABILITY = fw_res.get("cluster_stability", {})
-except:
-    DYNAMIC_SYNERGIES = []
-    STABILITY = {}
-
-def validate_clusters(clusters_dict):
-    """Ensures all frameworks are uniquely assigned and members exist."""
-    all_members = []
-    for cid, info in clusters_dict.items():
-        all_members.extend(info["members"])
-    if len(all_members) != len(set(all_members)):
-        # Find duplicates
-        seen = set()
-        dupes = [x for x in all_members if x in seen or seen.add(x)]
-        print(f"Warning: Duplicate framework assignment detected: {dupes}")
-    return True
-
-validate_clusters(CLUSTERS)
-
-q_results = {}
-for cid, info in CLUSTERS.items():
-    q_results[cid] = {
-        "q_score": q_score(info["scores"]),
-        "human_domain": info["human_domain"],
-        "members": info["members"],
-        "dominant_axes": info["dominant_axes"],
-        "phenomena": info["phenomena"]
-    }
-
-# ── 4. REFINED FEASIBILITY MODELING ──────────────────────────────────────────
-q_vals = [v["q_score"] for v in q_results.values()]
-roadmap_risk = np.std(q_vals) / np.mean(q_vals) if np.mean(q_vals) > 0 else 1.0
-stability_vals = list(STABILITY.values())
-conceptual_cohesion = np.mean(stability_vals) if stability_vals else 0.5
-mean_q = np.mean(q_vals)
-mean_synth = np.mean([b["predicted_synthesis_q"] for b in BRIDGES.values()])
-feasibility = (0.30 * mean_q + 0.30 * mean_synth + 0.25 * conceptual_cohesion + 0.15 * (1 - roadmap_risk))
-
-# ── 5. RESEARCH FRONTIER GENERATION ──────────────────────────────────────────
-def generate_frontiers(synergies, clusters):
-    frontiers = []
-    for pair in synergies[:8]: # Top 8 synergies
-        n1, n2 = pair["n1"], pair["n2"]
-        p1 = []
-        for c in clusters.values():
-            if n1 in c["members"]: p1 = c["phenomena"]
-
-        proposal = {
-            "title": f"Synthesis: {n1} × {n2}",
-            "mathematical_basis": f"High similarity ({pair['sim']:.3f}) between C{pair['c1']} and C{pair['c2']}.",
-            "target_phenomenon": p1[0] if p1 else "Emergent Human Behavior",
-            "priority_score": float(pair["sim"] * 0.95)
-        }
-        frontiers.append(proposal)
-    return frontiers
-
-frontier_results = generate_frontiers(DYNAMIC_SYNERGIES, CLUSTERS)
-
-with open("qscore_results.json", "w") as f:
-    json.dump({
-        "cluster_results": q_results,
-        "bridges": BRIDGES,
-        "research_frontiers": frontier_results,
-        "metrics": {
-            "mean_cluster_q": mean_q,
-            "mean_bridge_q": mean_synth,
-            "roadmap_risk": float(roadmap_risk),
-            "conceptual_cohesion": float(conceptual_cohesion),
-            "feasibility": float(feasibility)
-        }
-    }, f, indent=2)
-
-print("Q-score analysis complete. Results saved to qscore_results.json.")
+MACRO_AXES = {
+    "Symbolic/Formal": ["algebra_structure", "logic_formal", "topology"],
+    "Statistical/Prob": ["stochastic_processes", "information_theory", "measure_theory", "statistical_mechanics"],
+    "Cybernetic/Control": ["optimization", "dynamical_systems", "control_theory", "game_theory", "signal_processing"],
+    "Structural/Geometric": ["geometry", "network_graph", "linear_algebra"]
+}
