@@ -98,6 +98,7 @@ def bridgeness(idx, sim_matrix, labels_vec):
 results = {
     "clusters": {int(k): v for k, v in clusters.items()},
     "embeddings": {name: embedding[i].tolist() for i, name in enumerate(names)},
+    "profiles": {name: X[i].tolist() for i, name in enumerate(names)},
     "bridge_candidates": [],
     "cluster_dominance": {},
     "synergy_pairs": []

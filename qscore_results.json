@@ -200,52 +200,76 @@
   },
   "research_frontiers": [
     {
+      "title": "FRONTIVE BRIDGE: Homotopy Type Theory \u00d7 Causal Inference",
+      "mathematical_basis": "Similarity: 0.695 between C1 and C3.",
+      "target_phenomenon": "Generative AI",
+      "priority_score": 0.7554775366452205,
+      "anchor_score": 0.8960716239589178,
+      "structural_synergy": 0.4347826079867675
+    },
+    {
       "title": "Synthesis: Quantum Cognition \u00d7 Measure-Theoretic Prob.",
-      "mathematical_basis": "High similarity (0.953) between C3 and C2.",
+      "mathematical_basis": "Similarity: 0.953 between C3 and C2.",
       "target_phenomenon": "Brain mapping",
-      "priority_score": 0.9053995292791537
+      "priority_score": 0.9217678995956671,
+      "anchor_score": 0.8487713477911444,
+      "structural_synergy": null
     },
     {
       "title": "Synthesis: Free Energy Principle \u00d7 Neural Field Theory",
-      "mathematical_basis": "High similarity (0.952) between C4 and C6.",
+      "mathematical_basis": "Similarity: 0.952 between C4 and C6.",
       "target_phenomenon": "Dopamine detoxing",
-      "priority_score": 0.9045343466910764
+      "priority_score": 0.9507132149526782,
+      "anchor_score": 0.9473807421799683,
+      "structural_synergy": null
     },
     {
       "title": "Synthesis: Variational Principles \u00d7 Free Energy Principle",
-      "mathematical_basis": "High similarity (0.951) between C3 and C4.",
+      "mathematical_basis": "Similarity: 0.951 between C3 and C4.",
       "target_phenomenon": "Phantom limb syndrome",
-      "priority_score": 0.9034597951695995
+      "priority_score": 0.9530673157166482,
+      "anchor_score": 0.9578669940775301,
+      "structural_synergy": null
     },
     {
       "title": "Synthesis: Optimal Control \u00d7 Variational Principles",
-      "mathematical_basis": "High similarity (0.951) between C4 and C3.",
+      "mathematical_basis": "Similarity: 0.951 between C4 and C3.",
       "target_phenomenon": "Dopamine detoxing",
-      "priority_score": 0.903430174967706
+      "priority_score": 0.9426443315595926,
+      "anchor_score": 0.9231964649270833,
+      "structural_synergy": null
     },
     {
       "title": "Synthesis: Neural Field Theory \u00d7 Gradient Flow Theory",
-      "mathematical_basis": "High similarity (0.950) between C6 and C3.",
+      "mathematical_basis": "Similarity: 0.950 between C6 and C3.",
       "target_phenomenon": "Neurodivergence",
-      "priority_score": 0.9020942016764413
+      "priority_score": 0.9507891833735792,
+      "anchor_score": 0.953627308882075,
+      "structural_synergy": null
     },
     {
       "title": "Synthesis: Optimal Control \u00d7 Gradient Flow Theory",
-      "mathematical_basis": "High similarity (0.944) between C4 and C3.",
+      "mathematical_basis": "Similarity: 0.944 between C4 and C3.",
       "target_phenomenon": "Dopamine detoxing",
-      "priority_score": 0.8971481149624988
+      "priority_score": 0.9368461117252271,
+      "anchor_score": 0.9192986865446198,
+      "structural_synergy": null
     },
     {
       "title": "Synthesis: Predictive Coding \u00d7 Neural Field Theory",
-      "mathematical_basis": "High similarity (0.943) between C4 and C6.",
+      "mathematical_basis": "Similarity: 0.943 between C4 and C6.",
       "target_phenomenon": "Dopamine detoxing",
-      "priority_score": 0.8953875020999186
+      "priority_score": 0.943450681077263,
+      "anchor_score": 0.9456382300121294,
+      "structural_synergy": null
     },
     {
       "title": "Synthesis: Variational Principles \u00d7 Neural Field Theory",
-      "mathematical_basis": "High similarity (0.942) between C3 and C6.",
+      "mathematical_basis": "Similarity: 0.942 between C3 and C6.",
       "target_phenomenon": "Phantom limb syndrome",
-      "priority_score": 0.8952555547313534
+      "priority_score": 0.9531030460691342,
+      "anchor_score": 0.9781368612411583,
+      "structural_synergy": null
     }
   ],
   "metrics": {
